@@ -1,0 +1,669 @@
+[
+  {
+    "id": "R-PRIORITY-001",
+    "category": "rule_priority",
+    "priority": 0,
+    "level": "red",
+    "trigger_symptoms": [],
+    "trigger_conditions": {
+      "scenario": "表里同病下利清谷"
+    },
+    "action": "priority_treat",
+    "target_formula_category": "",
+    "source_clause": "SHL-091",
+    "description": "表里同病：下利清谷者，急当救里，禁先解表",
+    "version": "1.0.0"
+  },
+  {
+    "id": "R-PRIORITY-002",
+    "category": "rule_priority",
+    "priority": 1,
+    "level": "blue",
+    "trigger_symptoms": [],
+    "trigger_conditions": {
+      "scenario": "表里同病表证为主里证轻"
+    },
+    "action": "sequence",
+    "target_formula_category": "",
+    "source_clause": "SHL-090",
+    "description": "表里同病：表证为主、里证轻者，先解表后治里",
+    "version": "1.0.0"
+  },
+  {
+    "id": "R-PRIORITY-003",
+    "category": "rule_priority",
+    "priority": 0,
+    "level": "red",
+    "trigger_symptoms": [],
+    "trigger_conditions": {
+      "scenario": "虚人患病"
+    },
+    "action": "priority_treat",
+    "target_formula_category": "",
+    "source_clause": "SHL-通用",
+    "description": "虚实夹杂：虚人患病，先扶正后祛邪，禁峻攻",
+    "version": "1.0.0"
+  },
+  {
+    "id": "R-PRIORITY-004",
+    "category": "rule_priority",
+    "priority": 0,
+    "level": "red",
+    "trigger_symptoms": [],
+    "trigger_conditions": {
+      "scenario": "急重症"
+    },
+    "action": "priority_treat",
+    "target_formula_category": "",
+    "source_clause": "SHL-通用",
+    "description": "急重症优先：三急下证、亡阳证等，优先执行急救治则",
+    "version": "1.0.0"
+  },
+  {
+    "id": "R-CONTRA-001",
+    "category": "absolute_contraindication",
+    "priority": 0,
+    "level": "red",
+    "trigger_symptoms": [
+      "咽喉干燥"
+    ],
+    "trigger_conditions": {},
+    "action": "exclude",
+    "target_formula_category": "麻黄汤类",
+    "source_clause": "SHL-083",
+    "description": "咽喉干燥，禁辛温发汗（麻黄汤等）",
+    "version": "1.0.0"
+  },
+  {
+    "id": "R-CONTRA-002",
+    "category": "absolute_contraindication",
+    "priority": 0,
+    "level": "red",
+    "trigger_symptoms": [
+      "淋家",
+      "小便淋沥"
+    ],
+    "trigger_conditions": {},
+    "action": "exclude",
+    "target_formula_category": "麻黄汤类",
+    "source_clause": "SHL-084",
+    "description": "淋家，禁辛温发汗，汗出必便血",
+    "version": "1.0.0"
+  },
+  {
+    "id": "R-CONTRA-003",
+    "category": "absolute_contraindication",
+    "priority": 0,
+    "level": "red",
+    "trigger_symptoms": [
+      "疮家",
+      "疮疡"
+    ],
+    "trigger_conditions": {},
+    "action": "exclude",
+    "target_formula_category": "麻黄汤类",
+    "source_clause": "SHL-085",
+    "description": "疮家，虽身疼痛，不可发汗，汗出则痉",
+    "version": "1.0.0"
+  },
+  {
+    "id": "R-CONTRA-004",
+    "category": "absolute_contraindication",
+    "priority": 0,
+    "level": "red",
+    "trigger_symptoms": [
+      "衄家",
+      "经常鼻衄"
+    ],
+    "trigger_conditions": {},
+    "action": "exclude",
+    "target_formula_category": "麻黄汤类",
+    "source_clause": "SHL-086",
+    "description": "衄家，不可发汗，汗出必额上陷脉急紧",
+    "version": "1.0.0"
+  },
+  {
+    "id": "R-CONTRA-005",
+    "category": "absolute_contraindication",
+    "priority": 0,
+    "level": "red",
+    "trigger_symptoms": [
+      "亡血家",
+      "失血"
+    ],
+    "trigger_conditions": {},
+    "action": "exclude",
+    "target_formula_category": "麻黄汤类",
+    "source_clause": "SHL-087",
+    "description": "亡血家，不可发汗，汗出则寒栗而振",
+    "version": "1.0.0"
+  },
+  {
+    "id": "R-CONTRA-006",
+    "category": "absolute_contraindication",
+    "priority": 0,
+    "level": "red",
+    "trigger_symptoms": [
+      "表证未解",
+      "恶寒",
+      "恶风",
+      "脉浮"
+    ],
+    "trigger_conditions": {},
+    "action": "exclude",
+    "target_formula_category": "承气汤类",
+    "source_clause": "SHL-通用",
+    "description": "表证未解（恶寒/恶风/脉浮等表证仍在），禁苦寒攻下",
+    "version": "1.0.0"
+  },
+  {
+    "id": "R-CONTRA-007",
+    "category": "absolute_contraindication",
+    "priority": 0,
+    "level": "red",
+    "trigger_symptoms": [
+      "表证未解",
+      "恶寒",
+      "恶风",
+      "脉浮"
+    ],
+    "trigger_conditions": {},
+    "action": "exclude",
+    "target_formula_category": "承气汤类",
+    "source_clause": "SHL-通用",
+    "description": "表证未解，禁固涩止泻",
+    "version": "1.0.0"
+  },
+  {
+    "id": "R-CONTRA-008",
+    "category": "absolute_contraindication",
+    "priority": 0,
+    "level": "red",
+    "trigger_symptoms": [
+      "少阴病阳虚里寒"
+    ],
+    "trigger_conditions": {},
+    "action": "exclude",
+    "target_formula_category": "白虎汤类",
+    "source_clause": "SHL-通用",
+    "description": "少阴病阳虚里寒，禁纯用清热泻火",
+    "version": "1.0.0"
+  },
+  {
+    "id": "R-CONTRA-009",
+    "category": "absolute_contraindication",
+    "priority": 0,
+    "level": "red",
+    "trigger_symptoms": [],
+    "trigger_conditions": {
+      "population": "孕妇"
+    },
+    "action": "exclude",
+    "target_formula_category": "承气汤类",
+    "source_clause": "SHL-通用",
+    "description": "孕妇禁用峻下方剂（大承气汤等）",
+    "version": "1.0.0"
+  },
+  {
+    "id": "R-CONTRA-010",
+    "category": "absolute_contraindication",
+    "priority": 0,
+    "level": "red",
+    "trigger_symptoms": [],
+    "trigger_conditions": {
+      "population": "孕妇"
+    },
+    "action": "exclude",
+    "target_formula_category": "承气汤类",
+    "source_clause": "SHL-通用",
+    "description": "孕妇禁用破血类方剂（抵当汤、桃核承气汤等）",
+    "version": "1.0.0"
+  },
+  {
+    "id": "R-CONTRA-011",
+    "category": "absolute_contraindication",
+    "priority": 0,
+    "level": "red",
+    "trigger_symptoms": [],
+    "trigger_conditions": {
+      "population": "孕妇"
+    },
+    "action": "exclude",
+    "target_formula_category": "陷胸汤类",
+    "source_clause": "SHL-通用",
+    "description": "孕妇禁用剧毒类方剂（大陷胸汤含甘遂等）",
+    "version": "1.0.0"
+  },
+  {
+    "id": "R-COLDHEAT-001",
+    "category": "true_false_heat",
+    "priority": 0,
+    "level": "red",
+    "trigger_symptoms": [],
+    "trigger_conditions": {
+      "check": "身大热反欲近衣",
+      "indicators": [
+        "身大热",
+        "反欲得近衣"
+      ]
+    },
+    "action": "inquire",
+    "target_formula_category": "",
+    "source_clause": "SHL-011",
+    "description": "真假寒热鉴别必查：身大热反欲近衣者，热在皮肤寒在骨髓也（真寒假热）",
+    "version": "1.0.0"
+  },
+  {
+    "id": "R-COLDHEAT-002",
+    "category": "true_false_heat",
+    "priority": 0,
+    "level": "red",
+    "trigger_symptoms": [],
+    "trigger_conditions": {
+      "check": "身大寒反不欲近衣",
+      "indicators": [
+        "身大寒",
+        "反不欲近衣"
+      ]
+    },
+    "action": "inquire",
+    "target_formula_category": "",
+    "source_clause": "SHL-011",
+    "description": "真假寒热鉴别必查：身大寒反不欲近衣者，寒在皮肤热在骨髓也（真热假寒）",
+    "version": "1.0.0"
+  },
+  {
+    "id": "R-COLDHEAT-003",
+    "category": "true_false_heat",
+    "priority": 0,
+    "level": "red",
+    "trigger_symptoms": [],
+    "trigger_conditions": {
+      "check": "寒热真假未明",
+      "missing_info": [
+        "欲近衣情况",
+        "渴饮情况",
+        "脉象",
+        "小便",
+        "舌象"
+      ]
+    },
+    "action": "inquire",
+    "target_formula_category": "",
+    "source_clause": "SHL-011",
+    "description": "寒热真假未明时，禁止仅凭表象定寒热治则，触发智能追问",
+    "version": "1.0.0"
+  },
+  {
+    "id": "R-RELATIVE-001",
+    "category": "relative_contraindication",
+    "priority": 5,
+    "level": "yellow",
+    "trigger_symptoms": [
+      "阴虚内热",
+      "口干舌红少苔"
+    ],
+    "trigger_conditions": {},
+    "action": "warn",
+    "target_formula_category": "桂枝汤类",
+    "source_clause": "SHL-通用",
+    "description": "阴虚内热者，慎用温燥类方剂",
+    "version": "1.0.0"
+  },
+  {
+    "id": "R-RELATIVE-002",
+    "category": "relative_contraindication",
+    "priority": 5,
+    "level": "yellow",
+    "trigger_symptoms": [
+      "脾胃虚弱",
+      "纳差便溏"
+    ],
+    "trigger_conditions": {},
+    "action": "warn",
+    "target_formula_category": "承气汤类",
+    "source_clause": "SHL-通用",
+    "description": "脾胃虚弱者，慎用苦寒泻下类方剂",
+    "version": "1.0.0"
+  },
+  {
+    "id": "R-RELATIVE-003",
+    "category": "relative_contraindication",
+    "priority": 5,
+    "level": "yellow",
+    "trigger_symptoms": [
+      "脾胃虚弱"
+    ],
+    "trigger_conditions": {},
+    "action": "warn",
+    "target_formula_category": "白虎汤类",
+    "source_clause": "SHL-通用",
+    "description": "脾胃虚弱者，慎用大寒清热类方剂",
+    "version": "1.0.0"
+  },
+  {
+    "id": "R-POP-001",
+    "category": "population",
+    "priority": 3,
+    "level": "yellow",
+    "trigger_symptoms": [],
+    "trigger_conditions": {
+      "population": "老年体虚"
+    },
+    "action": "warn",
+    "target_formula_category": "麻黄汤类",
+    "source_clause": "SHL-通用",
+    "description": "老年体虚：慎用麻黄等峻猛发汗方剂",
+    "version": "1.0.0"
+  },
+  {
+    "id": "R-POP-002",
+    "category": "population",
+    "priority": 3,
+    "level": "yellow",
+    "trigger_symptoms": [],
+    "trigger_conditions": {
+      "population": "老年体虚"
+    },
+    "action": "warn",
+    "target_formula_category": "承气汤类",
+    "source_clause": "SHL-通用",
+    "description": "老年体虚：慎用大承气等峻猛攻下方剂",
+    "version": "1.0.0"
+  },
+  {
+    "id": "R-POP-003",
+    "category": "population",
+    "priority": 3,
+    "level": "yellow",
+    "trigger_symptoms": [],
+    "trigger_conditions": {
+      "population": "产后经期"
+    },
+    "action": "warn",
+    "target_formula_category": "承气汤类",
+    "source_clause": "SHL-通用",
+    "description": "产后/经期：慎用破血、峻下方剂",
+    "version": "1.0.0"
+  },
+  {
+    "id": "R-POP-004",
+    "category": "population",
+    "priority": 4,
+    "level": "blue",
+    "trigger_symptoms": [],
+    "trigger_conditions": {
+      "population": "儿童"
+    },
+    "action": "adjust_dose",
+    "target_formula_category": "",
+    "source_clause": "SHL-通用",
+    "description": "儿童：剂量自动下调提示",
+    "version": "1.0.0"
+  },
+  {
+    "id": "R-CONTRA-012",
+    "category": "absolute_contraindication",
+    "priority": 0,
+    "level": "red",
+    "trigger_symptoms": [],
+    "trigger_conditions": {
+      "contains_herb": [
+        "甘草"
+      ],
+      "contraindicated_with": [
+        "甘遂",
+        "大戟",
+        "海藻",
+        "芫花"
+      ]
+    },
+    "action": "block",
+    "target_formula_category": "",
+    "source_clause": "十八反",
+    "description": "十八反：甘草反甘遂、大戟、海藻、芫花，同用毒性增加，绝对禁用",
+    "version": "1.0.0"
+  },
+  {
+    "id": "R-CONTRA-013",
+    "category": "absolute_contraindication",
+    "priority": 0,
+    "level": "red",
+    "trigger_symptoms": [],
+    "trigger_conditions": {
+      "contains_herb": [
+        "乌头",
+        "川乌",
+        "草乌",
+        "附子"
+      ],
+      "contraindicated_with": [
+        "贝母",
+        "瓜蒌",
+        "栝蒌",
+        "半夏",
+        "白蔹",
+        "白及"
+      ]
+    },
+    "action": "block",
+    "target_formula_category": "",
+    "source_clause": "十八反",
+    "description": "十八反：乌头（含附子）反贝母、瓜蒌、半夏、白蔹、白及，同用毒性增加，绝对禁用",
+    "version": "1.0.0"
+  },
+  {
+    "id": "R-CONTRA-014",
+    "category": "absolute_contraindication",
+    "priority": 0,
+    "level": "red",
+    "trigger_symptoms": [],
+    "trigger_conditions": {
+      "contains_herb": [
+        "藜芦"
+      ],
+      "contraindicated_with": [
+        "人参",
+        "沙参",
+        "丹参",
+        "玄参",
+        "细辛",
+        "芍药"
+      ]
+    },
+    "action": "block",
+    "target_formula_category": "",
+    "source_clause": "十八反",
+    "description": "十八反：藜芦反人参、沙参、丹参、玄参、细辛、芍药，同用毒性增加，绝对禁用",
+    "version": "1.0.0"
+  },
+  {
+    "id": "R-CONTRA-015",
+    "category": "absolute_contraindication",
+    "priority": 0,
+    "level": "red",
+    "trigger_symptoms": [],
+    "trigger_conditions": {
+      "contains_herb": [
+        "巴豆"
+      ],
+      "contraindicated_with": [
+        "牵牛",
+        "牵牛子"
+      ]
+    },
+    "action": "block",
+    "target_formula_category": "",
+    "source_clause": "十九畏",
+    "description": "十九畏：巴豆畏牵牛（黑白丑），同用毒性增加，绝对禁用",
+    "version": "1.0.0"
+  },
+  {
+    "id": "R-CONTRA-016",
+    "category": "absolute_contraindication",
+    "priority": 0,
+    "level": "red",
+    "trigger_symptoms": [],
+    "trigger_conditions": {
+      "contains_herb": [
+        "丁香"
+      ],
+      "contraindicated_with": [
+        "郁金"
+      ]
+    },
+    "action": "block",
+    "target_formula_category": "",
+    "source_clause": "十九畏",
+    "description": "十九畏：丁香畏郁金，同用毒性增加，绝对禁用",
+    "version": "1.0.0"
+  },
+  {
+    "id": "R-CONTRA-017",
+    "category": "absolute_contraindication",
+    "priority": 0,
+    "level": "red",
+    "trigger_symptoms": [],
+    "trigger_conditions": {
+      "contains_herb": [
+        "人参"
+      ],
+      "contraindicated_with": [
+        "五灵脂"
+      ]
+    },
+    "action": "block",
+    "target_formula_category": "",
+    "source_clause": "十九畏",
+    "description": "十九畏：人参畏五灵脂，同用毒性增加，绝对禁用",
+    "version": "1.0.0"
+  },
+  {
+    "id": "R-CONTRA-018",
+    "category": "absolute_contraindication",
+    "priority": 0,
+    "level": "red",
+    "trigger_symptoms": [],
+    "trigger_conditions": {
+      "contains_herb": [
+        "官桂",
+        "桂枝",
+        "肉桂"
+      ],
+      "contraindicated_with": [
+        "赤石脂"
+      ]
+    },
+    "action": "block",
+    "target_formula_category": "",
+    "source_clause": "十九畏",
+    "description": "十九畏：官桂（桂枝、肉桂）畏赤石脂，同用毒性增加，绝对禁用",
+    "version": "1.0.0"
+  },
+  {
+    "id": "R-TOXIC-001",
+    "category": "relative_contraindication",
+    "priority": 3,
+    "level": "yellow",
+    "trigger_symptoms": [],
+    "trigger_conditions": {
+      "contains_herb": "附子",
+      "dose_range": "3-15g",
+      "warning": "先煎30-60分钟，孕妇禁用"
+    },
+    "action": "warn",
+    "target_formula_category": "",
+    "source_clause": "SHL-通用",
+    "description": "附子：常规用量3-15g，必须先煎30-60分钟减毒，孕妇禁用。超过15g需加煎至60分钟以上",
+    "version": "1.0.0"
+  },
+  {
+    "id": "R-TOXIC-002",
+    "category": "relative_contraindication",
+    "priority": 3,
+    "level": "yellow",
+    "trigger_symptoms": [],
+    "trigger_conditions": {
+      "contains_herb": "半夏",
+      "dose_range": "3-9g",
+      "warning": "法半夏/姜半夏，生半夏有毒"
+    },
+    "action": "warn",
+    "target_formula_category": "",
+    "source_clause": "SHL-通用",
+    "description": "半夏：常规用量3-9g，使用炮制品（法半夏/姜半夏/清半夏），生半夏有毒严禁内服",
+    "version": "1.0.0"
+  },
+  {
+    "id": "R-TOXIC-003",
+    "category": "relative_contraindication",
+    "priority": 3,
+    "level": "yellow",
+    "trigger_symptoms": [],
+    "trigger_conditions": {
+      "contains_herb": "甘遂",
+      "dose_range": "0.5-1.5g",
+      "warning": "醋制，孕妇禁用"
+    },
+    "action": "warn",
+    "target_formula_category": "",
+    "source_clause": "SHL-通用",
+    "description": "甘遂：常规用量0.5-1.5g，醋制入药，孕妇禁用，不可与甘草同用",
+    "version": "1.0.0"
+  },
+  {
+    "id": "R-TOXIC-004",
+    "category": "relative_contraindication",
+    "priority": 3,
+    "level": "yellow",
+    "trigger_symptoms": [],
+    "trigger_conditions": {
+      "contains_herb": "细辛",
+      "dose_range": "1-3g",
+      "warning": "辛不过钱，过量中毒"
+    },
+    "action": "warn",
+    "target_formula_category": "",
+    "source_clause": "SHL-通用",
+    "description": "细辛：散剂不超过1g（辛不过钱），汤剂常用3-6g，过量可引起呼吸麻痹",
+    "version": "1.0.0"
+  },
+  {
+    "id": "R-COLDHEAT-004",
+    "category": "true_false_heat",
+    "priority": 1,
+    "level": "red",
+    "trigger_symptoms": [],
+    "trigger_conditions": {
+      "check": "渴饮鉴别",
+      "indicators": [
+        "渴喜冷饮多属热",
+        "渴喜热饮或不渴多属寒"
+      ]
+    },
+    "action": "inquire",
+    "target_formula_category": "",
+    "source_clause": "SHL-通用",
+    "description": "真假寒热辅助鉴别：渴喜冷饮→真热；渴喜热饮/不渴/漱口不欲咽→真寒或血瘀",
+    "version": "1.0.0"
+  },
+  {
+    "id": "R-COLDHEAT-005",
+    "category": "true_false_heat",
+    "priority": 1,
+    "level": "red",
+    "trigger_symptoms": [],
+    "trigger_conditions": {
+      "check": "小便舌脉综合鉴别",
+      "indicators": [
+        "小便清白舌淡润→寒",
+        "小便黄赤舌红燥→热"
+      ]
+    },
+    "action": "inquire",
+    "target_formula_category": "",
+    "source_clause": "SHL-通用",
+    "description": "真假寒热综合鉴别：四诊合参，小便清白/舌淡润/脉迟→寒；小便黄赤/舌红燥/脉数→热",
+    "version": "1.0.0"
+  }
+]

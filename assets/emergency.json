@@ -1,0 +1,103 @@
+[
+  {
+    "name": "少阴三急下证",
+    "indicators": [
+      "口燥咽干",
+      "自利清水色纯青",
+      "腹胀不大便"
+    ],
+    "source_clause": "SHL-320/321/322",
+    "treatment": "急下存阴",
+    "main_formula": "大承气汤"
+  },
+  {
+    "name": "蛔厥",
+    "indicators": [
+      "吐蛔",
+      "时烦时止",
+      "得食而呕"
+    ],
+    "source_clause": "SHL-338",
+    "treatment": "安蛔止痛",
+    "main_formula": "乌梅丸"
+  },
+  {
+    "name": "蓄血如狂发狂",
+    "indicators": [
+      "如狂",
+      "发狂",
+      "少腹硬满",
+      "小便自利"
+    ],
+    "source_clause": "SHL-124/125/237",
+    "treatment": "破血逐瘀",
+    "main_formula": "抵当汤/桃核承气汤"
+  },
+  {
+    "name": "脏结",
+    "indicators": [
+      "脏结无阳证",
+      "舌上白苔滑",
+      "难治"
+    ],
+    "source_clause": "SHL-129/130",
+    "treatment": "标注难治，提示转诊",
+    "main_formula": "无（难治证）"
+  },
+  {
+    "name": "亡阳证",
+    "indicators": [
+      "恶寒脉微而复利",
+      "汗出而厥"
+    ],
+    "source_clause": "SHL-385",
+    "treatment": "急温回阳救逆",
+    "main_formula": "四逆汤辈"
+  },
+  {
+    "name": "结胸热实",
+    "indicators": [
+      "心下痛按之石硬",
+      "脉沉紧"
+    ],
+    "source_clause": "SHL-135",
+    "treatment": "泻热逐水破结",
+    "main_formula": "大陷胸汤"
+  },
+  {
+    "name": "阳明三急下证",
+    "indicators": [
+      "发热汗出多",
+      "腹满痛",
+      "大便难",
+      "脉沉实"
+    ],
+    "source_clause": "SHL-252/253/254",
+    "treatment": "急下存阴",
+    "main_formula": "大承气汤"
+  },
+  {
+    "name": "热入心包（温病急症）",
+    "indicators": [
+      "高热神昏",
+      "谵语",
+      "舌质红绛",
+      "脉数"
+    ],
+    "source_clause": "SHL-温病参照",
+    "treatment": "清热开窍醒神，提示转诊",
+    "main_formula": "安宫牛黄丸/紫雪丹/至宝丹（非经方）"
+  },
+  {
+    "name": "失血危证",
+    "indicators": [
+      "吐血不止",
+      "衄血不止",
+      "面色苍白",
+      "脉芤"
+    ],
+    "source_clause": "JGL-吐衄",
+    "treatment": "急则治标，止血固脱",
+    "main_formula": "柏叶汤/泻心汤"
+  }
+]

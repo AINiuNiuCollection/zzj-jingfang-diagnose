@@ -1,0 +1,34 @@
+{
+  "covered": [
+    {
+      "name": "汗后表虚",
+      "clause": "SHL-020",
+      "formula": "桂枝加附子汤"
+    },
+    {
+      "name": "下后痞证",
+      "clause": "SHL-154",
+      "formula": "大黄黄连泻心汤等"
+    },
+    {
+      "name": "火逆证",
+      "clause": "SHL-114-119",
+      "formula": "通用"
+    },
+    {
+      "name": "烧针亡阳",
+      "clause": "SHL-117/118",
+      "formula": "桂枝甘草龙骨牡蛎汤"
+    },
+    {
+      "name": "下后下利",
+      "clause": "SHL-034",
+      "formula": "葛根芩连汤"
+    }
+  ],
+  "not_supported": [
+    "复杂坏病",
+    "多次误治叠加变证",
+    "火邪致血证等低频复杂场景"
+  ]
+}

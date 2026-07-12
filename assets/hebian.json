@@ -1,0 +1,37 @@
+[
+  {
+    "hebian_type": "太阳少阳合病",
+    "priority": "少阳为主兼太阳",
+    "treatment": "和解少阳为主，兼解太阳",
+    "source_clause": "SHL-146",
+    "main_formula": "柴胡桂枝汤"
+  },
+  {
+    "hebian_type": "太阳阳明合病（下利）",
+    "priority": "太阳为主",
+    "treatment": "先解表",
+    "source_clause": "SHL-032",
+    "main_formula": "葛根汤"
+  },
+  {
+    "hebian_type": "太阳阳明合病（不下利但呕）",
+    "priority": "太阳为主",
+    "treatment": "先解表兼止呕",
+    "source_clause": "SHL-033",
+    "main_formula": "葛根加半夏汤"
+  },
+  {
+    "hebian_type": "少阳阳明合病",
+    "priority": "少阳为主兼里实",
+    "treatment": "和解少阳兼通里实",
+    "source_clause": "SHL-103/136",
+    "main_formula": "大柴胡汤"
+  },
+  {
+    "hebian_type": "三阳合病",
+    "priority": "阳明为主",
+    "treatment": "治从阳明",
+    "source_clause": "SHL-219",
+    "main_formula": "白虎汤类"
+  }
+]
