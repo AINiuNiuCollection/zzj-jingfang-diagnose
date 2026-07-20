@@ -493,5 +493,68 @@
       "食则吐蛔",
       "下之利不止"
     ]
+  },
+  "tongue_classical": {
+    "_说明": "原典舌诊条目。仲景原典中舌诊记载零散，此处分两级：classical=原典直接记载，postclassical=后世补充。原典舌诊可作为辨证一级辅助（与脉象同级参考），后世舌诊降为二级辅助（仅作参考，不作为独立辨证依据）。",
+    "舌上白苔滑": {
+      "level": "classical",
+      "source": "SHL-129/130",
+      "clinical_meaning": "阳虚寒湿内结（脏结），不可攻下",
+      "related_formulas": ["小柴胡汤"]
+    },
+    "舌上燥而渴": {
+      "level": "classical",
+      "source": "SHL-137",
+      "clinical_meaning": "热结在里，津液已伤",
+      "related_formulas": ["大陷胸汤"]
+    },
+    "舌上干燥而烦": {
+      "level": "classical",
+      "source": "SHL-168",
+      "clinical_meaning": "热结在里，表里俱热，大渴引饮",
+      "related_formulas": ["白虎加人参汤"]
+    },
+    "口干舌燥": {
+      "level": "classical",
+      "source": "SHL-222/JGL-14-012",
+      "clinical_meaning": "阳明热盛伤津",
+      "related_formulas": ["白虎加人参汤"]
+    },
+    "舌上白苔": {
+      "level": "classical",
+      "source": "SHL-230",
+      "clinical_meaning": "少阳未解，阳明腑实未成，可与小柴胡汤",
+      "related_formulas": ["小柴胡汤"]
+    },
+    "舌上如苔": {
+      "level": "classical",
+      "source": "JGL-03-016",
+      "clinical_meaning": "丹田有热、胸上有寒（寒热错杂）",
+      "related_formulas": []
+    },
+    "舌黄": {
+      "level": "classical",
+      "source": "JGL-11-002",
+      "clinical_meaning": "里实热证，可下之，下之黄自去",
+      "related_formulas": []
+    },
+    "舌本燥": {
+      "level": "classical",
+      "source": "JGL-12-005",
+      "clinical_meaning": "肝中寒，津液不布",
+      "related_formulas": []
+    },
+    "唇痿舌青": {
+      "level": "classical",
+      "source": "JGL-17-010",
+      "clinical_meaning": "有瘀血（舌青为瘀血要征）",
+      "related_formulas": []
+    },
+    "舌痿黄": {
+      "level": "classical",
+      "source": "JGL-16-010",
+      "clinical_meaning": "黄疸偏虚（疑作身痿，存参）",
+      "related_formulas": []
+    }
   }
 }

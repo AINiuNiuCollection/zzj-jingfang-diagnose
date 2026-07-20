@@ -33,5 +33,45 @@
     "treatment": "治从阳明",
     "source_clause": "SHL-219",
     "main_formula": "白虎汤类"
+  },
+  {
+    "hebian_type": "太阳少阴两感",
+    "priority": "少阴为本、太阳为标",
+    "treatment": "温阳解表并举",
+    "source_clause": "SHL-301/302",
+    "main_formula": "麻黄细辛附子汤（始得之）/ 麻黄附子甘草汤（二三日无里证）",
+    "notes": "老年外感最常见证型——恶寒发热但精神萎靡、脉沉细。不可单用麻黄汤峻汗，恐大汗亡阳"
+  },
+  {
+    "hebian_type": "太阳太阴合病",
+    "priority": "太阴为本、太阳为标",
+    "treatment": "温中解表",
+    "source_clause": "SHL-168",
+    "main_formula": "桂枝人参汤",
+    "notes": "外感兼脾虚便溏，不可先攻里亦不可单解表，须温太阴兼解太阳"
+  },
+  {
+    "hebian_type": "少阳太阴合病",
+    "priority": "少阳为主兼太阴脾虚",
+    "treatment": "和解少阳兼温太阴",
+    "source_clause": "SHL-147",
+    "main_formula": "柴胡桂枝干姜汤",
+    "notes": "口苦咽干（少阳）+便溏纳差（太阴），用小柴胡汤会加重脾虚，须兼温太阴"
+  },
+  {
+    "hebian_type": "少阴太阴合病",
+    "priority": "少阴为本",
+    "treatment": "温少阴为主",
+    "source_clause": "SHL-316/304",
+    "main_formula": "真武汤（水气重）/ 附子汤（身痛重）",
+    "notes": "四肢沉重疼痛、心下悸、下利——肾阳虚与脾阳虚并见，温少阴则太阴自安"
+  },
+  {
+    "hebian_type": "厥阴少阳并病",
+    "priority": "厥阴为本",
+    "treatment": "温脏兼和解",
+    "source_clause": "SHL-338",
+    "main_formula": "乌梅丸法加减",
+    "notes": "寒热错杂（厥阴）+枢机不利（少阳），以乌梅丸温脏安蛔为主，可酌加柴胡类和解之品"
   }
 ]

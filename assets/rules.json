@@ -403,9 +403,9 @@
   },
   {
     "id": "R-CONTRA-012",
-    "category": "absolute_contraindication",
+    "category": "postclassical_safety_rule",
     "priority": 0,
-    "level": "red",
+    "level": "orange",
     "trigger_symptoms": [],
     "trigger_conditions": {
       "contains_herb": [
@@ -418,17 +418,18 @@
         "芫花"
       ]
     },
-    "action": "block",
+    "action": "block_or_warn",
     "target_formula_category": "",
-    "source_clause": "十八反",
-    "description": "十八反：甘草反甘遂、大戟、海藻、芫花，同用毒性增加，绝对禁用",
-    "version": "1.0.0"
+    "source_clause": "十八反（后世安全规则，非仲景原典）",
+    "classical_precedent": null,
+    "description": "🟠后世安全规则：十八反——甘草反甘遂、大戟、海藻、芫花，同用毒性增加。原典中无甘草与诸药同用先例，建议禁用",
+    "version": "1.1.0"
   },
   {
     "id": "R-CONTRA-013",
-    "category": "absolute_contraindication",
+    "category": "postclassical_safety_rule",
     "priority": 0,
-    "level": "red",
+    "level": "orange",
     "trigger_symptoms": [],
     "trigger_conditions": {
       "contains_herb": [
@@ -446,17 +447,18 @@
         "白及"
       ]
     },
-    "action": "block",
+    "action": "block_or_warn",
     "target_formula_category": "",
-    "source_clause": "十八反",
-    "description": "十八反：乌头（含附子）反贝母、瓜蒌、半夏、白蔹、白及，同用毒性增加，绝对禁用",
-    "version": "1.0.0"
+    "source_clause": "十八反（后世安全规则，非仲景原典）",
+    "classical_precedent": "附子+半夏同用见于《金匮》附子粳米汤（腹满寒疝宿食病脉证治第十），仲景不以此为禁——有原典先例者降级为黄色警示",
+    "description": "🟠后世安全规则：十八反——乌头（含附子）反贝母、瓜蒌、半夏、白蔹、白及。附子+半夏：原典有同用先例（附子粳米汤），降级为🟡黄色警示；其余组合无原典先例，建议禁用",
+    "version": "1.1.0"
   },
   {
     "id": "R-CONTRA-014",
-    "category": "absolute_contraindication",
+    "category": "postclassical_safety_rule",
     "priority": 0,
-    "level": "red",
+    "level": "orange",
     "trigger_symptoms": [],
     "trigger_conditions": {
       "contains_herb": [
@@ -471,17 +473,18 @@
         "芍药"
       ]
     },
-    "action": "block",
+    "action": "block_or_warn",
     "target_formula_category": "",
-    "source_clause": "十八反",
-    "description": "十八反：藜芦反人参、沙参、丹参、玄参、细辛、芍药，同用毒性增加，绝对禁用",
-    "version": "1.0.0"
+    "source_clause": "十八反（后世安全规则，非仲景原典）",
+    "classical_precedent": null,
+    "description": "🟠后世安全规则：十八反——藜芦反人参、沙参、丹参、玄参、细辛、芍药，同用毒性增加。原典中无同用先例，建议禁用",
+    "version": "1.1.0"
   },
   {
     "id": "R-CONTRA-015",
-    "category": "absolute_contraindication",
+    "category": "postclassical_safety_rule",
     "priority": 0,
-    "level": "red",
+    "level": "orange",
     "trigger_symptoms": [],
     "trigger_conditions": {
       "contains_herb": [
@@ -492,17 +495,18 @@
         "牵牛子"
       ]
     },
-    "action": "block",
+    "action": "block_or_warn",
     "target_formula_category": "",
-    "source_clause": "十九畏",
-    "description": "十九畏：巴豆畏牵牛（黑白丑），同用毒性增加，绝对禁用",
-    "version": "1.0.0"
+    "source_clause": "十九畏（后世安全规则，非仲景原典）",
+    "classical_precedent": null,
+    "description": "🟠后世安全规则：十九畏——巴豆畏牵牛（黑白丑），同用毒性增加。原典中无同用先例，建议禁用",
+    "version": "1.1.0"
   },
   {
     "id": "R-CONTRA-016",
-    "category": "absolute_contraindication",
+    "category": "postclassical_safety_rule",
     "priority": 0,
-    "level": "red",
+    "level": "orange",
     "trigger_symptoms": [],
     "trigger_conditions": {
       "contains_herb": [
@@ -512,17 +516,18 @@
         "郁金"
       ]
     },
-    "action": "block",
+    "action": "block_or_warn",
     "target_formula_category": "",
-    "source_clause": "十九畏",
-    "description": "十九畏：丁香畏郁金，同用毒性增加，绝对禁用",
-    "version": "1.0.0"
+    "source_clause": "十九畏（后世安全规则，非仲景原典）",
+    "classical_precedent": null,
+    "description": "🟠后世安全规则：十九畏——丁香畏郁金，同用毒性增加。原典中无同用先例，建议禁用",
+    "version": "1.1.0"
   },
   {
     "id": "R-CONTRA-017",
-    "category": "absolute_contraindication",
+    "category": "postclassical_safety_rule",
     "priority": 0,
-    "level": "red",
+    "level": "orange",
     "trigger_symptoms": [],
     "trigger_conditions": {
       "contains_herb": [
@@ -532,17 +537,18 @@
         "五灵脂"
       ]
     },
-    "action": "block",
+    "action": "block_or_warn",
     "target_formula_category": "",
-    "source_clause": "十九畏",
-    "description": "十九畏：人参畏五灵脂，同用毒性增加，绝对禁用",
-    "version": "1.0.0"
+    "source_clause": "十九畏（后世安全规则，非仲景原典）",
+    "classical_precedent": null,
+    "description": "🟠后世安全规则：十九畏——人参畏五灵脂，同用毒性增加。原典中无同用先例，建议禁用",
+    "version": "1.1.0"
   },
   {
     "id": "R-CONTRA-018",
-    "category": "absolute_contraindication",
+    "category": "postclassical_safety_rule",
     "priority": 0,
-    "level": "red",
+    "level": "orange",
     "trigger_symptoms": [],
     "trigger_conditions": {
       "contains_herb": [
@@ -554,11 +560,12 @@
         "赤石脂"
       ]
     },
-    "action": "block",
+    "action": "block_or_warn",
     "target_formula_category": "",
-    "source_clause": "十九畏",
-    "description": "十九畏：官桂（桂枝、肉桂）畏赤石脂，同用毒性增加，绝对禁用",
-    "version": "1.0.0"
+    "source_clause": "十九畏（后世安全规则，非仲景原典）",
+    "classical_precedent": "桂枝/肉桂+赤石脂同用见于《金匮》乌头赤石脂丸（胸痹心痛短气病脉证治第九），仲景不以此为禁——有原典先例者降级为黄色警示",
+    "description": "🟠后世安全规则：十九畏——官桂（桂枝、肉桂）畏赤石脂。桂枝+赤石脂：原典有同用先例（乌头赤石脂丸），降级为🟡黄色警示",
+    "version": "1.1.0"
   },
   {
     "id": "R-TOXIC-001",
