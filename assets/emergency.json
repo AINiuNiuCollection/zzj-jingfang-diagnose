@@ -1,5 +1,19 @@
 [
   {
+    "name": "阳明三急下证",
+    "indicators": [
+      "目中不了了睛不和",
+      "发热汗多",
+      "腹满痛"
+    ],
+    "source_clause": "SHL-252/253/254",
+    "treatment": "急下之",
+    "treatment_note": "后世概括'急下存阴'",
+    "main_formula": "大承气汤",
+    "category": "急下类",
+    "threshold": 2
+  },
+  {
     "name": "少阴三急下证",
     "indicators": [
       "口燥咽干",
@@ -7,8 +21,55 @@
       "腹胀不大便"
     ],
     "source_clause": "SHL-320/321/322",
-    "treatment": "急下存阴",
-    "main_formula": "大承气汤"
+    "treatment": "急下之",
+    "treatment_note": "后世概括'急下存阴'",
+    "main_formula": "大承气汤",
+    "category": "急下类",
+    "threshold": 2
+  },
+  {
+    "name": "下利急下证",
+    "indicators": [
+      "下利按之心下坚",
+      "下利脉迟而滑"
+    ],
+    "source_clause": "SHL-374",
+    "treatment": "急下之",
+    "treatment_note": "",
+    "main_formula": "大承气汤",
+    "category": "急下类",
+    "threshold": 2
+  },
+  {
+    "name": "少阴急温证",
+    "indicators": [
+      "脉沉",
+      "但欲寐",
+      "下利清谷",
+      "四肢厥冷",
+      "恶寒身蜷",
+      "脉微",
+      "汗出不止"
+    ],
+    "source_clause": "SHL-323",
+    "treatment": "急温之",
+    "treatment_note": "后世概括'回阳救逆'",
+    "main_formula": "四逆汤",
+    "category": "急温类",
+    "threshold": 2
+  },
+  {
+    "name": "亡阳证",
+    "indicators": [
+      "恶寒脉微而复利",
+      "汗出而厥"
+    ],
+    "source_clause": "SHL-385",
+    "treatment": "急温之",
+    "treatment_note": "后世概括'回阳救逆'",
+    "main_formula": "四逆汤辈",
+    "category": "急温类",
+    "threshold": 2
   },
   {
     "name": "蛔厥",
@@ -18,8 +79,11 @@
       "得食而呕"
     ],
     "source_clause": "SHL-338",
-    "treatment": "安蛔止痛",
-    "main_formula": "乌梅丸"
+    "treatment": "乌梅丸主之",
+    "treatment_note": "后世概括'安蛔止痛'",
+    "main_formula": "乌梅丸",
+    "category": "急治类",
+    "threshold": 2
   },
   {
     "name": "蓄血如狂发狂",
@@ -30,29 +94,11 @@
       "小便自利"
     ],
     "source_clause": "SHL-124/125/237",
-    "treatment": "破血逐瘀",
-    "main_formula": "抵当汤/桃核承气汤"
-  },
-  {
-    "name": "脏结",
-    "indicators": [
-      "脏结无阳证",
-      "舌上白苔滑",
-      "难治"
-    ],
-    "source_clause": "SHL-129/130",
-    "treatment": "标注难治，提示转诊",
-    "main_formula": "无（难治证）"
-  },
-  {
-    "name": "亡阳证",
-    "indicators": [
-      "恶寒脉微而复利",
-      "汗出而厥"
-    ],
-    "source_clause": "SHL-385",
-    "treatment": "急温回阳救逆",
-    "main_formula": "四逆汤辈"
+    "treatment": "抵当汤主之/宜桃核承气汤",
+    "treatment_note": "后世概括'破血逐瘀'",
+    "main_formula": "抵当汤/桃核承气汤",
+    "category": "急治类",
+    "threshold": 2
   },
   {
     "name": "结胸热实",
@@ -61,43 +107,148 @@
       "脉沉紧"
     ],
     "source_clause": "SHL-135",
-    "treatment": "泻热逐水破结",
-    "main_formula": "大陷胸汤"
-  },
-  {
-    "name": "阳明三急下证",
-    "indicators": [
-      "发热汗出多",
-      "腹满痛",
-      "大便难",
-      "脉沉实"
-    ],
-    "source_clause": "SHL-252/253/254",
-    "treatment": "急下存阴",
-    "main_formula": "大承气汤"
-  },
-  {
-    "name": "热入心包（温病急症）",
-    "indicators": [
-      "高热神昏",
-      "谵语",
-      "舌质红绛",
-      "脉数"
-    ],
-    "source_clause": "SHL-温病参照",
-    "treatment": "清热开窍醒神，提示转诊",
-    "main_formula": "安宫牛黄丸/紫雪丹/至宝丹（非经方）"
+    "treatment": "大陷胸汤主之",
+    "treatment_note": "后世概括'泻热逐水破结'",
+    "main_formula": "大陷胸汤",
+    "category": "急治类",
+    "threshold": 2
   },
   {
     "name": "失血危证",
     "indicators": [
+      "吐血咳逆上气脉数有热不得卧",
       "吐血不止",
-      "衄血不止",
-      "面色苍白",
-      "脉芤"
+      "吐血衄血"
     ],
-    "source_clause": "JGL-吐衄",
-    "treatment": "急则治标，止血固脱",
-    "main_formula": "柏叶汤/泻心汤"
+    "source_clause": "JGL-17-006/014/017",
+    "treatment": "柏叶汤主之/泻心汤主之",
+    "treatment_note": "后世概括'止血固脱'",
+    "main_formula": "柏叶汤/泻心汤",
+    "category": "急治类",
+    "threshold": 1,
+    "death_indicator": "JGL-17-006 吐血+咳逆上气+脉数有热+不得卧=死证"
+  },
+  {
+    "name": "脏结",
+    "indicators": [
+      "脏结无阳证",
+      "舌上白苔滑"
+    ],
+    "source_clause": "SHL-129/130",
+    "treatment": "标注难治，提示转诊",
+    "treatment_note": "",
+    "main_formula": "无（难治证）",
+    "category": "难治类",
+    "threshold": 1
+  },
+  {
+    "name": "下厥上竭",
+    "indicators": [
+      "厥而无汗",
+      "强发汗后动血（口鼻或目出血）"
+    ],
+    "source_clause": "SHL-294",
+    "treatment": "标注难治，提示转诊",
+    "treatment_note": "",
+    "main_formula": "无（难治证）",
+    "category": "难治类",
+    "threshold": 1
+  },
+  {
+    "name": "除中证",
+    "indicators": [
+      "脉迟反能食"
+    ],
+    "source_clause": "SHL-333",
+    "treatment": "标注死证，提示转诊",
+    "treatment_note": "",
+    "main_formula": "无（必死）",
+    "category": "难治类",
+    "threshold": 1
+  },
+  {
+    "name": "少阴死证",
+    "indicators": [
+      "恶寒身蜷而利手足逆冷→不治",
+      "吐利躁烦四逆→死",
+      "下利止而头眩时时自冒→死",
+      "四逆恶寒而身蜷脉不至不烦而躁→死",
+      "六七日息高→死",
+      "脉微细沉但欲卧汗出不烦自欲吐自利复烦躁不得卧寐→死"
+    ],
+    "source_clause": "SHL-295/296/297/298/299/300",
+    "treatment": "提示紧急转诊",
+    "treatment_note": "",
+    "main_formula": "无（死证）",
+    "category": "死证预警类",
+    "threshold": 1
+  },
+  {
+    "name": "厥阴死证",
+    "indicators": [
+      "发热下利厥逆躁不得卧→死",
+      "发热下利至甚厥不止→死",
+      "六七日不利便发热而利汗出不止→死"
+    ],
+    "source_clause": "SHL-344/345/346",
+    "treatment": "提示紧急转诊",
+    "treatment_note": "",
+    "main_formula": "无（死证）",
+    "category": "死证预警类",
+    "threshold": 1
+  },
+  {
+    "name": "阳明危候",
+    "indicators": [
+      "直视谵语喘满→死",
+      "谵语下利→亦死",
+      "发汗多重发汗亡阳谵语脉短→死",
+      "循衣摸床惕而不安微喘直视脉涩→死"
+    ],
+    "source_clause": "SHL-210/211/212",
+    "treatment": "提示紧急转诊",
+    "treatment_note": "",
+    "main_formula": "无（死证）",
+    "category": "死证预警类",
+    "threshold": 1
+  },
+  {
+    "name": "结胸死证",
+    "indicators": [
+      "结胸证其脉浮大下之则死",
+      "结胸证悉具烦躁亦死"
+    ],
+    "source_clause": "SHL-132/133",
+    "treatment": "提示紧急转诊",
+    "treatment_note": "",
+    "main_formula": "无（死证）",
+    "category": "死证预警类",
+    "threshold": 1
+  },
+  {
+    "name": "下利脉绝危候",
+    "indicators": [
+      "下利后脉绝手足厥冷晬时脉不还→死",
+      "下利手足厥冷无脉灸之不温脉不还反微喘→死",
+      "下利日十余行脉反实→死"
+    ],
+    "source_clause": "SHL-362/368/369",
+    "treatment": "提示紧急转诊",
+    "treatment_note": "",
+    "main_formula": "无（死证）",
+    "category": "死证预警类",
+    "threshold": 1
+  },
+  {
+    "name": "吐血死证",
+    "indicators": [
+      "吐血咳逆上气脉数有热不得卧→死"
+    ],
+    "source_clause": "JGL-17-006",
+    "treatment": "提示紧急转诊",
+    "treatment_note": "",
+    "main_formula": "无（死证）",
+    "category": "死证预警类",
+    "threshold": 1
   }
 ]

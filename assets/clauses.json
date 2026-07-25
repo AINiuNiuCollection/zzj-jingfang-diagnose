@@ -425,7 +425,9 @@
     "pulse": [],
     "pathogenesis": "",
     "treatment": "",
-    "formula_ids": [],
+    "formula_ids": [
+      "桂枝加厚朴杏子汤"
+    ],
     "contraindications": [],
     "secondary_symptoms": [],
     "tongue": null,
@@ -547,7 +549,9 @@
     ],
     "pathogenesis": "",
     "treatment": "",
-    "formula_ids": [],
+    "formula_ids": [
+      "桂枝麻黄各半汤"
+    ],
     "contraindications": [],
     "secondary_symptoms": [],
     "tongue": null,
@@ -592,7 +596,9 @@
     ],
     "pathogenesis": "",
     "treatment": "",
-    "formula_ids": [],
+    "formula_ids": [
+      "桂枝二麻黄一汤"
+    ],
     "contraindications": [],
     "secondary_symptoms": [],
     "tongue": null,
@@ -645,7 +651,9 @@
     ],
     "pathogenesis": "",
     "treatment": "",
-    "formula_ids": [],
+    "formula_ids": [
+      "桂枝二越婢一汤"
+    ],
     "contraindications": [],
     "secondary_symptoms": [],
     "tongue": null,
@@ -671,7 +679,9 @@
     "pulse": [],
     "pathogenesis": "",
     "treatment": "",
-    "formula_ids": [],
+    "formula_ids": [
+      "去桂加白汤"
+    ],
     "contraindications": [],
     "secondary_symptoms": [],
     "tongue": null,
@@ -703,7 +713,11 @@
     "pathogenesis": "",
     "treatment": "",
     "formula_ids": [
-      "四逆汤"
+      "四逆汤",
+      "芍药甘草汤",
+      "调胃承气汤",
+      "甘草干姜汤",
+      "甘草汤"
     ],
     "contraindications": [],
     "secondary_symptoms": [],
@@ -883,7 +897,9 @@
     "pulse": [],
     "pathogenesis": "",
     "treatment": "",
-    "formula_ids": [],
+    "formula_ids": [
+      "麻黄汤"
+    ],
     "contraindications": [],
     "secondary_symptoms": [],
     "tongue": null,
@@ -962,7 +978,9 @@
     ],
     "pathogenesis": "",
     "treatment": "",
-    "formula_ids": [],
+    "formula_ids": [
+      "大青龙汤"
+    ],
     "contraindications": [],
     "secondary_symptoms": [],
     "tongue": null,
@@ -1038,7 +1056,9 @@
     ],
     "pathogenesis": "",
     "treatment": "",
-    "formula_ids": [],
+    "formula_ids": [
+      "桂枝汤"
+    ],
     "contraindications": [],
     "secondary_symptoms": [],
     "tongue": null,
@@ -1061,7 +1081,8 @@
     "pathogenesis": "",
     "treatment": "",
     "formula_ids": [
-      "桂枝加浓朴杏子汤"
+      "桂枝加厚朴杏子汤",
+      "杏子汤"
     ],
     "contraindications": [],
     "secondary_symptoms": [],
@@ -1082,7 +1103,9 @@
     "pulse": [],
     "pathogenesis": "",
     "treatment": "",
-    "formula_ids": [],
+    "formula_ids": [
+      "桂枝汤"
+    ],
     "contraindications": [],
     "secondary_symptoms": [],
     "tongue": null,
@@ -1104,7 +1127,9 @@
     ],
     "pathogenesis": "",
     "treatment": "",
-    "formula_ids": [],
+    "formula_ids": [
+      "桂枝汤"
+    ],
     "contraindications": [],
     "secondary_symptoms": [],
     "tongue": null,
@@ -1259,7 +1284,9 @@
     ],
     "pathogenesis": "",
     "treatment": "",
-    "formula_ids": [],
+    "formula_ids": [
+      "麻黄汤"
+    ],
     "contraindications": [],
     "secondary_symptoms": [],
     "tongue": null,
@@ -1282,7 +1309,9 @@
     ],
     "pathogenesis": "",
     "treatment": "",
-    "formula_ids": [],
+    "formula_ids": [
+      "麻黄汤"
+    ],
     "contraindications": [],
     "secondary_symptoms": [],
     "tongue": null,
@@ -1305,7 +1334,9 @@
     "pulse": [],
     "pathogenesis": "",
     "treatment": "",
-    "formula_ids": [],
+    "formula_ids": [
+      "桂枝汤"
+    ],
     "contraindications": [],
     "secondary_symptoms": [],
     "tongue": null,
@@ -1329,7 +1360,9 @@
     "pulse": [],
     "pathogenesis": "",
     "treatment": "",
-    "formula_ids": [],
+    "formula_ids": [
+      "桂枝汤"
+    ],
     "contraindications": [],
     "secondary_symptoms": [],
     "tongue": null,
@@ -1381,7 +1414,9 @@
     "pulse": [],
     "pathogenesis": "",
     "treatment": "",
-    "formula_ids": [],
+    "formula_ids": [
+      "桂枝汤"
+    ],
     "contraindications": [],
     "secondary_symptoms": [],
     "tongue": null,
@@ -1404,7 +1439,9 @@
     ],
     "pathogenesis": "",
     "treatment": "",
-    "formula_ids": [],
+    "formula_ids": [
+      "桂枝汤"
+    ],
     "contraindications": [],
     "secondary_symptoms": [],
     "tongue": null,
@@ -1498,7 +1535,7 @@
     "pathogenesis": "",
     "treatment": "",
     "formula_ids": [
-      "子汤"
+      "干姜附子汤"
     ],
     "contraindications": [],
     "secondary_symptoms": [],
@@ -1523,7 +1560,7 @@
     "pathogenesis": "",
     "treatment": "",
     "formula_ids": [
-      "一两人参三两新加汤"
+      "桂枝加芍药生薑各一两人参三两新加汤"
     ],
     "contraindications": [],
     "secondary_symptoms": [],
@@ -1548,7 +1585,9 @@
     "pulse": [],
     "pathogenesis": "",
     "treatment": "",
-    "formula_ids": [],
+    "formula_ids": [
+      "麻黄杏仁甘草石膏汤"
+    ],
     "contraindications": [],
     "secondary_symptoms": [],
     "tongue": null,
@@ -1615,7 +1654,8 @@
     "pathogenesis": "",
     "treatment": "",
     "formula_ids": [
-      "生姜半夏甘草人参汤"
+      "人参汤",
+      "厚朴生姜半夏甘草人参汤"
     ],
     "contraindications": [],
     "secondary_symptoms": [],
@@ -1642,7 +1682,7 @@
     "pathogenesis": "",
     "treatment": "",
     "formula_ids": [
-      "桂枝白术甘草汤"
+      "茯苓桂枝白术甘草汤"
     ],
     "contraindications": [],
     "secondary_symptoms": [],
@@ -1870,7 +1910,7 @@
     "formula_ids": [
       "栀子豉汤",
       "栀子甘草豉汤",
-      "栀子生姜豉汤"
+      "栀子生薑豉汤"
     ],
     "contraindications": [],
     "secondary_symptoms": [],
@@ -1942,7 +1982,7 @@
     "pathogenesis": "",
     "treatment": "",
     "formula_ids": [
-      "栀子浓朴汤"
+      "栀子厚朴汤"
     ],
     "contraindications": [],
     "secondary_symptoms": [],
@@ -1966,7 +2006,7 @@
     "pathogenesis": "",
     "treatment": "",
     "formula_ids": [
-      "栀子干姜汤"
+      "栀子乾薑汤"
     ],
     "contraindications": [],
     "secondary_symptoms": [],
@@ -2140,7 +2180,9 @@
     "pulse": [],
     "pathogenesis": "",
     "treatment": "",
-    "formula_ids": [],
+    "formula_ids": [
+      "禹馀粮丸"
+    ],
     "contraindications": [],
     "secondary_symptoms": [],
     "tongue": null,
@@ -2207,7 +2249,10 @@
     "pulse": [],
     "pathogenesis": "",
     "treatment": "",
-    "formula_ids": [],
+    "formula_ids": [
+      "四逆汤",
+      "桂枝汤"
+    ],
     "contraindications": [],
     "secondary_symptoms": [],
     "tongue": null,
@@ -2278,7 +2323,9 @@
     ],
     "pathogenesis": "",
     "treatment": "",
-    "formula_ids": [],
+    "formula_ids": [
+      "调胃承气汤"
+    ],
     "contraindications": [],
     "secondary_symptoms": [],
     "tongue": null,
@@ -2301,7 +2348,9 @@
     "pulse": [],
     "pathogenesis": "",
     "treatment": "",
-    "formula_ids": [],
+    "formula_ids": [
+      "桂枝汤"
+    ],
     "contraindications": [],
     "secondary_symptoms": [],
     "tongue": null,
@@ -2425,7 +2474,8 @@
     "pathogenesis": "",
     "treatment": "",
     "formula_ids": [
-      "小柴胡汤"
+      "小柴胡汤",
+      "小建中汤"
     ],
     "contraindications": [],
     "secondary_symptoms": [],
@@ -2491,7 +2541,9 @@
     "pulse": [],
     "pathogenesis": "",
     "treatment": "",
-    "formula_ids": [],
+    "formula_ids": [
+      "大柴胡汤"
+    ],
     "contraindications": [],
     "secondary_symptoms": [],
     "tongue": null,
@@ -2514,7 +2566,7 @@
     "pathogenesis": "",
     "treatment": "",
     "formula_ids": [
-      "后以柴胡加芒硝汤"
+      "柴胡加芒硝汤"
     ],
     "contraindications": [],
     "secondary_symptoms": [],
@@ -2562,7 +2614,9 @@
     "pulse": [],
     "pathogenesis": "",
     "treatment": "",
-    "formula_ids": [],
+    "formula_ids": [
+      "桃核承气汤"
+    ],
     "contraindications": [],
     "secondary_symptoms": [],
     "tongue": null,
@@ -2585,7 +2639,8 @@
     "pathogenesis": "",
     "treatment": "",
     "formula_ids": [
-      "柴胡加龙骨牡蛎汤"
+      "柴胡加龙骨牡蛎汤",
+      "牡蛎汤"
     ],
     "contraindications": [],
     "secondary_symptoms": [],
@@ -2713,7 +2768,7 @@
     "pathogenesis": "",
     "treatment": "",
     "formula_ids": [
-      "蜀漆牡蛎龙骨救逆汤"
+      "桂枝去芍药加蜀漆牡蛎龙骨救逆汤"
     ],
     "contraindications": [],
     "secondary_symptoms": [],
@@ -2828,7 +2883,9 @@
     "pulse": [],
     "pathogenesis": "",
     "treatment": "",
-    "formula_ids": [],
+    "formula_ids": [
+      "桂枝加桂汤"
+    ],
     "contraindications": [],
     "secondary_symptoms": [],
     "tongue": null,
@@ -2969,7 +3026,9 @@
     "pulse": [],
     "pathogenesis": "",
     "treatment": "",
-    "formula_ids": [],
+    "formula_ids": [
+      "调胃承气汤"
+    ],
     "contraindications": [],
     "secondary_symptoms": [],
     "tongue": null,
@@ -3026,7 +3085,9 @@
     ],
     "pathogenesis": "",
     "treatment": "",
-    "formula_ids": [],
+    "formula_ids": [
+      "抵当汤"
+    ],
     "contraindications": [],
     "secondary_symptoms": [],
     "tongue": null,
@@ -3050,7 +3111,9 @@
     "pulse": [],
     "pathogenesis": "",
     "treatment": "",
-    "formula_ids": [],
+    "formula_ids": [
+      "抵当丸"
+    ],
     "contraindications": [],
     "secondary_symptoms": [],
     "tongue": null,
@@ -3162,7 +3225,9 @@
     "pulse": [],
     "pathogenesis": "",
     "treatment": "",
-    "formula_ids": [],
+    "formula_ids": [
+      "大陷胸丸"
+    ],
     "contraindications": [],
     "secondary_symptoms": [],
     "tongue": null,
@@ -3292,7 +3357,8 @@
     "pathogenesis": "",
     "treatment": "",
     "formula_ids": [
-      "大陷胸汤"
+      "大陷胸汤",
+      "大柴胡汤"
     ],
     "contraindications": [],
     "secondary_symptoms": [],
@@ -3342,7 +3408,7 @@
     "pathogenesis": "",
     "treatment": "",
     "formula_ids": [
-      "小陷汤"
+      "小陷胸汤"
     ],
     "contraindications": [],
     "secondary_symptoms": [],
@@ -3417,7 +3483,10 @@
     "pulse": [],
     "pathogenesis": "",
     "treatment": "",
-    "formula_ids": [],
+    "formula_ids": [
+      "五苓散",
+      "三物小白散"
+    ],
     "contraindications": [],
     "secondary_symptoms": [],
     "tongue": null,
@@ -3562,7 +3631,8 @@
     "pathogenesis": "",
     "treatment": "",
     "formula_ids": [
-      "柴胡桂枝干姜汤"
+      "柴胡桂枝乾薑汤",
+      "柴胡桂薑汤"
     ],
     "contraindications": [],
     "secondary_symptoms": [],
@@ -3590,7 +3660,9 @@
     ],
     "pathogenesis": "",
     "treatment": "",
-    "formula_ids": [],
+    "formula_ids": [
+      "小柴胡汤"
+    ],
     "contraindications": [],
     "secondary_symptoms": [],
     "tongue": null,
@@ -3615,7 +3687,8 @@
     "pathogenesis": "",
     "treatment": "",
     "formula_ids": [
-      "大陷胸汤"
+      "大陷胸汤",
+      "半夏泻心汤"
     ],
     "contraindications": [],
     "secondary_symptoms": [],
@@ -3816,7 +3889,9 @@
     "pulse": [],
     "pathogenesis": "",
     "treatment": "",
-    "formula_ids": [],
+    "formula_ids": [
+      "生姜泻心汤"
+    ],
     "contraindications": [],
     "secondary_symptoms": [],
     "tongue": null,
@@ -3867,7 +3942,8 @@
     "pathogenesis": "",
     "treatment": "",
     "formula_ids": [
-      "赤石脂禹余粮汤"
+      "赤石脂禹馀粮汤",
+      "赤石脂禹馀粮汤"
     ],
     "contraindications": [],
     "secondary_symptoms": [],
@@ -3917,7 +3993,7 @@
     "pathogenesis": "",
     "treatment": "",
     "formula_ids": [
-      "旋复代赭汤"
+      "旋覆代赭汤"
     ],
     "contraindications": [],
     "secondary_symptoms": [],
@@ -3942,7 +4018,9 @@
     "pulse": [],
     "pathogenesis": "",
     "treatment": "",
-    "formula_ids": [],
+    "formula_ids": [
+      "麻黄杏仁甘草石膏汤"
+    ],
     "contraindications": [],
     "secondary_symptoms": [],
     "tongue": null,
@@ -3989,7 +4067,10 @@
     "pulse": [],
     "pathogenesis": "",
     "treatment": "",
-    "formula_ids": [],
+    "formula_ids": [
+      "桂枝汤",
+      "大黄黄连泻心汤"
+    ],
     "contraindications": [],
     "secondary_symptoms": [],
     "tongue": null,
@@ -4042,7 +4123,9 @@
     ],
     "pathogenesis": "",
     "treatment": "",
-    "formula_ids": [],
+    "formula_ids": [
+      "瓜蒂散"
+    ],
     "contraindications": [],
     "secondary_symptoms": [],
     "tongue": null,
@@ -4187,7 +4270,8 @@
     "pathogenesis": "",
     "treatment": "",
     "formula_ids": [
-      "黄芩加半夏生姜汤"
+      "黄芩加半夏生薑汤",
+      "黄芩汤"
     ],
     "contraindications": [],
     "secondary_symptoms": [],
@@ -4296,9 +4380,7 @@
     "pathogenesis": "",
     "treatment": "",
     "formula_ids": [
-      "白虎汤",
-      "四逆汤",
-      "通脉四逆汤"
+      "白虎汤"
     ],
     "contraindications": [],
     "secondary_symptoms": [],
@@ -5015,7 +5097,9 @@
     "pulse": [],
     "pathogenesis": "",
     "treatment": "",
-    "formula_ids": [],
+    "formula_ids": [
+      "调胃承气汤"
+    ],
     "contraindications": [],
     "secondary_symptoms": [],
     "tongue": null,
@@ -5046,7 +5130,8 @@
     "pathogenesis": "",
     "treatment": "",
     "formula_ids": [
-      "大承气汤"
+      "大承气汤",
+      "小承气汤"
     ],
     "contraindications": [],
     "secondary_symptoms": [],
@@ -5072,7 +5157,10 @@
     "pulse": [],
     "pathogenesis": "",
     "treatment": "",
-    "formula_ids": [],
+    "formula_ids": [
+      "大承气汤",
+      "小承气汤"
+    ],
     "contraindications": [],
     "secondary_symptoms": [],
     "tongue": null,
@@ -5219,7 +5307,9 @@
     "pulse": [],
     "pathogenesis": "",
     "treatment": "",
-    "formula_ids": [],
+    "formula_ids": [
+      "大承气汤"
+    ],
     "contraindications": [],
     "secondary_symptoms": [],
     "tongue": null,
@@ -5262,7 +5352,9 @@
     "pulse": [],
     "pathogenesis": "",
     "treatment": "",
-    "formula_ids": [],
+    "formula_ids": [
+      "大承气汤"
+    ],
     "contraindications": [],
     "secondary_symptoms": [],
     "tongue": null,
@@ -5338,7 +5430,9 @@
     "pulse": [],
     "pathogenesis": "",
     "treatment": "",
-    "formula_ids": [],
+    "formula_ids": [
+      "大承气汤"
+    ],
     "contraindications": [],
     "secondary_symptoms": [],
     "tongue": null,
@@ -5571,7 +5665,9 @@
     "pulse": [],
     "pathogenesis": "",
     "treatment": "",
-    "formula_ids": [],
+    "formula_ids": [
+      "小柴胡汤"
+    ],
     "contraindications": [],
     "secondary_symptoms": [],
     "tongue": null,
@@ -5594,7 +5690,9 @@
     "pulse": [],
     "pathogenesis": "",
     "treatment": "",
-    "formula_ids": [],
+    "formula_ids": [
+      "小柴胡汤"
+    ],
     "contraindications": [],
     "secondary_symptoms": [],
     "tongue": null,
@@ -5620,7 +5718,9 @@
     ],
     "pathogenesis": "",
     "treatment": "",
-    "formula_ids": [],
+    "formula_ids": [
+      "小柴胡汤"
+    ],
     "contraindications": [],
     "secondary_symptoms": [],
     "tongue": null,
@@ -5643,7 +5743,9 @@
     "pulse": [],
     "pathogenesis": "",
     "treatment": "",
-    "formula_ids": [],
+    "formula_ids": [
+      "麻黄汤"
+    ],
     "contraindications": [],
     "secondary_symptoms": [],
     "tongue": null,
@@ -5668,7 +5770,10 @@
     "pulse": [],
     "pathogenesis": "",
     "treatment": "",
-    "formula_ids": [],
+    "formula_ids": [
+      "蜜煎导方",
+      "猪胆汁方"
+    ],
     "contraindications": [],
     "secondary_symptoms": [],
     "tongue": null,
@@ -5693,7 +5798,9 @@
     ],
     "pathogenesis": "",
     "treatment": "",
-    "formula_ids": [],
+    "formula_ids": [
+      "桂枝汤"
+    ],
     "contraindications": [],
     "secondary_symptoms": [],
     "tongue": null,
@@ -5718,7 +5825,9 @@
     ],
     "pathogenesis": "",
     "treatment": "",
-    "formula_ids": [],
+    "formula_ids": [
+      "麻黄汤"
+    ],
     "contraindications": [],
     "secondary_symptoms": [],
     "tongue": null,
@@ -5766,7 +5875,9 @@
     "pulse": [],
     "pathogenesis": "",
     "treatment": "",
-    "formula_ids": [],
+    "formula_ids": [
+      "抵当汤"
+    ],
     "contraindications": [],
     "secondary_symptoms": [],
     "tongue": null,
@@ -5786,7 +5897,9 @@
     "pulse": [],
     "pathogenesis": "",
     "treatment": "",
-    "formula_ids": [],
+    "formula_ids": [
+      "大承气汤"
+    ],
     "contraindications": [],
     "secondary_symptoms": [],
     "tongue": null,
@@ -5836,7 +5949,10 @@
     ],
     "pathogenesis": "",
     "treatment": "",
-    "formula_ids": [],
+    "formula_ids": [
+      "大承气汤",
+      "桂枝汤"
+    ],
     "contraindications": [],
     "secondary_symptoms": [],
     "tongue": null,
@@ -5859,7 +5975,9 @@
     "pulse": [],
     "pathogenesis": "",
     "treatment": "",
-    "formula_ids": [],
+    "formula_ids": [
+      "大承气汤"
+    ],
     "contraindications": [],
     "secondary_symptoms": [],
     "tongue": null,
@@ -5882,7 +6000,9 @@
     "pulse": [],
     "pathogenesis": "",
     "treatment": "",
-    "formula_ids": [],
+    "formula_ids": [
+      "大承气汤"
+    ],
     "contraindications": [],
     "secondary_symptoms": [],
     "tongue": null,
@@ -5931,7 +6051,9 @@
     "pulse": [],
     "pathogenesis": "",
     "treatment": "",
-    "formula_ids": [],
+    "formula_ids": [
+      "五苓散"
+    ],
     "contraindications": [],
     "secondary_symptoms": [],
     "tongue": null,
@@ -6052,7 +6174,9 @@
     "pulse": [],
     "pathogenesis": "",
     "treatment": "",
-    "formula_ids": [],
+    "formula_ids": [
+      "调胃承气汤"
+    ],
     "contraindications": [],
     "secondary_symptoms": [],
     "tongue": null,
@@ -6075,7 +6199,9 @@
     "pulse": [],
     "pathogenesis": "",
     "treatment": "",
-    "formula_ids": [],
+    "formula_ids": [
+      "小承气汤"
+    ],
     "contraindications": [],
     "secondary_symptoms": [],
     "tongue": null,
@@ -6101,7 +6227,10 @@
     ],
     "pathogenesis": "",
     "treatment": "",
-    "formula_ids": [],
+    "formula_ids": [
+      "小承气汤",
+      "大承气汤"
+    ],
     "contraindications": [],
     "secondary_symptoms": [],
     "tongue": null,
@@ -6123,7 +6252,9 @@
     "pulse": [],
     "pathogenesis": "",
     "treatment": "",
-    "formula_ids": [],
+    "formula_ids": [
+      "大承气汤"
+    ],
     "contraindications": [],
     "secondary_symptoms": [],
     "tongue": null,
@@ -6145,7 +6276,9 @@
     "pulse": [],
     "pathogenesis": "",
     "treatment": "",
-    "formula_ids": [],
+    "formula_ids": [
+      "大承气汤"
+    ],
     "contraindications": [],
     "secondary_symptoms": [],
     "tongue": null,
@@ -6167,7 +6300,9 @@
     "pulse": [],
     "pathogenesis": "",
     "treatment": "",
-    "formula_ids": [],
+    "formula_ids": [
+      "大承气汤"
+    ],
     "contraindications": [],
     "secondary_symptoms": [],
     "tongue": null,
@@ -6189,7 +6324,9 @@
     "pulse": [],
     "pathogenesis": "",
     "treatment": "",
-    "formula_ids": [],
+    "formula_ids": [
+      "大承气汤"
+    ],
     "contraindications": [],
     "secondary_symptoms": [],
     "tongue": null,
@@ -6213,7 +6350,9 @@
     ],
     "pathogenesis": "",
     "treatment": "",
-    "formula_ids": [],
+    "formula_ids": [
+      "大承气汤"
+    ],
     "contraindications": [],
     "secondary_symptoms": [],
     "tongue": null,
@@ -6240,7 +6379,9 @@
     ],
     "pathogenesis": "",
     "treatment": "",
-    "formula_ids": [],
+    "formula_ids": [
+      "抵当汤"
+    ],
     "contraindications": [],
     "secondary_symptoms": [],
     "tongue": null,
@@ -6455,7 +6596,9 @@
     ],
     "pathogenesis": "",
     "treatment": "",
-    "formula_ids": [],
+    "formula_ids": [
+      "小柴胡汤"
+    ],
     "contraindications": [],
     "secondary_symptoms": [],
     "tongue": null,
@@ -6670,7 +6813,9 @@
     ],
     "pathogenesis": "",
     "treatment": "",
-    "formula_ids": [],
+    "formula_ids": [
+      "桂枝汤"
+    ],
     "contraindications": [],
     "secondary_symptoms": [],
     "tongue": null,
@@ -6745,7 +6890,8 @@
     "pathogenesis": "",
     "treatment": "",
     "formula_ids": [
-      "桂枝加芍药汤"
+      "桂枝加芍药汤",
+      "桂枝加大黄汤"
     ],
     "contraindications": [],
     "secondary_symptoms": [],
@@ -7272,7 +7418,9 @@
     "pulse": [],
     "pathogenesis": "",
     "treatment": "",
-    "formula_ids": [],
+    "formula_ids": [
+      "麻黄附子甘草汤"
+    ],
     "contraindications": [],
     "secondary_symptoms": [],
     "tongue": null,
@@ -7491,7 +7639,10 @@
     "pulse": [],
     "pathogenesis": "",
     "treatment": "",
-    "formula_ids": [],
+    "formula_ids": [
+      "甘草汤",
+      "桔梗汤"
+    ],
     "contraindications": [],
     "secondary_symptoms": [],
     "tongue": null,
@@ -7721,7 +7872,9 @@
     "pulse": [],
     "pathogenesis": "",
     "treatment": "",
-    "formula_ids": [],
+    "formula_ids": [
+      "大承气汤"
+    ],
     "contraindications": [],
     "secondary_symptoms": [],
     "tongue": null,
@@ -7743,7 +7896,9 @@
     "pulse": [],
     "pathogenesis": "",
     "treatment": "",
-    "formula_ids": [],
+    "formula_ids": [
+      "大承气汤"
+    ],
     "contraindications": [],
     "secondary_symptoms": [],
     "tongue": null,
@@ -7765,7 +7920,9 @@
     "pulse": [],
     "pathogenesis": "",
     "treatment": "",
-    "formula_ids": [],
+    "formula_ids": [
+      "大承气汤"
+    ],
     "contraindications": [],
     "secondary_symptoms": [],
     "tongue": null,
@@ -7789,7 +7946,9 @@
     ],
     "pathogenesis": "",
     "treatment": "",
-    "formula_ids": [],
+    "formula_ids": [
+      "四逆汤"
+    ],
     "contraindications": [],
     "secondary_symptoms": [],
     "tongue": null,
@@ -7815,7 +7974,9 @@
     ],
     "pathogenesis": "",
     "treatment": "",
-    "formula_ids": [],
+    "formula_ids": [
+      "四逆汤"
+    ],
     "contraindications": [],
     "secondary_symptoms": [],
     "tongue": null,
@@ -8458,7 +8619,10 @@
     "pulse": [],
     "pathogenesis": "",
     "treatment": "",
-    "formula_ids": [],
+    "formula_ids": [
+      "当归四逆加吴茱萸生姜汤",
+      "四逆加吴茱萸生薑汤"
+    ],
     "contraindications": [],
     "secondary_symptoms": [],
     "tongue": null,
@@ -8535,7 +8699,9 @@
     "pulse": [],
     "pathogenesis": "",
     "treatment": "",
-    "formula_ids": [],
+    "formula_ids": [
+      "瓜蒂散"
+    ],
     "contraindications": [],
     "secondary_symptoms": [],
     "tongue": null,
@@ -8555,7 +8721,9 @@
     "pulse": [],
     "pathogenesis": "",
     "treatment": "",
-    "formula_ids": [],
+    "formula_ids": [
+      "茯苓甘草汤"
+    ],
     "contraindications": [],
     "secondary_symptoms": [],
     "tongue": null,
@@ -8946,7 +9114,10 @@
     "pulse": [],
     "pathogenesis": "",
     "treatment": "",
-    "formula_ids": [],
+    "formula_ids": [
+      "四逆汤",
+      "桂枝汤"
+    ],
     "contraindications": [],
     "secondary_symptoms": [],
     "tongue": null,
@@ -8992,7 +9163,9 @@
     "pulse": [],
     "pathogenesis": "",
     "treatment": "",
-    "formula_ids": [],
+    "formula_ids": [
+      "小承气汤"
+    ],
     "contraindications": [],
     "secondary_symptoms": [],
     "tongue": null,
@@ -9015,7 +9188,9 @@
     "pulse": [],
     "pathogenesis": "",
     "treatment": "",
-    "formula_ids": [],
+    "formula_ids": [
+      "栀子豉汤"
+    ],
     "contraindications": [],
     "secondary_symptoms": [],
     "tongue": null,
@@ -9285,7 +9460,8 @@
     "treatment": "",
     "formula_ids": [
       "五苓散",
-      "理中丸"
+      "理中丸",
+      "人参汤"
     ],
     "contraindications": [],
     "secondary_symptoms": [],
@@ -9309,7 +9485,9 @@
     "pulse": [],
     "pathogenesis": "",
     "treatment": "",
-    "formula_ids": [],
+    "formula_ids": [
+      "桂枝汤"
+    ],
     "contraindications": [],
     "secondary_symptoms": [],
     "tongue": null,
@@ -9397,7 +9575,8 @@
     "pathogenesis": "",
     "treatment": "",
     "formula_ids": [
-      "通脉四逆加猪胆汁汤"
+      "通脉四逆加猪胆汁汤",
+      "四逆加猪胆汁汤"
     ],
     "contraindications": [],
     "secondary_symptoms": [],
@@ -9440,7 +9619,9 @@
     "pulse": [],
     "pathogenesis": "",
     "treatment": "",
-    "formula_ids": [],
+    "formula_ids": [
+      "烧褌散"
+    ],
     "contraindications": [],
     "secondary_symptoms": [],
     "tongue": null,
@@ -9531,7 +9712,9 @@
     "pulse": [],
     "pathogenesis": "",
     "treatment": "",
-    "formula_ids": [],
+    "formula_ids": [
+      "理中丸"
+    ],
     "contraindications": [],
     "secondary_symptoms": [],
     "tongue": null,
@@ -10386,7 +10569,9 @@
     "pulse": [],
     "pathogenesis": "",
     "treatment": "",
-    "formula_ids": [],
+    "formula_ids": [
+      "麻黄加朮汤"
+    ],
     "contraindications": [],
     "secondary_symptoms": [],
     "tongue": null,
@@ -10409,7 +10594,9 @@
     "pulse": [],
     "pathogenesis": "",
     "treatment": "",
-    "formula_ids": [],
+    "formula_ids": [
+      "麻黄杏仁薏苡甘草汤"
+    ],
     "contraindications": [],
     "secondary_symptoms": [],
     "tongue": null,
@@ -10436,7 +10623,9 @@
     ],
     "pathogenesis": "",
     "treatment": "",
-    "formula_ids": [],
+    "formula_ids": [
+      "防己黄芪汤"
+    ],
     "contraindications": [],
     "secondary_symptoms": [],
     "tongue": null,
@@ -10463,7 +10652,8 @@
     "treatment": "",
     "formula_ids": [
       "桂枝附子汤",
-      "去桂加白术汤"
+      "去桂加白术汤",
+      "白朮附子汤"
     ],
     "contraindications": [],
     "secondary_symptoms": [],
@@ -10660,7 +10850,7 @@
     "pathogenesis": "",
     "treatment": "",
     "formula_ids": [
-      "用后方"
+      "百合鸡子汤"
     ],
     "contraindications": [],
     "secondary_symptoms": [],
@@ -10705,7 +10895,9 @@
     "pulse": [],
     "pathogenesis": "",
     "treatment": "",
-    "formula_ids": [],
+    "formula_ids": [
+      "百合洗方"
+    ],
     "contraindications": [],
     "secondary_symptoms": [],
     "tongue": null,
@@ -10862,7 +11054,8 @@
     "pathogenesis": "",
     "treatment": "",
     "formula_ids": [
-      "赤小豆当归散"
+      "当归散",
+      "赤豆当归散"
     ],
     "contraindications": [],
     "secondary_symptoms": [],
@@ -10949,7 +11142,9 @@
     "pulse": [],
     "pathogenesis": "",
     "treatment": "",
-    "formula_ids": [],
+    "formula_ids": [
+      "鳖甲煎丸"
+    ],
     "contraindications": [],
     "secondary_symptoms": [],
     "tongue": null,
@@ -11066,7 +11261,9 @@
     ],
     "pathogenesis": "",
     "treatment": "",
-    "formula_ids": [],
+    "formula_ids": [
+      "侯氏黑散"
+    ],
     "contraindications": [],
     "secondary_symptoms": [],
     "tongue": null,
@@ -11093,7 +11290,11 @@
     ],
     "pathogenesis": "",
     "treatment": "",
-    "formula_ids": [],
+    "formula_ids": [
+      "头风摩散方",
+      "防己地黄汤",
+      "风引汤"
+    ],
     "contraindications": [],
     "secondary_symptoms": [],
     "tongue": null,
@@ -11266,7 +11467,11 @@
     "pathogenesis": "",
     "treatment": "",
     "formula_ids": [
-      "乌头汤"
+      "乌头汤",
+      "三黄汤",
+      "崔氏八味丸",
+      "矾石汤",
+      "续命汤"
     ],
     "contraindications": [],
     "secondary_symptoms": [],
@@ -11310,7 +11515,7 @@
     "pathogenesis": "",
     "treatment": "",
     "formula_ids": [
-      "桂枝五物汤"
+      "黄耆桂枝五物汤"
     ],
     "contraindications": [],
     "secondary_symptoms": [],
@@ -11453,7 +11658,9 @@
     "pathogenesis": "",
     "treatment": "",
     "formula_ids": [
-      "桂枝龙骨牡蛎汤"
+      "牡蛎汤",
+      "天雄散",
+      "桂枝加龙骨牡蛎汤"
     ],
     "contraindications": [],
     "secondary_symptoms": [],
@@ -11597,7 +11804,7 @@
     "pathogenesis": "",
     "treatment": "",
     "formula_ids": [
-      "建中汤"
+      "大建中汤"
     ],
     "contraindications": [],
     "secondary_symptoms": [],
@@ -11621,7 +11828,7 @@
     "pathogenesis": "",
     "treatment": "",
     "formula_ids": [
-      "八味肾气丸"
+      "肾气丸"
     ],
     "contraindications": [],
     "secondary_symptoms": [],
@@ -11643,7 +11850,7 @@
     "pathogenesis": "",
     "treatment": "",
     "formula_ids": [
-      "薯蓣丸方"
+      "薯蓣丸"
     ],
     "contraindications": [],
     "secondary_symptoms": [],
@@ -11667,7 +11874,7 @@
     "pathogenesis": "",
     "treatment": "",
     "formula_ids": [
-      "酸枣汤"
+      "酸枣仁汤"
     ],
     "contraindications": [],
     "secondary_symptoms": [],
@@ -11694,7 +11901,7 @@
     "pathogenesis": "",
     "treatment": "",
     "formula_ids": [
-      "虫丸"
+      "大黄䗪虫丸"
     ],
     "contraindications": [],
     "secondary_symptoms": [],
@@ -11886,7 +12093,7 @@
     "pathogenesis": "",
     "treatment": "",
     "formula_ids": [
-      "浓朴麻黄汤"
+      "厚朴麻黄汤"
     ],
     "contraindications": [],
     "secondary_symptoms": [],
@@ -12040,7 +12247,8 @@
     "pathogenesis": "",
     "treatment": "",
     "formula_ids": [
-      "小青龙加石膏汤"
+      "小青龙加石膏汤",
+      "桂枝去芍药加皂荚汤"
     ],
     "contraindications": [],
     "secondary_symptoms": [],
@@ -12132,7 +12340,7 @@
     "pathogenesis": "",
     "treatment": "",
     "formula_ids": [
-      "加桂汤"
+      "桂枝加桂汤"
     ],
     "contraindications": [],
     "secondary_symptoms": [],
@@ -12247,7 +12455,9 @@
     "pulse": [],
     "pathogenesis": "",
     "treatment": "",
-    "formula_ids": [],
+    "formula_ids": [
+      "栝蒌薤白半夏汤"
+    ],
     "contraindications": [],
     "secondary_symptoms": [],
     "tongue": null,
@@ -12292,7 +12502,8 @@
     "pathogenesis": "",
     "treatment": "",
     "formula_ids": [
-      "茯苓杏仁甘草汤"
+      "茯苓杏仁甘草汤",
+      "橘枳薑汤"
     ],
     "contraindications": [],
     "secondary_symptoms": [],
@@ -12336,7 +12547,7 @@
     "pathogenesis": "",
     "treatment": "",
     "formula_ids": [
-      "桂枝生姜枳实汤"
+      "桂枝生薑枳实汤"
     ],
     "contraindications": [],
     "secondary_symptoms": [],
@@ -12358,7 +12569,9 @@
     "pathogenesis": "",
     "treatment": "",
     "formula_ids": [
-      "乌头赤石脂丸"
+      "乌头赤石脂丸",
+      "九痛丸",
+      "赤石脂丸"
     ],
     "contraindications": [],
     "secondary_symptoms": [],
@@ -12563,7 +12776,7 @@
     "pathogenesis": "",
     "treatment": "",
     "formula_ids": [
-      "浓朴七物汤"
+      "厚朴七物汤"
     ],
     "contraindications": [],
     "secondary_symptoms": [],
@@ -12610,7 +12823,7 @@
     "pathogenesis": "",
     "treatment": "",
     "formula_ids": [
-      "浓朴三物汤"
+      "厚朴三物汤"
     ],
     "contraindications": [],
     "secondary_symptoms": [],
@@ -12701,7 +12914,9 @@
     ],
     "pathogenesis": "",
     "treatment": "",
-    "formula_ids": [],
+    "formula_ids": [
+      "大黄附子汤"
+    ],
     "contraindications": [],
     "secondary_symptoms": [],
     "tongue": null,
@@ -12753,7 +12968,9 @@
     ],
     "pathogenesis": "",
     "treatment": "",
-    "formula_ids": [],
+    "formula_ids": [
+      "大乌头煎"
+    ],
     "contraindications": [],
     "secondary_symptoms": [],
     "tongue": null,
@@ -12774,7 +12991,7 @@
     "pathogenesis": "",
     "treatment": "",
     "formula_ids": [
-      "当归生姜羊肉汤"
+      "当归生薑羊肉汤"
     ],
     "contraindications": [],
     "secondary_symptoms": [],
@@ -13110,7 +13327,7 @@
     "pathogenesis": "",
     "treatment": "",
     "formula_ids": [
-      "旋复花汤"
+      "旋覆花汤"
     ],
     "contraindications": [],
     "secondary_symptoms": [],
@@ -13318,7 +13535,7 @@
     "pathogenesis": "",
     "treatment": "",
     "formula_ids": [
-      "甘姜苓术汤"
+      "甘薑苓朮汤"
     ],
     "contraindications": [],
     "secondary_symptoms": [],
@@ -13752,7 +13969,9 @@
     "pathogenesis": "",
     "treatment": "",
     "formula_ids": [
-      "苓桂术甘汤"
+      "茯苓桂枝白术甘草汤",
+      "苓桂朮甘汤",
+      "茯苓桂枝白甘草汤"
     ],
     "contraindications": [],
     "secondary_symptoms": [],
@@ -13776,7 +13995,7 @@
     "pathogenesis": "",
     "treatment": "",
     "formula_ids": [
-      "苓桂术甘汤"
+      "茯苓桂枝白术甘草汤"
     ],
     "contraindications": [],
     "secondary_symptoms": [],
@@ -13943,8 +14162,8 @@
     "pathogenesis": "",
     "treatment": "",
     "formula_ids": [
-      "己汤",
-      "去石膏加茯苓芒硝汤"
+      "木防己汤",
+      "木防己汤去石膏加茯苓芒硝汤"
     ],
     "contraindications": [],
     "secondary_symptoms": [],
@@ -13988,7 +14207,7 @@
     "pathogenesis": "",
     "treatment": "",
     "formula_ids": [
-      "浓朴大黄汤"
+      "厚朴大黄汤"
     ],
     "contraindications": [],
     "secondary_symptoms": [],
@@ -14084,7 +14303,8 @@
     "pathogenesis": "",
     "treatment": "",
     "formula_ids": [
-      "小半夏加茯苓汤"
+      "小半夏加茯苓汤",
+      "小半夏茯苓汤"
     ],
     "contraindications": [],
     "secondary_symptoms": [],
@@ -14227,7 +14447,9 @@
     ],
     "pathogenesis": "",
     "treatment": "",
-    "formula_ids": [],
+    "formula_ids": [
+      "茯苓桂枝五味甘草汤"
+    ],
     "contraindications": [],
     "secondary_symptoms": [],
     "tongue": null,
@@ -14247,7 +14469,9 @@
     "pulse": [],
     "pathogenesis": "",
     "treatment": "",
-    "formula_ids": [],
+    "formula_ids": [
+      "桂苓五味甘草汤去桂加乾薑、细辛"
+    ],
     "contraindications": [],
     "secondary_symptoms": [],
     "tongue": null,
@@ -14583,7 +14807,9 @@
     "pathogenesis": "",
     "treatment": "",
     "formula_ids": [
-      "蒲灰散"
+      "蒲灰散",
+      "滑石白鱼散",
+      "茯苓戎盐汤"
     ],
     "contraindications": [],
     "secondary_symptoms": [],
@@ -14771,7 +14997,7 @@
     "pathogenesis": "",
     "treatment": "",
     "formula_ids": [
-      "术汤"
+      "越婢加朮汤"
     ],
     "contraindications": [],
     "secondary_symptoms": [],
@@ -15236,7 +15462,8 @@
     "pathogenesis": "",
     "treatment": "",
     "formula_ids": [
-      "越婢加术汤"
+      "越婢加朮汤",
+      "甘草麻黄汤"
     ],
     "contraindications": [],
     "secondary_symptoms": [],
@@ -15259,7 +15486,9 @@
     ],
     "pathogenesis": "",
     "treatment": "",
-    "formula_ids": [],
+    "formula_ids": [
+      "麻黄附子汤"
+    ],
     "contraindications": [],
     "secondary_symptoms": [],
     "tongue": null,
@@ -15306,7 +15535,7 @@
     "pathogenesis": "",
     "treatment": "",
     "formula_ids": [
-      "芍桂酒汤"
+      "耆芍桂酒汤"
     ],
     "contraindications": [],
     "secondary_symptoms": [],
@@ -15334,7 +15563,9 @@
     "pulse": [],
     "pathogenesis": "",
     "treatment": "",
-    "formula_ids": [],
+    "formula_ids": [
+      "桂枝加黄耆汤"
+    ],
     "contraindications": [],
     "secondary_symptoms": [],
     "tongue": null,
@@ -15383,7 +15614,7 @@
     "pathogenesis": "",
     "treatment": "",
     "formula_ids": [
-      "枝去芍加麻辛附子汤"
+      "附子汤"
     ],
     "contraindications": [],
     "secondary_symptoms": [],
@@ -15409,7 +15640,7 @@
     "pathogenesis": "",
     "treatment": "",
     "formula_ids": [
-      "枳术汤"
+      "枳朮汤"
     ],
     "contraindications": [],
     "secondary_symptoms": [],
@@ -15804,7 +16035,10 @@
     "pulse": [],
     "pathogenesis": "",
     "treatment": "",
-    "formula_ids": [],
+    "formula_ids": [
+      "猪膏髮煎",
+      "膏髮煎"
+    ],
     "contraindications": [],
     "secondary_symptoms": [],
     "tongue": null,
@@ -15851,7 +16085,9 @@
     "pulse": [],
     "pathogenesis": "",
     "treatment": "",
-    "formula_ids": [],
+    "formula_ids": [
+      "大黄硝石汤"
+    ],
     "contraindications": [],
     "secondary_symptoms": [],
     "tongue": null,
@@ -15925,7 +16161,9 @@
     "pulse": [],
     "pathogenesis": "",
     "treatment": "",
-    "formula_ids": [],
+    "formula_ids": [
+      "麻黄醇酒汤"
+    ],
     "contraindications": [],
     "secondary_symptoms": [],
     "tongue": null,
@@ -16202,7 +16440,7 @@
     "pathogenesis": "",
     "treatment": "",
     "formula_ids": [
-      "蜀漆牡蛎龙骨救逆汤"
+      "桂枝去芍药加蜀漆牡蛎龙骨救逆汤"
     ],
     "contraindications": [],
     "secondary_symptoms": [],
@@ -16300,7 +16538,7 @@
     "pathogenesis": "",
     "treatment": "",
     "formula_ids": [
-      "赤小豆当归散"
+      "当归散"
     ],
     "contraindications": [],
     "secondary_symptoms": [],
@@ -16580,7 +16818,7 @@
     "pathogenesis": "",
     "treatment": "",
     "formula_ids": [
-      "黄芩加半夏生姜汤"
+      "黄芩加半夏生薑汤"
     ],
     "contraindications": [],
     "secondary_symptoms": [],
@@ -16809,7 +17047,7 @@
     "pathogenesis": "",
     "treatment": "",
     "formula_ids": [
-      "半夏干姜散"
+      "半夏乾薑散"
     ],
     "contraindications": [],
     "secondary_symptoms": [],
@@ -16834,7 +17072,7 @@
     "pathogenesis": "",
     "treatment": "",
     "formula_ids": [
-      "生姜半夏汤"
+      "生薑半夏汤"
     ],
     "contraindications": [],
     "secondary_symptoms": [],
@@ -16860,7 +17098,7 @@
     "pathogenesis": "",
     "treatment": "",
     "formula_ids": [
-      "桔皮汤"
+      "橘皮汤"
     ],
     "contraindications": [],
     "secondary_symptoms": [],
@@ -16884,7 +17122,7 @@
     "pathogenesis": "",
     "treatment": "",
     "formula_ids": [
-      "桔皮竹茹汤"
+      "橘皮竹茹汤"
     ],
     "contraindications": [],
     "secondary_symptoms": [],
@@ -17525,7 +17763,7 @@
     "pathogenesis": "",
     "treatment": "",
     "formula_ids": [
-      "附子败酱散"
+      "薏苡附子败酱散"
     ],
     "contraindications": [],
     "secondary_symptoms": [],
@@ -17556,7 +17794,7 @@
     "pathogenesis": "",
     "treatment": "",
     "formula_ids": [
-      "牡丹汤"
+      "大黄牡丹汤"
     ],
     "contraindications": [],
     "secondary_symptoms": [],
@@ -17602,7 +17840,8 @@
     "pathogenesis": "",
     "treatment": "",
     "formula_ids": [
-      "王不留行散"
+      "王不留行散",
+      "排脓散"
     ],
     "contraindications": [],
     "secondary_symptoms": [],
@@ -17643,7 +17882,9 @@
     "pulse": [],
     "pathogenesis": "",
     "treatment": "",
-    "formula_ids": [],
+    "formula_ids": [
+      "黄连粉"
+    ],
     "contraindications": [],
     "secondary_symptoms": [],
     "tongue": null,
@@ -17918,7 +18159,9 @@
     "pulse": [],
     "pathogenesis": "",
     "treatment": "",
-    "formula_ids": [],
+    "formula_ids": [
+      "胶艾汤"
+    ],
     "contraindications": [],
     "secondary_symptoms": [],
     "tongue": null,
@@ -17964,7 +18207,7 @@
     "pathogenesis": "",
     "treatment": "",
     "formula_ids": [
-      "干姜人参半夏丸"
+      "乾薑人参半夏丸"
     ],
     "contraindications": [],
     "secondary_symptoms": [],
@@ -18034,7 +18277,7 @@
     "pathogenesis": "",
     "treatment": "",
     "formula_ids": [
-      "宜常服当归散"
+      "当归散"
     ],
     "contraindications": [],
     "secondary_symptoms": [],
@@ -18059,7 +18302,7 @@
     "pathogenesis": "",
     "treatment": "",
     "formula_ids": [
-      "白术散"
+      "白朮散"
     ],
     "contraindications": [],
     "secondary_symptoms": [],
@@ -18176,7 +18419,7 @@
     "pathogenesis": "",
     "treatment": "",
     "formula_ids": [
-      "当归生姜羊肉汤"
+      "当归生薑羊肉汤"
     ],
     "contraindications": [],
     "secondary_symptoms": [],
@@ -18225,7 +18468,7 @@
     "pathogenesis": "",
     "treatment": "",
     "formula_ids": [
-      "宜下瘀血汤"
+      "下瘀血汤"
     ],
     "contraindications": [],
     "secondary_symptoms": [],
@@ -18252,7 +18495,7 @@
     "pathogenesis": "",
     "treatment": "",
     "formula_ids": [
-      "宜大承气汤"
+      "大承气汤"
     ],
     "contraindications": [],
     "secondary_symptoms": [],
@@ -18278,7 +18521,9 @@
     "pulse": [],
     "pathogenesis": "",
     "treatment": "",
-    "formula_ids": [],
+    "formula_ids": [
+      "阳旦汤"
+    ],
     "contraindications": [],
     "secondary_symptoms": [],
     "tongue": null,
@@ -18356,8 +18601,7 @@
     "pathogenesis": "",
     "treatment": "",
     "formula_ids": [
-      "白头翁加甘草阿胶汤",
-      "此汤"
+      "白头翁加甘草阿胶汤"
     ],
     "contraindications": [],
     "secondary_symptoms": [],
@@ -18476,7 +18720,7 @@
     "pathogenesis": "",
     "treatment": "",
     "formula_ids": [
-      "半夏浓朴汤"
+      "半夏厚朴汤"
     ],
     "contraindications": [],
     "secondary_symptoms": [],
@@ -18576,7 +18820,7 @@
     "pathogenesis": "",
     "treatment": "",
     "formula_ids": [
-      "当以温经汤"
+      "温经汤"
     ],
     "contraindications": [],
     "secondary_symptoms": [],
@@ -18624,7 +18868,7 @@
     "pathogenesis": "",
     "treatment": "",
     "formula_ids": [
-      "旋复花汤"
+      "旋覆花汤"
     ],
     "contraindications": [],
     "secondary_symptoms": [],
@@ -18646,7 +18890,7 @@
     "pathogenesis": "",
     "treatment": "",
     "formula_ids": [
-      "胶姜汤"
+      "胶薑汤"
     ],
     "contraindications": [],
     "secondary_symptoms": [],
@@ -18735,7 +18979,9 @@
     "pulse": [],
     "pathogenesis": "",
     "treatment": "",
-    "formula_ids": [],
+    "formula_ids": [
+      "红蓝花酒"
+    ],
     "contraindications": [],
     "secondary_symptoms": [],
     "tongue": null,
@@ -18803,7 +19049,7 @@
     "pathogenesis": "",
     "treatment": "",
     "formula_ids": [
-      "宜肾气丸"
+      "肾气丸"
     ],
     "contraindications": [],
     "secondary_symptoms": [],
@@ -18848,7 +19094,9 @@
     ],
     "pathogenesis": "",
     "treatment": "",
-    "formula_ids": [],
+    "formula_ids": [
+      "狼牙汤"
+    ],
     "contraindications": [],
     "secondary_symptoms": [],
     "tongue": null,
@@ -18888,7 +19136,9 @@
     "pulse": [],
     "pathogenesis": "",
     "treatment": "",
-    "formula_ids": [],
+    "formula_ids": [
+      "柴胡饮子"
+    ],
     "contraindications": [],
     "secondary_symptoms": [],
     "tongue": null,
@@ -18908,7 +19158,9 @@
     "pulse": [],
     "pathogenesis": "",
     "treatment": "",
-    "formula_ids": [],
+    "formula_ids": [
+      "诃黎勒丸"
+    ],
     "contraindications": [],
     "secondary_symptoms": [],
     "tongue": null,
@@ -18931,7 +19183,9 @@
     "pulse": [],
     "pathogenesis": "",
     "treatment": "",
-    "formula_ids": [],
+    "formula_ids": [
+      "三物备急丸"
+    ],
     "contraindications": [],
     "secondary_symptoms": [],
     "tongue": null,
@@ -18951,7 +19205,9 @@
     "pulse": [],
     "pathogenesis": "",
     "treatment": "",
-    "formula_ids": [],
+    "formula_ids": [
+      "紫石寒食散"
+    ],
     "contraindications": [],
     "secondary_symptoms": [],
     "tongue": null,
@@ -19116,7 +19372,7 @@
     "pathogenesis": "",
     "treatment": "",
     "formula_ids": [
-      "救卒死客忤死还魂汤"
+      "还魂汤"
     ],
     "contraindications": [],
     "secondary_symptoms": [],

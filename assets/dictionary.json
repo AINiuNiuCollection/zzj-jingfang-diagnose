@@ -407,7 +407,46 @@
     "鼻塞": "鼻鸣",
     "鼻子不通气": "鼻鸣",
     "鼻痒": "鼻痒",
-    "鼾声如雷": "鼻息必鼐"
+    "鼾声如雷": "鼻息必鼐",
+    "食多不化": "谷不化",
+    "吃多不消化": "食不化",
+    "多食不化": "食不化",
+    "不知道饿": "食不下",
+    "不觉得饿": "食不下",
+    "没有饥饿感": "食不下",
+    "不知道饥饿": "食不下",
+    "胃口好": "消谷引食",
+    "食欲亢进": "消谷引食",
+    "喜多吃": "消谷引食",
+    "消谷": "消谷引食",
+    "嗳气臭": "干噫食臭",
+    "打嗝臭": "干噫食臭",
+    "嗳气有食物味": "干噫食臭",
+    "矢气多": "矢气频",
+    "放屁臭": "矢气臭",
+    "肚子咕噜响": "肠鸣",
+    "肚子有水声": "胁下有水气",
+    "腹鸣": "肠鸣",
+    "肠鸣": "肠鸣",
+    "肠鸣音亢进": "肠鸣",
+    "水声": "胁下有水气",
+    "腹诊按揉有水声": "胁下有水气",
+    "大便不爽": "大便硬",
+    "大便不畅": "大便硬",
+    "小便黄": "小便不利",
+    "小便少": "小便不利",
+    "小便黄少": "小便不利",
+    "小便热痛": "小便不利",
+    "口渴不欲饮": "渴不欲饮",
+    "不渴不饮水": "不渴",
+    "口不渴": "不渴",
+    "不渴": "不渴",
+    "脾气暴躁": "善怒",
+    "易怒": "善怒",
+    "极度消瘦": "羸瘦",
+    "舌根黄厚": "舌黄",
+    "舌尖凹陷": "心气不足",
+    "易醒多梦": "心烦"
   },
   "negation_mapping": {
     "无汗": "汗出",
@@ -434,64 +473,941 @@
   },
   "six_channel_keywords": {
     "太阳": [
-      "恶寒",
-      "发热",
-      "头痛",
-      "项背强",
-      "脉浮",
-      "身疼痛",
-      "喘",
-      "呕逆",
-      "身痒"
+      {
+        "keyword": "恶寒",
+        "weight": 3.0,
+        "source": "提纲条文"
+      },
+      {
+        "keyword": "发热",
+        "weight": 3.0,
+        "source": "提纲条文"
+      },
+      {
+        "keyword": "头痛",
+        "weight": 3.0,
+        "source": "提纲条文"
+      },
+      {
+        "keyword": "项背强",
+        "weight": 3.0,
+        "source": "提纲条文"
+      },
+      {
+        "keyword": "脉浮",
+        "weight": 3.0,
+        "source": "提纲条文"
+      },
+      {
+        "keyword": "身疼痛",
+        "weight": 2.0,
+        "source": "经典条文"
+      },
+      {
+        "keyword": "喘",
+        "weight": 2.0,
+        "source": "麻黄汤方证"
+      },
+      {
+        "keyword": "呕逆",
+        "weight": 2.0,
+        "source": "经典条文"
+      },
+      {
+        "keyword": "身痒",
+        "weight": 1.5,
+        "source": "经典条文"
+      },
+      {
+        "keyword": "汗出",
+        "weight": 2.0,
+        "source": "桂枝汤方证"
+      },
+      {
+        "keyword": "无汗",
+        "weight": 2.0,
+        "source": "麻黄汤方证"
+      },
+      {
+        "keyword": "恶风",
+        "weight": 2.0,
+        "source": "桂枝汤方证"
+      },
+      {
+        "keyword": "翕翕发热",
+        "weight": 2.0,
+        "source": "桂枝汤方证"
+      },
+      {
+        "keyword": "鼻鸣",
+        "weight": 1.5,
+        "source": "桂枝汤方证"
+      },
+      {
+        "keyword": "干呕",
+        "weight": 1.5,
+        "source": "经典条文"
+      },
+      {
+        "keyword": "项背强急",
+        "weight": 1.0,
+        "source": "经典条文"
+      },
+      {
+        "keyword": "脉浮紧",
+        "weight": 2.0,
+        "source": "麻黄汤方证"
+      },
+      {
+        "keyword": "脉浮缓",
+        "weight": 2.0,
+        "source": "桂枝汤方证"
+      },
+      {
+        "keyword": "脉浮数",
+        "weight": 1.0,
+        "source": "经典条文"
+      },
+      {
+        "keyword": "脉浮弱",
+        "weight": 1.5,
+        "source": "桂枝汤方证"
+      },
+      {
+        "keyword": "脉浮滑",
+        "weight": 1.0,
+        "source": "经典条文"
+      },
+      {
+        "keyword": "小便不利",
+        "weight": 1.5,
+        "source": "经典条文"
+      },
+      {
+        "keyword": "渴欲饮水",
+        "weight": 1.0,
+        "source": "经典条文"
+      },
+      {
+        "keyword": "水入则吐",
+        "weight": 1.0,
+        "source": "经典条文"
+      },
+      {
+        "keyword": "心下悸",
+        "weight": 1.5,
+        "source": "经典条文"
+      },
+      {
+        "keyword": "心下逆满",
+        "weight": 1.0,
+        "source": "经典条文"
+      },
+      {
+        "keyword": "气上冲胸",
+        "weight": 1.0,
+        "source": "经典条文"
+      },
+      {
+        "keyword": "烦躁",
+        "weight": 1.0,
+        "source": "经典条文"
+      },
+      {
+        "keyword": "不汗出而烦躁",
+        "weight": 1.0,
+        "source": "经典条文"
+      },
+      {
+        "keyword": "心下有水气",
+        "weight": 1.0,
+        "source": "经典条文"
+      },
+      {
+        "keyword": "咳而微喘",
+        "weight": 1.0,
+        "source": "经典条文"
+      },
+      {
+        "keyword": "项强",
+        "weight": 2.0,
+        "source": "经典条文"
+      },
+      {
+        "keyword": "角弓反张",
+        "weight": 1.0,
+        "source": "经典条文"
+      }
     ],
     "阳明": [
-      "大热",
-      "大汗",
-      "大渴",
-      "脉洪大",
-      "不大便",
-      "腹满痛",
-      "潮热",
-      "谵语",
-      "心下硬",
-      "胃家实"
+      {
+        "keyword": "大热",
+        "weight": 2.0,
+        "source": "白虎汤方证"
+      },
+      {
+        "keyword": "大汗",
+        "weight": 2.0,
+        "source": "白虎汤方证"
+      },
+      {
+        "keyword": "大渴",
+        "weight": 2.0,
+        "source": "白虎汤方证"
+      },
+      {
+        "keyword": "脉洪大",
+        "weight": 2.0,
+        "source": "白虎汤方证"
+      },
+      {
+        "keyword": "不大便",
+        "weight": 2.0,
+        "source": "承气汤方证"
+      },
+      {
+        "keyword": "腹满痛",
+        "weight": 2.0,
+        "source": "承气汤方证"
+      },
+      {
+        "keyword": "潮热",
+        "weight": 2.0,
+        "source": "承气汤方证"
+      },
+      {
+        "keyword": "谵语",
+        "weight": 2.0,
+        "source": "承气汤方证"
+      },
+      {
+        "keyword": "心下硬",
+        "weight": 2.0,
+        "source": "承气汤方证"
+      },
+      {
+        "keyword": "胃家实",
+        "weight": 3.0,
+        "source": "提纲条文"
+      },
+      {
+        "keyword": "身热",
+        "weight": 3.0,
+        "source": "提纲条文"
+      },
+      {
+        "keyword": "汗自出",
+        "weight": 3.0,
+        "source": "提纲条文"
+      },
+      {
+        "keyword": "不恶寒",
+        "weight": 3.0,
+        "source": "提纲条文"
+      },
+      {
+        "keyword": "反恶热",
+        "weight": 3.0,
+        "source": "提纲条文"
+      },
+      {
+        "keyword": "蒸蒸发热",
+        "weight": 2.0,
+        "source": "承气汤方证"
+      },
+      {
+        "keyword": "心烦",
+        "weight": 1.0,
+        "source": "经典条文"
+      },
+      {
+        "keyword": "口渴",
+        "weight": 1.5,
+        "source": "经典条文"
+      },
+      {
+        "keyword": "大便硬",
+        "weight": 2.0,
+        "source": "承气汤方证"
+      },
+      {
+        "keyword": "大便难",
+        "weight": 1.0,
+        "source": "经典条文"
+      },
+      {
+        "keyword": "大便不通",
+        "weight": 1.0,
+        "source": "经典条文"
+      },
+      {
+        "keyword": "腹满",
+        "weight": 2.0,
+        "source": "承气汤方证"
+      },
+      {
+        "keyword": "消谷引食",
+        "weight": 2.0,
+        "source": "经典条文"
+      },
+      {
+        "keyword": "发黄",
+        "weight": 1.0,
+        "source": "经典条文"
+      },
+      {
+        "keyword": "身黄",
+        "weight": 1.0,
+        "source": "经典条文"
+      },
+      {
+        "keyword": "小便不利",
+        "weight": 1.5,
+        "source": "经典条文"
+      },
+      {
+        "keyword": "脉沉实",
+        "weight": 2.0,
+        "source": "承气汤方证"
+      },
+      {
+        "keyword": "脉滑数",
+        "weight": 1.0,
+        "source": "经典条文"
+      },
+      {
+        "keyword": "脉大",
+        "weight": 2.0,
+        "source": "白虎汤方证"
+      },
+      {
+        "keyword": "脉迟",
+        "weight": 1.0,
+        "source": "经典条文"
+      },
+      {
+        "keyword": "哕",
+        "weight": 1.0,
+        "source": "经典条文"
+      },
+      {
+        "keyword": "不能食",
+        "weight": 1.5,
+        "source": "经典条文"
+      },
+      {
+        "keyword": "面合色赤",
+        "weight": 1.0,
+        "source": "经典条文"
+      },
+      {
+        "keyword": "直视",
+        "weight": 1.0,
+        "source": "经典条文"
+      }
     ],
     "少阳": [
-      "往来寒热",
-      "胸胁苦满",
-      "口苦",
-      "咽干",
-      "目眩",
-      "脉弦",
-      "心烦喜呕"
+      {
+        "keyword": "往来寒热",
+        "weight": 2.0,
+        "source": "小柴胡汤方证"
+      },
+      {
+        "keyword": "胸胁苦满",
+        "weight": 2.0,
+        "source": "小柴胡汤方证"
+      },
+      {
+        "keyword": "口苦",
+        "weight": 3.0,
+        "source": "提纲条文"
+      },
+      {
+        "keyword": "咽干",
+        "weight": 3.0,
+        "source": "提纲条文"
+      },
+      {
+        "keyword": "目眩",
+        "weight": 3.0,
+        "source": "提纲条文"
+      },
+      {
+        "keyword": "脉弦",
+        "weight": 2.0,
+        "source": "小柴胡汤方证"
+      },
+      {
+        "keyword": "心烦喜呕",
+        "weight": 2.0,
+        "source": "小柴胡汤方证"
+      },
+      {
+        "keyword": "默默",
+        "weight": 1.0,
+        "source": "经典条文"
+      },
+      {
+        "keyword": "不欲饮食",
+        "weight": 1.0,
+        "source": "经典条文"
+      },
+      {
+        "keyword": "胸胁满",
+        "weight": 2.0,
+        "source": "小柴胡汤方证"
+      },
+      {
+        "keyword": "胁下硬满",
+        "weight": 2.0,
+        "source": "小柴胡汤方证"
+      },
+      {
+        "keyword": "胁下痞硬",
+        "weight": 2.0,
+        "source": "小柴胡汤方证"
+      },
+      {
+        "keyword": "口苦咽干",
+        "weight": 1.0,
+        "source": "经典条文"
+      },
+      {
+        "keyword": "目赤",
+        "weight": 1.5,
+        "source": "经典条文"
+      },
+      {
+        "keyword": "脉弦细",
+        "weight": 2.0,
+        "source": "小柴胡汤方证"
+      },
+      {
+        "keyword": "脉弦数",
+        "weight": 1.0,
+        "source": "经典条文"
+      },
+      {
+        "keyword": "耳聋",
+        "weight": 1.5,
+        "source": "经典条文"
+      },
+      {
+        "keyword": "目赤耳聋",
+        "weight": 1.0,
+        "source": "经典条文"
+      },
+      {
+        "keyword": "善怒",
+        "weight": 1.0,
+        "source": "经典条文"
+      }
     ],
     "太阴": [
-      "腹满而吐",
-      "食不下",
-      "自利",
-      "腹满",
-      "脉缓弱",
-      "时腹自痛",
-      "手足温",
-      "下利"
+      {
+        "keyword": "腹满而吐",
+        "weight": 3.0,
+        "source": "提纲条文"
+      },
+      {
+        "keyword": "食不下",
+        "weight": 3.0,
+        "source": "提纲条文"
+      },
+      {
+        "keyword": "自利",
+        "weight": 3.0,
+        "source": "提纲条文"
+      },
+      {
+        "keyword": "腹满",
+        "weight": 3.0,
+        "source": "提纲条文"
+      },
+      {
+        "keyword": "脉缓弱",
+        "weight": 2.0,
+        "source": "提纲条文"
+      },
+      {
+        "keyword": "时腹自痛",
+        "weight": 3.0,
+        "source": "提纲条文"
+      },
+      {
+        "keyword": "手足温",
+        "weight": 2.0,
+        "source": "提纲条文"
+      },
+      {
+        "keyword": "下利",
+        "weight": 2.0,
+        "source": "经典条文"
+      },
+      {
+        "keyword": "心下痞",
+        "weight": 2.0,
+        "source": "泻心汤方证"
+      },
+      {
+        "keyword": "痞",
+        "weight": 2.0,
+        "source": "泻心汤方证"
+      },
+      {
+        "keyword": "心下痞硬",
+        "weight": 2.0,
+        "source": "泻心汤方证"
+      },
+      {
+        "keyword": "但满不痛",
+        "weight": 1.0,
+        "source": "经典条文"
+      },
+      {
+        "keyword": "食不化",
+        "weight": 1.0,
+        "source": "经典条文"
+      },
+      {
+        "keyword": "谷不化",
+        "weight": 2.5,
+        "source": "生姜泻心汤方证"
+      },
+      {
+        "keyword": "食不消",
+        "weight": 1.0,
+        "source": "经典条文"
+      },
+      {
+        "keyword": "干噫食臭",
+        "weight": 2.5,
+        "source": "生姜泻心汤方证"
+      },
+      {
+        "keyword": "噫气",
+        "weight": 2.0,
+        "source": "旋覆代赭汤方证"
+      },
+      {
+        "keyword": "恶闻食臭",
+        "weight": 1.0,
+        "source": "经典条文"
+      },
+      {
+        "keyword": "肠鸣",
+        "weight": 2.0,
+        "source": "生姜泻心汤方证"
+      },
+      {
+        "keyword": "雷鸣",
+        "weight": 1.0,
+        "source": "经典条文"
+      },
+      {
+        "keyword": "腹中雷鸣",
+        "weight": 2.0,
+        "source": "生姜泻心汤方证"
+      },
+      {
+        "keyword": "胁下有水气",
+        "weight": 2.0,
+        "source": "经典条文"
+      },
+      {
+        "keyword": "水气",
+        "weight": 1.0,
+        "source": "经典条文"
+      },
+      {
+        "keyword": "心下有水气",
+        "weight": 2.0,
+        "source": "经典条文"
+      },
+      {
+        "keyword": "膈间有水气",
+        "weight": 1.0,
+        "source": "经典条文"
+      },
+      {
+        "keyword": "胃中不和",
+        "weight": 2.0,
+        "source": "泻心汤方证"
+      },
+      {
+        "keyword": "呕",
+        "weight": 1.5,
+        "source": "经典条文"
+      },
+      {
+        "keyword": "干呕",
+        "weight": 1.5,
+        "source": "泻心汤方证"
+      },
+      {
+        "keyword": "哕",
+        "weight": 1.0,
+        "source": "经典条文"
+      },
+      {
+        "keyword": "细脉",
+        "weight": 1.0,
+        "source": "经典条文"
+      },
+      {
+        "keyword": "滑脉",
+        "weight": 1.0,
+        "source": "经典条文"
+      },
+      {
+        "keyword": "脉细",
+        "weight": 1.0,
+        "source": "经典条文"
+      },
+      {
+        "keyword": "脉滑",
+        "weight": 1.0,
+        "source": "经典条文"
+      },
+      {
+        "keyword": "脉弱",
+        "weight": 1.5,
+        "source": "经典条文"
+      },
+      {
+        "keyword": "喜按",
+        "weight": 1.0,
+        "source": "经典条文"
+      },
+      {
+        "keyword": "按之濡",
+        "weight": 1.0,
+        "source": "经典条文"
+      },
+      {
+        "keyword": "羸瘦",
+        "weight": 1.0,
+        "source": "经典条文"
+      },
+      {
+        "keyword": "虚劳",
+        "weight": 1.0,
+        "source": "经典条文"
+      },
+      {
+        "keyword": "虚羸",
+        "weight": 1.0,
+        "source": "经典条文"
+      },
+      {
+        "keyword": "不渴",
+        "weight": 1.0,
+        "source": "经典条文"
+      },
+      {
+        "keyword": "脾伤",
+        "weight": 1.0,
+        "source": "经典条文"
+      },
+      {
+        "keyword": "不磨",
+        "weight": 1.0,
+        "source": "经典条文"
+      }
     ],
     "少阴": [
-      "脉微细",
-      "但欲寐",
-      "四肢厥冷",
-      "下利清谷",
-      "恶寒",
-      "咽痛",
-      "心烦",
-      "欲吐不吐"
+      {
+        "keyword": "脉微细",
+        "weight": 3.0,
+        "source": "提纲条文"
+      },
+      {
+        "keyword": "但欲寐",
+        "weight": 3.0,
+        "source": "提纲条文"
+      },
+      {
+        "keyword": "四肢厥冷",
+        "weight": 2.0,
+        "source": "四逆汤方证"
+      },
+      {
+        "keyword": "下利清谷",
+        "weight": 2.0,
+        "source": "四逆汤方证"
+      },
+      {
+        "keyword": "恶寒",
+        "weight": 2.0,
+        "source": "提纲条文"
+      },
+      {
+        "keyword": "咽痛",
+        "weight": 1.5,
+        "source": "经典条文"
+      },
+      {
+        "keyword": "心烦",
+        "weight": 1.5,
+        "source": "经典条文"
+      },
+      {
+        "keyword": "欲吐不吐",
+        "weight": 1.5,
+        "source": "经典条文"
+      },
+      {
+        "keyword": "脉微",
+        "weight": 2.0,
+        "source": "经典条文"
+      },
+      {
+        "keyword": "脉微欲绝",
+        "weight": 2.0,
+        "source": "四逆汤方证"
+      },
+      {
+        "keyword": "脉沉",
+        "weight": 2.0,
+        "source": "麻黄附子细辛汤方证"
+      },
+      {
+        "keyword": "脉沉微",
+        "weight": 1.0,
+        "source": "经典条文"
+      },
+      {
+        "keyword": "脉沉细",
+        "weight": 2.0,
+        "source": "麻黄附子细辛汤方证"
+      },
+      {
+        "keyword": "手足厥冷",
+        "weight": 1.0,
+        "source": "经典条文"
+      },
+      {
+        "keyword": "手足逆冷",
+        "weight": 1.0,
+        "source": "经典条文"
+      },
+      {
+        "keyword": "四逆",
+        "weight": 1.0,
+        "source": "经典条文"
+      },
+      {
+        "keyword": "厥逆",
+        "weight": 1.0,
+        "source": "经典条文"
+      },
+      {
+        "keyword": "汗出不止",
+        "weight": 1.0,
+        "source": "经典条文"
+      },
+      {
+        "keyword": "汗出而厥",
+        "weight": 1.0,
+        "source": "经典条文"
+      },
+      {
+        "keyword": "下利",
+        "weight": 1.5,
+        "source": "经典条文"
+      },
+      {
+        "keyword": "自利",
+        "weight": 1.0,
+        "source": "经典条文"
+      },
+      {
+        "keyword": "便脓血",
+        "weight": 1.0,
+        "source": "经典条文"
+      },
+      {
+        "keyword": "烦躁",
+        "weight": 1.0,
+        "source": "经典条文"
+      },
+      {
+        "keyword": "烦躁不得卧",
+        "weight": 1.0,
+        "source": "经典条文"
+      },
+      {
+        "keyword": "不得卧",
+        "weight": 1.0,
+        "source": "经典条文"
+      },
+      {
+        "keyword": "面色赤",
+        "weight": 1.0,
+        "source": "经典条文"
+      },
+      {
+        "keyword": "面少赤",
+        "weight": 1.0,
+        "source": "经典条文"
+      },
+      {
+        "keyword": "身反不恶寒",
+        "weight": 1.0,
+        "source": "经典条文"
+      },
+      {
+        "keyword": "口渴",
+        "weight": 1.0,
+        "source": "经典条文"
+      },
+      {
+        "keyword": "渴欲饮水",
+        "weight": 1.0,
+        "source": "经典条文"
+      },
+      {
+        "keyword": "心下悸",
+        "weight": 2.0,
+        "source": "真武汤方证"
+      },
+      {
+        "keyword": "身瞤动",
+        "weight": 2.0,
+        "source": "真武汤方证"
+      },
+      {
+        "keyword": "身体痛",
+        "weight": 1.0,
+        "source": "经典条文"
+      },
+      {
+        "keyword": "骨节痛",
+        "weight": 1.0,
+        "source": "经典条文"
+      },
+      {
+        "keyword": "手足寒",
+        "weight": 1.0,
+        "source": "经典条文"
+      },
+      {
+        "keyword": "背恶寒",
+        "weight": 1.0,
+        "source": "经典条文"
+      }
     ],
     "厥阴": [
-      "消渴",
-      "气上撞心",
-      "心中疼热",
-      "饥而不欲食",
-      "食则吐蛔",
-      "下之利不止"
+      {
+        "keyword": "消渴",
+        "weight": 3.0,
+        "source": "提纲条文"
+      },
+      {
+        "keyword": "气上撞心",
+        "weight": 3.0,
+        "source": "提纲条文"
+      },
+      {
+        "keyword": "心中疼热",
+        "weight": 3.0,
+        "source": "提纲条文"
+      },
+      {
+        "keyword": "饥而不欲食",
+        "weight": 3.0,
+        "source": "提纲条文"
+      },
+      {
+        "keyword": "食则吐蛔",
+        "weight": 3.0,
+        "source": "提纲条文"
+      },
+      {
+        "keyword": "下之利不止",
+        "weight": 1.0,
+        "source": "经典条文"
+      },
+      {
+        "keyword": "吐蛔",
+        "weight": 2.0,
+        "source": "乌梅丸方证"
+      },
+      {
+        "keyword": "时烦时止",
+        "weight": 1.0,
+        "source": "经典条文"
+      },
+      {
+        "keyword": "得食而呕",
+        "weight": 1.0,
+        "source": "经典条文"
+      },
+      {
+        "keyword": "手足厥",
+        "weight": 1.0,
+        "source": "经典条文"
+      },
+      {
+        "keyword": "厥热胜复",
+        "weight": 1.0,
+        "source": "经典条文"
+      },
+      {
+        "keyword": "厥",
+        "weight": 1.0,
+        "source": "经典条文"
+      },
+      {
+        "keyword": "脉微",
+        "weight": 1.5,
+        "source": "经典条文"
+      },
+      {
+        "keyword": "脉细欲绝",
+        "weight": 2.0,
+        "source": "当归四逆汤方证"
+      },
+      {
+        "keyword": "脉细",
+        "weight": 1.0,
+        "source": "经典条文"
+      },
+      {
+        "keyword": "下利",
+        "weight": 1.5,
+        "source": "经典条文"
+      },
+      {
+        "keyword": "下利谵语",
+        "weight": 1.0,
+        "source": "经典条文"
+      },
+      {
+        "keyword": "热利下重",
+        "weight": 1.0,
+        "source": "经典条文"
+      },
+      {
+        "keyword": "渴欲饮水",
+        "weight": 1.5,
+        "source": "经典条文"
+      },
+      {
+        "keyword": "善怒",
+        "weight": 1.0,
+        "source": "经典条文"
+      },
+      {
+        "keyword": "心中疼热",
+        "weight": 3.0,
+        "source": "提纲条文"
+      },
+      {
+        "keyword": "心中痛",
+        "weight": 1.0,
+        "source": "经典条文"
+      }
     ]
   },
   "tongue_classical": {
@@ -500,31 +1416,41 @@
       "level": "classical",
       "source": "SHL-129/130",
       "clinical_meaning": "阳虚寒湿内结（脏结），不可攻下",
-      "related_formulas": ["小柴胡汤"]
+      "related_formulas": [
+        "小柴胡汤"
+      ]
     },
     "舌上燥而渴": {
       "level": "classical",
       "source": "SHL-137",
       "clinical_meaning": "热结在里，津液已伤",
-      "related_formulas": ["大陷胸汤"]
+      "related_formulas": [
+        "大陷胸汤"
+      ]
     },
     "舌上干燥而烦": {
       "level": "classical",
       "source": "SHL-168",
       "clinical_meaning": "热结在里，表里俱热，大渴引饮",
-      "related_formulas": ["白虎加人参汤"]
+      "related_formulas": [
+        "白虎加人参汤"
+      ]
     },
     "口干舌燥": {
       "level": "classical",
       "source": "SHL-222/JGL-14-012",
       "clinical_meaning": "阳明热盛伤津",
-      "related_formulas": ["白虎加人参汤"]
+      "related_formulas": [
+        "白虎加人参汤"
+      ]
     },
     "舌上白苔": {
       "level": "classical",
       "source": "SHL-230",
       "clinical_meaning": "少阳未解，阳明腑实未成，可与小柴胡汤",
-      "related_formulas": ["小柴胡汤"]
+      "related_formulas": [
+        "小柴胡汤"
+      ]
     },
     "舌上如苔": {
       "level": "classical",

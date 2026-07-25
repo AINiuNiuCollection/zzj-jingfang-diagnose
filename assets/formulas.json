@@ -4915,7 +4915,7 @@
   {
     "id": "F-shenqiwan",
     "name": "肾气丸",
-    "source_clause": "JGL-虚劳",
+    "source_clause": "JGL-07-015",
     "six_channel": "少阴",
     "core_indicators": [
       "腰痛",
@@ -5009,7 +5009,7 @@
   {
     "id": "F-gualouxiebaiBaiJiutang",
     "name": "栝蒌薤白白酒汤",
-    "source_clause": "JGL-胸痹",
+    "source_clause": "JGL-10-003",
     "six_channel": "太阳",
     "core_indicators": [
       "胸背痛",
@@ -5070,7 +5070,7 @@
   {
     "id": "F-gualouxiebaiBanxiatang",
     "name": "栝蒌薤白半夏汤",
-    "source_clause": "JGL-胸痹",
+    "source_clause": "JGL-10-004",
     "six_channel": "太阳",
     "core_indicators": [
       "胸痛彻背",
@@ -5137,7 +5137,7 @@
   {
     "id": "F-banxiaHoupotang",
     "name": "半夏厚朴汤",
-    "source_clause": "JGL-妇人",
+    "source_clause": "JGL-23-005",
     "six_channel": "太阳",
     "core_indicators": [
       "咽中如有炙脔",
@@ -5211,7 +5211,7 @@
   {
     "id": "F-suanzaorentang",
     "name": "酸枣仁汤",
-    "source_clause": "JGL-虚劳",
+    "source_clause": "JGL-07-017",
     "six_channel": "厥阴",
     "core_indicators": [
       "虚烦不得眠",
@@ -5278,7 +5278,7 @@
   {
     "id": "F-maimendongtang",
     "name": "麦门冬汤",
-    "source_clause": "JGL-肺痿",
+    "source_clause": "JGL-08-010",
     "six_channel": "阳明",
     "core_indicators": [
       "大逆上气",
@@ -5358,7 +5358,7 @@
   {
     "id": "F-wenjingtang",
     "name": "温经汤",
-    "source_clause": "JGL-妇人",
+    "source_clause": "JGL-23-009",
     "six_channel": "厥阴",
     "core_indicators": [
       "少腹寒",
@@ -5470,7 +5470,7 @@
   {
     "id": "F-dangguiZhuyaosan",
     "name": "当归芍药散",
-    "source_clause": "JGL-妇人",
+    "source_clause": "JGL-21-005",
     "six_channel": "厥阴",
     "core_indicators": [
       "腹中诸疾痛",
@@ -5544,7 +5544,7 @@
   {
     "id": "F-guizhiFulingwan",
     "name": "桂枝茯苓丸",
-    "source_clause": "JGL-妇人",
+    "source_clause": "JGL-21-002",
     "six_channel": "厥阴",
     "core_indicators": [
       "癥病",
@@ -5615,7 +5615,7 @@
   {
     "id": "F-guizhiZhuyaoZhimutang",
     "name": "桂枝芍药知母汤",
-    "source_clause": "JGL-历节",
+    "source_clause": "JGL-06-008",
     "six_channel": "少阴",
     "core_indicators": [
       "诸肢节疼痛",
@@ -5711,7 +5711,7 @@
   {
     "id": "F-fangjiHuangqitang",
     "name": "防己黄芪汤",
-    "source_clause": "JGL-水气",
+    "source_clause": "JGL-03-022",
     "six_channel": "太阳",
     "core_indicators": [
       "汗出恶风",
@@ -5787,7 +5787,7 @@
   {
     "id": "F-zezhetang",
     "name": "泽泻汤",
-    "source_clause": "JGL-痰饮",
+    "source_clause": "JGL-13-025",
     "six_channel": "太阳",
     "core_indicators": [
       "冒眩",
@@ -5839,7 +5839,7 @@
   {
     "id": "F-dahuangMudantang",
     "name": "大黄牡丹汤",
-    "source_clause": "JGL-肠痈",
+    "source_clause": "JGL-19-004",
     "six_channel": "阳明",
     "core_indicators": [
       "右下腹痛",
@@ -5910,7 +5910,7 @@
   {
     "id": "F-huangtutang",
     "name": "黄土汤",
-    "source_clause": "JGL-吐衄",
+    "source_clause": "JGL-17-015",
     "six_channel": "少阴",
     "core_indicators": [
       "下血",
@@ -5997,7 +5997,7 @@
   {
     "id": "F-ganMaiDazaotang",
     "name": "甘麦大枣汤",
-    "source_clause": "JGL-妇人",
+    "source_clause": "JGL-23-006",
     "six_channel": "太阴",
     "core_indicators": [
       "喜悲伤欲哭",
@@ -6055,7 +6055,7 @@
   {
     "id": "F-baiheDihuangtang",
     "name": "百合地黄汤",
-    "source_clause": "JGL-百合",
+    "source_clause": "JGL-04-005",
     "six_channel": "厥阴",
     "core_indicators": [
       "精神恍惚",
@@ -6114,7 +6114,7 @@
   {
     "id": "F-houpoQiwutang",
     "name": "厚朴七物汤",
-    "source_clause": "JGL-腹满",
+    "source_clause": "JGL-11-009",
     "six_channel": "太阳",
     "core_indicators": [
       "腹满",
@@ -6192,7 +6192,7 @@
   {
     "id": "F-yi物瓜蒂",
     "name": "一物瓜蒂汤",
-    "source_clause": "JKYL-027",
+    "source_clause": "JGL-03-027",
     "six_channel": "",
     "core_indicators": [
       "身热"
@@ -6233,7 +6233,7 @@
   {
     "id": "F-san物bei急",
     "name": "三物备急丸",
-    "source_clause": "JKYL-023",
+    "source_clause": "JGL-24-003",
     "six_channel": "",
     "core_indicators": [
       "心腹诸卒暴百病",
@@ -6338,7 +6338,7 @@
   {
     "id": "F-sanhuang",
     "name": "三黄汤",
-    "source_clause": "JKYL-903",
+    "source_clause": "JGL-06-010",
     "six_channel": "",
     "core_indicators": [
       "发热",
@@ -6400,7 +6400,7 @@
   {
     "id": "F-xia瘀血",
     "name": "下瘀血汤",
-    "source_clause": "JKYL-004",
+    "source_clause": "JGL-22-006",
     "six_channel": "",
     "core_indicators": [
       "发热",
@@ -6417,9 +6417,19 @@
     "exclusion_indicators": [],
     "composition": [
       {
-        "herb": "暂无",
-        "dose": "",
+        "herb": "大黄",
+        "dose": "三两",
         "desc": ""
+      },
+      {
+        "herb": "桃仁",
+        "dose": "二十枚",
+        "desc": ""
+      },
+      {
+        "herb": "䗪虫",
+        "dose": "二十枚",
+        "desc": "熬，去足"
       }
     ],
     "original_dose": "暂无",
@@ -6446,7 +6456,7 @@
   {
     "id": "F-wutou",
     "name": "乌头汤",
-    "source_clause": "JKYL-010",
+    "source_clause": "JGL-06-010",
     "six_channel": "",
     "core_indicators": [
       "发热",
@@ -6519,7 +6529,7 @@
   {
     "id": "F-wutou赤石脂",
     "name": "乌头赤石脂丸",
-    "source_clause": "JKYL-009",
+    "source_clause": "JGL-10-009",
     "six_channel": "",
     "core_indicators": [
       "胸痹",
@@ -6528,9 +6538,29 @@
     "exclusion_indicators": [],
     "composition": [
       {
-        "herb": "暂无",
-        "dose": "",
-        "desc": ""
+        "herb": "蜀椒",
+        "dose": "一两",
+        "desc": "一法二分"
+      },
+      {
+        "herb": "乌头",
+        "dose": "一分",
+        "desc": "炮"
+      },
+      {
+        "herb": "附子",
+        "dose": "半两",
+        "desc": "炮，一法一分"
+      },
+      {
+        "herb": "干姜",
+        "dose": "一两",
+        "desc": "一法一分"
+      },
+      {
+        "herb": "赤石脂",
+        "dose": "一两",
+        "desc": "一法二分"
       }
     ],
     "original_dose": "暂无",
@@ -6555,7 +6585,7 @@
   {
     "id": "F-jiu痛",
     "name": "九痛丸",
-    "source_clause": "JKYL-009",
+    "source_clause": "JGL-10-009",
     "six_channel": "",
     "core_indicators": [
       "胸痹"
@@ -6615,7 +6645,7 @@
   {
     "id": "F-gan薑renshenbanxia",
     "name": "乾薑人参半夏丸",
-    "source_clause": "JKYL-006",
+    "source_clause": "JGL-21-006",
     "six_channel": "",
     "core_indicators": [
       "呕吐"
@@ -6662,7 +6692,7 @@
   {
     "id": "F-renshen",
     "name": "人参汤",
-    "source_clause": "SHL-026",
+    "source_clause": "SHL-386",
     "six_channel": "",
     "core_indicators": [
       "大汗",
@@ -6671,8 +6701,23 @@
     "exclusion_indicators": [],
     "composition": [
       {
-        "herb": "暂无",
-        "dose": "",
+        "herb": "人参",
+        "dose": "三两",
+        "desc": ""
+      },
+      {
+        "herb": "干姜",
+        "dose": "三两",
+        "desc": ""
+      },
+      {
+        "herb": "甘草",
+        "dose": "三两",
+        "desc": "炙"
+      },
+      {
+        "herb": "白术",
+        "dose": "三两",
         "desc": ""
       }
     ],
@@ -6700,7 +6745,7 @@
   {
     "id": "F-hou氏hei",
     "name": "侯氏黑散",
-    "source_clause": "JKYL-001",
+    "source_clause": "JGL-06-002",
     "six_channel": "",
     "core_indicators": [
       "汗出",
@@ -6806,7 +6851,7 @@
   {
     "id": "F-shengma鳖甲",
     "name": "升麻鳖甲汤",
-    "source_clause": "JKYL-013",
+    "source_clause": "JGL-04-014",
     "six_channel": "",
     "core_indicators": [
       "无热",
@@ -6869,7 +6914,7 @@
   {
     "id": "F-banxiagan薑",
     "name": "半夏乾薑散",
-    "source_clause": "JKYL-020",
+    "source_clause": "JGL-18-020",
     "six_channel": "",
     "core_indicators": [
       "干呕",
@@ -6962,7 +7007,7 @@
   {
     "id": "F-banxiamahuang",
     "name": "半夏麻黄丸",
-    "source_clause": "JKYL-013",
+    "source_clause": "JGL-17-013",
     "six_channel": "",
     "core_indicators": [
       "心下",
@@ -6971,8 +7016,13 @@
     "exclusion_indicators": [],
     "composition": [
       {
-        "herb": "暂无",
-        "dose": "",
+        "herb": "半夏",
+        "dose": "等分",
+        "desc": ""
+      },
+      {
+        "herb": "麻黄",
+        "dose": "等分",
         "desc": ""
       }
     ],
@@ -7001,7 +7051,7 @@
   {
     "id": "F-houpusan物",
     "name": "厚朴三物汤",
-    "source_clause": "JKYL-010",
+    "source_clause": "JGL-11-011",
     "six_channel": "",
     "core_indicators": [
       "腹满",
@@ -7011,8 +7061,18 @@
     "exclusion_indicators": [],
     "composition": [
       {
-        "herb": "暂无",
-        "dose": "",
+        "herb": "厚朴",
+        "dose": "八两",
+        "desc": ""
+      },
+      {
+        "herb": "大黄",
+        "dose": "四两",
+        "desc": ""
+      },
+      {
+        "herb": "枳实",
+        "dose": "五枚",
         "desc": ""
       }
     ],
@@ -7038,7 +7098,7 @@
   {
     "id": "F-houpudahuang",
     "name": "厚朴大黄汤",
-    "source_clause": "JKYL-012",
+    "source_clause": "JGL-13-026",
     "six_channel": "",
     "core_indicators": [
       "胸满",
@@ -7048,8 +7108,18 @@
     "exclusion_indicators": [],
     "composition": [
       {
-        "herb": "暂无",
-        "dose": "",
+        "herb": "厚朴",
+        "dose": "一尺",
+        "desc": ""
+      },
+      {
+        "herb": "大黄",
+        "dose": "六两",
+        "desc": ""
+      },
+      {
+        "herb": "枳实",
+        "dose": "四枚",
         "desc": ""
       }
     ],
@@ -7075,7 +7145,7 @@
   {
     "id": "F-houpumahuang",
     "name": "厚朴麻黄汤",
-    "source_clause": "JKYL-007",
+    "source_clause": "JGL-08-008",
     "six_channel": "",
     "core_indicators": [
       "咳",
@@ -7086,8 +7156,48 @@
     "exclusion_indicators": [],
     "composition": [
       {
-        "herb": "暂无",
-        "dose": "",
+        "herb": "厚朴",
+        "dose": "五两",
+        "desc": ""
+      },
+      {
+        "herb": "麻黄",
+        "dose": "四两",
+        "desc": ""
+      },
+      {
+        "herb": "石膏",
+        "dose": "如鸡子大",
+        "desc": ""
+      },
+      {
+        "herb": "杏仁",
+        "dose": "半升",
+        "desc": ""
+      },
+      {
+        "herb": "半夏",
+        "dose": "半升",
+        "desc": ""
+      },
+      {
+        "herb": "干姜",
+        "dose": "二两",
+        "desc": ""
+      },
+      {
+        "herb": "细辛",
+        "dose": "二两",
+        "desc": ""
+      },
+      {
+        "herb": "小麦",
+        "dose": "一升",
+        "desc": ""
+      },
+      {
+        "herb": "五味子",
+        "dose": "半升",
         "desc": ""
       }
     ],
@@ -7327,8 +7437,23 @@
     "exclusion_indicators": [],
     "composition": [
       {
-        "herb": "暂无",
-        "dose": "",
+        "herb": "甘草",
+        "dose": "二两",
+        "desc": "炙"
+      },
+      {
+        "herb": "干姜",
+        "dose": "三两",
+        "desc": "强人可四两"
+      },
+      {
+        "herb": "附子",
+        "dose": "一枚",
+        "desc": "生去皮破八片大者"
+      },
+      {
+        "herb": "猪胆汁",
+        "dose": "半合",
         "desc": ""
       }
     ],
@@ -7354,7 +7479,7 @@
   {
     "id": "F-tu瓜gen",
     "name": "土瓜根散",
-    "source_clause": "JKYL-010",
+    "source_clause": "JGL-23-010",
     "six_channel": "",
     "core_indicators": [
       "恶寒",
@@ -7369,8 +7494,23 @@
     "exclusion_indicators": [],
     "composition": [
       {
-        "herb": "暂无",
-        "dose": "",
+        "herb": "土瓜根",
+        "dose": "三分",
+        "desc": ""
+      },
+      {
+        "herb": "芍药",
+        "dose": "三分",
+        "desc": ""
+      },
+      {
+        "herb": "桂枝",
+        "dose": "三分",
+        "desc": ""
+      },
+      {
+        "herb": "䗪虫",
+        "dose": "三分",
         "desc": ""
       }
     ],
@@ -7442,7 +7582,7 @@
   {
     "id": "F-dawutoujian",
     "name": "大乌头煎",
-    "source_clause": "JKYL-016",
+    "source_clause": "JGL-11-017",
     "six_channel": "",
     "core_indicators": [
       "发热",
@@ -7491,7 +7631,7 @@
   {
     "id": "F-dabanxia",
     "name": "大半夏汤",
-    "source_clause": "JKYL-016",
+    "source_clause": "JGL-18-016",
     "six_channel": "",
     "core_indicators": [
       "呕吐"
@@ -7538,7 +7678,7 @@
   {
     "id": "F-dajianzhong",
     "name": "大建中汤",
-    "source_clause": "JKYL-014",
+    "source_clause": "JGL-07-014",
     "six_channel": "",
     "core_indicators": [
       "呕",
@@ -7587,7 +7727,7 @@
   {
     "id": "F-dahuang虫",
     "name": "大黄䗪虫丸",
-    "source_clause": "JKYL-018",
+    "source_clause": "JGL-07-018",
     "six_channel": "",
     "core_indicators": [
       "虚劳羸瘦",
@@ -7680,7 +7820,7 @@
   {
     "id": "F-dahuang甘草",
     "name": "大黄甘草汤",
-    "source_clause": "JKYL-017",
+    "source_clause": "JGL-18-017",
     "six_channel": "",
     "core_indicators": [
       "吐"
@@ -7722,7 +7862,7 @@
   {
     "id": "F-dahuang甘遂",
     "name": "大黄甘遂汤",
-    "source_clause": "JKYL-013",
+    "source_clause": "JGL-23-013",
     "six_channel": "",
     "core_indicators": [
       "小便",
@@ -7773,7 +7913,7 @@
   {
     "id": "F-dahuang硝石",
     "name": "大黄硝石汤",
-    "source_clause": "JKYL-019",
+    "source_clause": "JGL-16-019",
     "six_channel": "",
     "core_indicators": [
       "自汗",
@@ -7785,8 +7925,23 @@
     "exclusion_indicators": [],
     "composition": [
       {
-        "herb": "暂无",
-        "dose": "",
+        "herb": "大黄",
+        "dose": "四两",
+        "desc": ""
+      },
+      {
+        "herb": "黄柏",
+        "dose": "四两",
+        "desc": ""
+      },
+      {
+        "herb": "硝石",
+        "dose": "四两",
+        "desc": ""
+      },
+      {
+        "herb": "栀子",
+        "dose": "十五枚",
         "desc": ""
       }
     ],
@@ -7812,7 +7967,7 @@
   {
     "id": "F-dahuang附zi",
     "name": "大黄附子汤",
-    "source_clause": "JKYL-015",
+    "source_clause": "JGL-11-015",
     "six_channel": "",
     "core_indicators": [
       "发热",
@@ -7825,8 +7980,18 @@
     "exclusion_indicators": [],
     "composition": [
       {
-        "herb": "暂无",
-        "dose": "",
+        "herb": "大黄",
+        "dose": "三两",
+        "desc": ""
+      },
+      {
+        "herb": "附子",
+        "dose": "三枚",
+        "desc": "炮"
+      },
+      {
+        "herb": "细辛",
+        "dose": "二两",
         "desc": ""
       }
     ],
@@ -7854,7 +8019,7 @@
   {
     "id": "F-tian雄",
     "name": "天雄散",
-    "source_clause": "JKYL-008",
+    "source_clause": "JGL-07-008",
     "six_channel": "",
     "core_indicators": [
       "汗出",
@@ -7917,7 +8082,7 @@
   {
     "id": "F-tou风mosan",
     "name": "头风摩散方",
-    "source_clause": "JKYL-933",
+    "source_clause": "JGL-06-003",
     "six_channel": "",
     "core_indicators": [
       "身痒",
@@ -7965,7 +8130,7 @@
   {
     "id": "F-奔豚",
     "name": "奔豚汤",
-    "source_clause": "JKYL-002",
+    "source_clause": "JGL-09-002",
     "six_channel": "",
     "core_indicators": [
       "腹痛"
@@ -8042,7 +8207,7 @@
   {
     "id": "F-sheganmahuang",
     "name": "射干麻黄汤",
-    "source_clause": "JKYL-006",
+    "source_clause": "JGL-08-006",
     "six_channel": "",
     "core_indicators": [
       "恶寒",
@@ -8059,9 +8224,49 @@
     "exclusion_indicators": [],
     "composition": [
       {
-        "herb": "暂无",
-        "dose": "",
+        "herb": "射干",
+        "dose": "十三枚",
+        "desc": "一法三两"
+      },
+      {
+        "herb": "麻黄",
+        "dose": "四两",
         "desc": ""
+      },
+      {
+        "herb": "生姜",
+        "dose": "四两",
+        "desc": ""
+      },
+      {
+        "herb": "细辛",
+        "dose": "三两",
+        "desc": ""
+      },
+      {
+        "herb": "紫菀",
+        "dose": "三两",
+        "desc": ""
+      },
+      {
+        "herb": "款冬花",
+        "dose": "三两",
+        "desc": ""
+      },
+      {
+        "herb": "五味子",
+        "dose": "半升",
+        "desc": ""
+      },
+      {
+        "herb": "大枣",
+        "dose": "七枚",
+        "desc": ""
+      },
+      {
+        "herb": "半夏",
+        "dose": "大者洗，八枚",
+        "desc": "一法半升"
       }
     ],
     "original_dose": "暂无",
@@ -8090,7 +8295,7 @@
   {
     "id": "F-xiaobanxiajia茯ling",
     "name": "小半夏加茯苓汤",
-    "source_clause": "JKYL-030",
+    "source_clause": "JGL-13-030",
     "six_channel": "",
     "core_indicators": [
       "呕吐",
@@ -8141,7 +8346,7 @@
   {
     "id": "F-xiaobanxia",
     "name": "小半夏汤",
-    "source_clause": "JKYL-028",
+    "source_clause": "JGL-13-028",
     "six_channel": "",
     "core_indicators": [
       "呕",
@@ -8189,7 +8394,7 @@
   {
     "id": "F-xiaobanxia茯ling",
     "name": "小半夏茯苓汤",
-    "source_clause": "JKYL-026",
+    "source_clause": "JGL-13-030",
     "six_channel": "",
     "core_indicators": [
       "心下",
@@ -8201,9 +8406,19 @@
     "exclusion_indicators": [],
     "composition": [
       {
-        "herb": "暂无",
-        "dose": "",
+        "herb": "半夏",
+        "dose": "一升",
         "desc": ""
+      },
+      {
+        "herb": "生姜",
+        "dose": "半斤",
+        "desc": ""
+      },
+      {
+        "herb": "茯苓",
+        "dose": "三两",
+        "desc": "一法四两"
       }
     ],
     "original_dose": "暂无",
@@ -8228,7 +8443,7 @@
   {
     "id": "F-xiao青longjia石gao",
     "name": "小青龙加石膏汤",
-    "source_clause": "JKYL-014",
+    "source_clause": "JGL-08-014",
     "six_channel": "",
     "core_indicators": [
       "心下",
@@ -8316,7 +8531,7 @@
   {
     "id": "F-崔氏bawei",
     "name": "崔氏八味丸",
-    "source_clause": "JKYL-940",
+    "source_clause": "JGL-06-010",
     "six_channel": "",
     "core_indicators": [
       "烦热",
@@ -8395,7 +8610,7 @@
   {
     "id": "F-ji椒lihuang",
     "name": "己椒苈黄丸",
-    "source_clause": "JKYL-029",
+    "source_clause": "JGL-13-029",
     "six_channel": "",
     "core_indicators": [
       "腹满"
@@ -8447,7 +8662,7 @@
   {
     "id": "F-danggui",
     "name": "当归散",
-    "source_clause": "JKYL-012",
+    "source_clause": "JGL-04-013",
     "six_channel": "",
     "core_indicators": [
       "无热",
@@ -8507,7 +8722,7 @@
   {
     "id": "F-danggui生薑羊肉",
     "name": "当归生薑羊肉汤",
-    "source_clause": "JKYL-018",
+    "source_clause": "JGL-11-018",
     "six_channel": "",
     "core_indicators": [
       "胁痛"
@@ -8554,7 +8769,7 @@
   {
     "id": "F-danggui贝mu苦shen",
     "name": "当归贝母苦参丸",
-    "source_clause": "JKYL-007",
+    "source_clause": "JGL-21-007",
     "six_channel": "",
     "core_indicators": [
       "小便难",
@@ -8603,7 +8818,7 @@
   {
     "id": "F-抵dangwutouguizhi",
     "name": "抵当乌头桂枝汤",
-    "source_clause": "JKYL-019",
+    "source_clause": "JGL-11-019",
     "six_channel": "",
     "core_indicators": [
       "恶寒",
@@ -8615,8 +8830,33 @@
     "exclusion_indicators": [],
     "composition": [
       {
-        "herb": "暂无",
+        "herb": "乌头",
         "dose": "",
+        "desc": "以蜜二斤，煎减半，去滓"
+      },
+      {
+        "herb": "桂枝",
+        "dose": "三两",
+        "desc": "去皮"
+      },
+      {
+        "herb": "芍药",
+        "dose": "三两",
+        "desc": ""
+      },
+      {
+        "herb": "甘草",
+        "dose": "二两",
+        "desc": "炙"
+      },
+      {
+        "herb": "生姜",
+        "dose": "三两",
+        "desc": ""
+      },
+      {
+        "herb": "大枣",
+        "dose": "十二枚",
         "desc": ""
       }
     ],
@@ -8645,7 +8885,7 @@
   {
     "id": "F-排脓",
     "name": "排脓散",
-    "source_clause": "JKYL-946",
+    "source_clause": "JGL-19-006",
     "six_channel": "",
     "core_indicators": [
       "恶寒",
@@ -8696,7 +8936,7 @@
   {
     "id": "F-wen蛤",
     "name": "文蛤散",
-    "source_clause": "JKYL-006",
+    "source_clause": "JGL-14-006",
     "six_channel": "",
     "core_indicators": [
       "渴"
@@ -8733,7 +8973,7 @@
   {
     "id": "F-wen蛤_2",
     "name": "文蛤汤",
-    "source_clause": "JKYL-019",
+    "source_clause": "JGL-18-019",
     "six_channel": "",
     "core_indicators": [
       "吐",
@@ -8804,7 +9044,7 @@
   {
     "id": "F-xuan覆花",
     "name": "旋覆花汤",
-    "source_clause": "JKYL-949",
+    "source_clause": "JGL-12-007",
     "six_channel": "",
     "core_indicators": [
       "肝着",
@@ -8815,8 +9055,18 @@
     "exclusion_indicators": [],
     "composition": [
       {
-        "herb": "暂无",
-        "dose": "",
+        "herb": "旋覆花",
+        "dose": "三两",
+        "desc": ""
+      },
+      {
+        "herb": "葱",
+        "dose": "十四茎",
+        "desc": ""
+      },
+      {
+        "herb": "新绛",
+        "dose": "少许",
         "desc": ""
       }
     ],
@@ -8842,7 +9092,7 @@
   {
     "id": "F-mufangji",
     "name": "木防己汤",
-    "source_clause": "JKYL-024",
+    "source_clause": "JGL-13-024",
     "six_channel": "",
     "core_indicators": [
       "吐",
@@ -8852,8 +9102,23 @@
     "exclusion_indicators": [],
     "composition": [
       {
-        "herb": "暂无",
-        "dose": "",
+        "herb": "木防己",
+        "dose": "三两",
+        "desc": ""
+      },
+      {
+        "herb": "石膏",
+        "dose": "十二枚",
+        "desc": "鸡子大"
+      },
+      {
+        "herb": "桂枝",
+        "dose": "二两",
+        "desc": ""
+      },
+      {
+        "herb": "人参",
+        "dose": "四两",
         "desc": ""
       }
     ],
@@ -8881,7 +9146,7 @@
   {
     "id": "F-mufangjitangqu石gaojia茯ling芒硝",
     "name": "木防己汤去石膏加茯苓芒硝汤",
-    "source_clause": "JKYL-024",
+    "source_clause": "JGL-13-024",
     "six_channel": "",
     "core_indicators": [
       "吐",
@@ -8891,8 +9156,28 @@
     "exclusion_indicators": [],
     "composition": [
       {
-        "herb": "暂无",
-        "dose": "",
+        "herb": "木防己",
+        "dose": "二两",
+        "desc": ""
+      },
+      {
+        "herb": "桂枝",
+        "dose": "二两",
+        "desc": ""
+      },
+      {
+        "herb": "芒硝",
+        "dose": "三合",
+        "desc": ""
+      },
+      {
+        "herb": "人参",
+        "dose": "四两",
+        "desc": ""
+      },
+      {
+        "herb": "茯苓",
+        "dose": "四两",
         "desc": ""
       }
     ],
@@ -9072,7 +9357,7 @@
   {
     "id": "F-zhishishao药",
     "name": "枳实芍药散",
-    "source_clause": "JKYL-005",
+    "source_clause": "JGL-22-005",
     "six_channel": "",
     "core_indicators": [
       "腹痛",
@@ -9116,7 +9401,7 @@
   {
     "id": "F-zhishi薤白guizhi",
     "name": "枳实薤白桂枝汤",
-    "source_clause": "JKYL-005",
+    "source_clause": "JGL-10-005",
     "six_channel": "",
     "core_indicators": [
       "胸满",
@@ -9175,7 +9460,7 @@
   {
     "id": "F-zhi朮",
     "name": "枳朮汤",
-    "source_clause": "JKYL-032",
+    "source_clause": "JGL-15-032",
     "six_channel": "",
     "core_indicators": [
       "心下"
@@ -9220,7 +9505,7 @@
   {
     "id": "F-baiye",
     "name": "柏叶汤",
-    "source_clause": "JKYL-014",
+    "source_clause": "JGL-17-014",
     "six_channel": "",
     "core_indicators": [
       "吐"
@@ -9282,8 +9567,43 @@
     "exclusion_indicators": [],
     "composition": [
       {
-        "herb": "暂无",
-        "dose": "",
+        "herb": "柴胡",
+        "dose": "二两十六铢",
+        "desc": ""
+      },
+      {
+        "herb": "黄芩",
+        "dose": "一两",
+        "desc": ""
+      },
+      {
+        "herb": "人参",
+        "dose": "一两",
+        "desc": ""
+      },
+      {
+        "herb": "甘草",
+        "dose": "一两",
+        "desc": "炙"
+      },
+      {
+        "herb": "生姜",
+        "dose": "一两",
+        "desc": "切"
+      },
+      {
+        "herb": "半夏",
+        "dose": "二十铢",
+        "desc": "洗"
+      },
+      {
+        "herb": "大枣",
+        "dose": "四枚",
+        "desc": "擘"
+      },
+      {
+        "herb": "芒硝",
+        "dose": "二两",
         "desc": ""
       }
     ],
@@ -9524,13 +9844,38 @@
   {
     "id": "F-chai胡饮zi",
     "name": "柴胡饮子",
-    "source_clause": "JKYL-023",
+    "source_clause": "JGL-24-001",
     "six_channel": "",
     "exclusion_indicators": [],
     "composition": [
       {
-        "herb": "暂无",
-        "dose": "",
+        "herb": "柴胡",
+        "dose": "八分",
+        "desc": "四时加减方，此为冬三月基础方"
+      },
+      {
+        "herb": "白术",
+        "dose": "八分",
+        "desc": ""
+      },
+      {
+        "herb": "大腹槟榔",
+        "dose": "四枚",
+        "desc": "并皮子用"
+      },
+      {
+        "herb": "陈皮",
+        "dose": "五分",
+        "desc": ""
+      },
+      {
+        "herb": "生姜",
+        "dose": "五分",
+        "desc": ""
+      },
+      {
+        "herb": "桔梗",
+        "dose": "七分",
         "desc": ""
       }
     ],
@@ -9651,7 +9996,7 @@
   {
     "id": "F-zhizidahuang",
     "name": "栀子大黄汤",
-    "source_clause": "JKYL-015",
+    "source_clause": "JGL-16-015",
     "six_channel": "",
     "core_indicators": [
       "发热",
@@ -9759,7 +10104,7 @@
   {
     "id": "F-zhizi甘草豉",
     "name": "栀子甘草豉汤",
-    "source_clause": "SHL-075",
+    "source_clause": "SHL-076",
     "six_channel": "",
     "core_indicators": [
       "发热",
@@ -9775,9 +10120,19 @@
     "exclusion_indicators": [],
     "composition": [
       {
-        "herb": "暂无",
-        "dose": "",
-        "desc": ""
+        "herb": "栀子",
+        "dose": "十四个",
+        "desc": "擘"
+      },
+      {
+        "herb": "甘草",
+        "dose": "二两",
+        "desc": "炙"
+      },
+      {
+        "herb": "香豉",
+        "dose": "四合",
+        "desc": "绵裹"
       }
     ],
     "original_dose": "暂无",
@@ -9804,7 +10159,7 @@
   {
     "id": "F-zhizi生薑豉",
     "name": "栀子生薑豉汤",
-    "source_clause": "SHL-075",
+    "source_clause": "SHL-076",
     "six_channel": "",
     "core_indicators": [
       "发热",
@@ -9820,9 +10175,19 @@
     "exclusion_indicators": [],
     "composition": [
       {
-        "herb": "暂无",
-        "dose": "",
+        "herb": "栀子",
+        "dose": "十四个",
+        "desc": "擘"
+      },
+      {
+        "herb": "生姜",
+        "dose": "五两",
         "desc": ""
+      },
+      {
+        "herb": "香豉",
+        "dose": "四合",
+        "desc": "绵裹"
       }
     ],
     "original_dose": "暂无",
@@ -9849,7 +10214,7 @@
   {
     "id": "F-栝蒌guizhi",
     "name": "栝蒌桂枝汤",
-    "source_clause": "JKYL-011",
+    "source_clause": "JGL-03-011",
     "six_channel": "",
     "core_indicators": [
       "痉"
@@ -9913,7 +10278,7 @@
   {
     "id": "F-栝蒌牡蛎",
     "name": "栝蒌牡蛎散",
-    "source_clause": "JKYL-007",
+    "source_clause": "JGL-04-007",
     "six_channel": "",
     "core_indicators": [
       "渴"
@@ -9955,7 +10320,7 @@
   {
     "id": "F-栝蒌瞿麦",
     "name": "栝蒌瞿麦丸",
-    "source_clause": "JKYL-010",
+    "source_clause": "JGL-14-010",
     "six_channel": "",
     "core_indicators": [
       "小便不利",
@@ -10014,7 +10379,7 @@
   {
     "id": "F-guizhier越婢yi",
     "name": "桂枝二越婢一汤",
-    "source_clause": "SHL-026",
+    "source_clause": "SHL-027",
     "six_channel": "",
     "core_indicators": [
       "发热",
@@ -10278,55 +10643,6 @@
     "differentiators": ""
   },
   {
-    "id": "F-guizhijiashao药生薑renshen新jia",
-    "name": "桂枝加芍药生薑人参新加汤",
-    "source_clause": "SHL-062",
-    "six_channel": "",
-    "core_indicators": [
-      "头痛",
-      "吐",
-      "不呕",
-      "不大便",
-      "大便",
-      "小便",
-      "小便不利",
-      "烦躁",
-      "不得眠",
-      "不渴"
-    ],
-    "exclusion_indicators": [],
-    "composition": [
-      {
-        "herb": "暂无",
-        "dose": "",
-        "desc": ""
-      }
-    ],
-    "original_dose": "暂无",
-    "dose_conversion": {
-      "regular": "待补",
-      "therapeutic": "待补",
-      "severe": "待补"
-    },
-    "toxic_herbs": [],
-    "main_indications": [],
-    "typical_pulse": [
-      "脉浮紧",
-      "脉浮数",
-      "脉微细",
-      "脉沉微"
-    ],
-    "core_pathogenesis": "风寒外束；水饮内停；正气亏虚",
-    "decoction_method": "暂无",
-    "dosage_form": "",
-    "aftercare": "",
-    "stop_criteria": "",
-    "standard_modifications": [],
-    "contraindications": [],
-    "formula_category": "桂枝汤类",
-    "differentiators": ""
-  },
-  {
     "id": "F-guizhijiashao药生薑geyi两renshensan两新jia",
     "name": "桂枝加芍药生薑各一两人参三两新加汤",
     "source_clause": "SHL-062",
@@ -10403,7 +10719,7 @@
   {
     "id": "F-guizhijiahuang耆",
     "name": "桂枝加黄耆汤",
-    "source_clause": "JKYL-014",
+    "source_clause": "JGL-15-029",
     "six_channel": "",
     "core_indicators": [
       "黄汗",
@@ -10415,8 +10731,33 @@
     "exclusion_indicators": [],
     "composition": [
       {
-        "herb": "暂无",
-        "dose": "",
+        "herb": "桂枝",
+        "dose": "二两",
+        "desc": ""
+      },
+      {
+        "herb": "芍药",
+        "dose": "二两",
+        "desc": ""
+      },
+      {
+        "herb": "甘草",
+        "dose": "二两",
+        "desc": ""
+      },
+      {
+        "herb": "生姜",
+        "dose": "三两",
+        "desc": ""
+      },
+      {
+        "herb": "大枣",
+        "dose": "十二枚",
+        "desc": ""
+      },
+      {
+        "herb": "黄耆",
+        "dose": "二两",
         "desc": ""
       }
     ],
@@ -10442,7 +10783,7 @@
   {
     "id": "F-guizhijialong骨牡蛎",
     "name": "桂枝加龙骨牡蛎汤",
-    "source_clause": "JKYL-005",
+    "source_clause": "JGL-07-008",
     "six_channel": "",
     "core_indicators": [
       "小便不利",
@@ -10532,9 +10873,34 @@
     "exclusion_indicators": [],
     "composition": [
       {
-        "herb": "暂无",
-        "dose": "",
+        "herb": "芍药",
+        "dose": "三两",
         "desc": ""
+      },
+      {
+        "herb": "甘草",
+        "dose": "二两",
+        "desc": "炙"
+      },
+      {
+        "herb": "生姜",
+        "dose": "",
+        "desc": "切"
+      },
+      {
+        "herb": "白术",
+        "dose": "三两",
+        "desc": ""
+      },
+      {
+        "herb": "茯苓",
+        "dose": "三两",
+        "desc": ""
+      },
+      {
+        "herb": "大枣",
+        "dose": "十二枚",
+        "desc": "擘"
       }
     ],
     "original_dose": "暂无",
@@ -10623,7 +10989,7 @@
   {
     "id": "F-guizhiqushao药jia皂荚",
     "name": "桂枝去芍药加皂荚汤",
-    "source_clause": "JKYL-983",
+    "source_clause": "JGL-08-014",
     "six_channel": "",
     "core_indicators": [
       "心下",
@@ -10701,8 +11067,38 @@
     "exclusion_indicators": [],
     "composition": [
       {
-        "herb": "暂无",
-        "dose": "",
+        "herb": "桂枝",
+        "dose": "三两",
+        "desc": "去皮"
+      },
+      {
+        "herb": "甘草",
+        "dose": "二两",
+        "desc": "炙"
+      },
+      {
+        "herb": "生姜",
+        "dose": "三两",
+        "desc": "切"
+      },
+      {
+        "herb": "大枣",
+        "dose": "十二枚",
+        "desc": "擘"
+      },
+      {
+        "herb": "牡蛎",
+        "dose": "五两",
+        "desc": "熬"
+      },
+      {
+        "herb": "蜀漆",
+        "dose": "三两",
+        "desc": "洗去腥"
+      },
+      {
+        "herb": "龙骨",
+        "dose": "四两",
         "desc": ""
       }
     ],
@@ -10804,9 +11200,39 @@
     "exclusion_indicators": [],
     "composition": [
       {
-        "herb": "暂无",
-        "dose": "",
+        "herb": "桂枝",
+        "dose": "三两",
         "desc": ""
+      },
+      {
+        "herb": "生姜",
+        "dose": "三两",
+        "desc": ""
+      },
+      {
+        "herb": "甘草",
+        "dose": "二两",
+        "desc": ""
+      },
+      {
+        "herb": "大枣",
+        "dose": "十二枚",
+        "desc": ""
+      },
+      {
+        "herb": "麻黄",
+        "dose": "二两",
+        "desc": ""
+      },
+      {
+        "herb": "细辛",
+        "dose": "二两",
+        "desc": ""
+      },
+      {
+        "herb": "附子",
+        "dose": "一枚",
+        "desc": "炮"
       }
     ],
     "original_dose": "暂无",
@@ -10932,7 +11358,7 @@
   {
     "id": "F-guizhi生薑zhishi",
     "name": "桂枝生薑枳实汤",
-    "source_clause": "JKYL-008",
+    "source_clause": "JGL-10-008",
     "six_channel": "",
     "core_indicators": [
       "胸痹",
@@ -11039,7 +11465,7 @@
   {
     "id": "F-guilingwuwei甘草tangquguijiagan薑细辛",
     "name": "桂苓五味甘草汤去桂加乾薑、细辛",
-    "source_clause": "JKYL-037",
+    "source_clause": "JGL-13-037",
     "six_channel": "",
     "core_indicators": [
       "口燥",
@@ -11052,8 +11478,28 @@
     "exclusion_indicators": [],
     "composition": [
       {
-        "herb": "暂无",
-        "dose": "",
+        "herb": "茯苓",
+        "dose": "四两",
+        "desc": ""
+      },
+      {
+        "herb": "甘草",
+        "dose": "三两",
+        "desc": ""
+      },
+      {
+        "herb": "干姜",
+        "dose": "三两",
+        "desc": ""
+      },
+      {
+        "herb": "细辛",
+        "dose": "三两",
+        "desc": ""
+      },
+      {
+        "herb": "五味子",
+        "dose": "半升",
         "desc": ""
       }
     ],
@@ -11079,7 +11525,7 @@
   {
     "id": "F-ju梗",
     "name": "桔梗汤",
-    "source_clause": "JKYL-012",
+    "source_clause": "JGL-08-012",
     "six_channel": "",
     "core_indicators": [
       "吐",
@@ -11177,7 +11623,7 @@
   {
     "id": "F-juzhi薑",
     "name": "橘枳薑汤",
-    "source_clause": "JKYL-994",
+    "source_clause": "JGL-10-006",
     "six_channel": "",
     "core_indicators": [
       "胸痹",
@@ -11187,8 +11633,18 @@
     "exclusion_indicators": [],
     "composition": [
       {
-        "herb": "暂无",
-        "dose": "",
+        "herb": "橘皮",
+        "dose": "一斤",
+        "desc": ""
+      },
+      {
+        "herb": "枳实",
+        "dose": "三两",
+        "desc": ""
+      },
+      {
+        "herb": "生姜",
+        "dose": "半斤",
         "desc": ""
       }
     ],
@@ -11214,7 +11670,7 @@
   {
     "id": "F-ju皮",
     "name": "橘皮汤",
-    "source_clause": "JKYL-017",
+    "source_clause": "JGL-18-022",
     "six_channel": "",
     "core_indicators": [
       "干呕",
@@ -11224,8 +11680,13 @@
     "exclusion_indicators": [],
     "composition": [
       {
-        "herb": "暂无",
-        "dose": "",
+        "herb": "橘皮",
+        "dose": "四两",
+        "desc": ""
+      },
+      {
+        "herb": "生姜",
+        "dose": "半斤",
         "desc": ""
       }
     ],
@@ -11251,7 +11712,7 @@
   {
     "id": "F-ju皮竹茹",
     "name": "橘皮竹茹汤",
-    "source_clause": "JKYL-017",
+    "source_clause": "JGL-18-023",
     "six_channel": "",
     "core_indicators": [
       "哕逆",
@@ -11260,8 +11721,33 @@
     "exclusion_indicators": [],
     "composition": [
       {
-        "herb": "暂无",
-        "dose": "",
+        "herb": "橘皮",
+        "dose": "二斤",
+        "desc": ""
+      },
+      {
+        "herb": "竹茹",
+        "dose": "二升",
+        "desc": ""
+      },
+      {
+        "herb": "大枣",
+        "dose": "三十枚",
+        "desc": ""
+      },
+      {
+        "herb": "生姜",
+        "dose": "半斤",
+        "desc": ""
+      },
+      {
+        "herb": "甘草",
+        "dose": "五两",
+        "desc": ""
+      },
+      {
+        "herb": "人参",
+        "dose": "一两",
         "desc": ""
       }
     ],
@@ -11287,7 +11773,7 @@
   {
     "id": "F-泻xin",
     "name": "泻心汤",
-    "source_clause": "JKYL-017",
+    "source_clause": "JGL-17-017",
     "six_channel": "",
     "core_indicators": [
       "吐"
@@ -11334,7 +11820,7 @@
   {
     "id": "F-泽漆",
     "name": "泽漆汤",
-    "source_clause": "JKYL-009",
+    "source_clause": "JGL-08-009",
     "six_channel": "",
     "core_indicators": [
       "不得眠",
@@ -11418,7 +11904,7 @@
   {
     "id": "F-滑石dai赭",
     "name": "滑石代赭汤",
-    "source_clause": "JKYL-003",
+    "source_clause": "JGL-04-003",
     "six_channel": "",
     "core_indicators": [
       "无热",
@@ -11474,7 +11960,7 @@
   {
     "id": "F-滑石白鱼",
     "name": "滑石白鱼散",
-    "source_clause": "JKYL-011",
+    "source_clause": "JGL-14-011",
     "six_channel": "",
     "core_indicators": [
       "微热",
@@ -11489,8 +11975,18 @@
     "exclusion_indicators": [],
     "composition": [
       {
-        "herb": "暂无",
-        "dose": "",
+        "herb": "滑石",
+        "dose": "二分",
+        "desc": ""
+      },
+      {
+        "herb": "乱发",
+        "dose": "二分",
+        "desc": "烧"
+      },
+      {
+        "herb": "白鱼",
+        "dose": "二分",
         "desc": ""
       }
     ],
@@ -11683,7 +12179,7 @@
   {
     "id": "F-狼牙",
     "name": "狼牙汤",
-    "source_clause": "JKYL-021",
+    "source_clause": "JGL-23-021",
     "six_channel": "",
     "core_indicators": [
       "烦热",
@@ -11694,8 +12190,8 @@
     "exclusion_indicators": [],
     "composition": [
       {
-        "herb": "暂无",
-        "dose": "",
+        "herb": "狼牙",
+        "dose": "三两",
         "desc": ""
       }
     ],
@@ -11764,7 +12260,7 @@
   {
     "id": "F-猪胆汁",
     "name": "猪胆汁方",
-    "source_clause": "JKYL-1006",
+    "source_clause": "SHL-233",
     "six_channel": "太阳",
     "core_indicators": [
       "潮热",
@@ -11781,8 +12277,8 @@
     "exclusion_indicators": [],
     "composition": [
       {
-        "herb": "暂无",
-        "dose": "",
+        "herb": "猪胆汁",
+        "dose": "一枚",
         "desc": ""
       }
     ],
@@ -11810,7 +12306,7 @@
   {
     "id": "F-猪gao髮jian",
     "name": "猪膏髮煎",
-    "source_clause": "JKYL-017",
+    "source_clause": "JGL-16-017",
     "six_channel": "",
     "core_indicators": [
       "发热",
@@ -11825,8 +12321,13 @@
     "exclusion_indicators": [],
     "composition": [
       {
-        "herb": "暂无",
-        "dose": "",
+        "herb": "猪膏",
+        "dose": "半斤",
+        "desc": ""
+      },
+      {
+        "herb": "乱发",
+        "dose": "如鸡子大三枚",
         "desc": ""
       }
     ],
@@ -11891,7 +12392,7 @@
   {
     "id": "F-王bu留行",
     "name": "王不留行散",
-    "source_clause": "JKYL-006",
+    "source_clause": "JGL-19-006",
     "six_channel": "",
     "core_indicators": [
       "无热",
@@ -11987,7 +12488,7 @@
   {
     "id": "F-瓜蒂",
     "name": "瓜蒂散",
-    "source_clause": "SHL-164",
+    "source_clause": "SHL-166",
     "six_channel": "",
     "core_indicators": [
       "恶寒",
@@ -12075,7 +12576,7 @@
   {
     "id": "F-甘草粉蜜",
     "name": "甘草粉蜜汤",
-    "source_clause": "JKYL-006",
+    "source_clause": "JGL-20-006",
     "six_channel": "",
     "core_indicators": [
       "吐"
@@ -12122,7 +12623,7 @@
   {
     "id": "F-甘草附zi",
     "name": "甘草附子汤",
-    "source_clause": "SHL-068",
+    "source_clause": "SHL-175",
     "six_channel": "太阳",
     "core_indicators": [
       "恶寒",
@@ -12179,7 +12680,7 @@
   {
     "id": "F-甘草mahuang",
     "name": "甘草麻黄汤",
-    "source_clause": "JKYL-025",
+    "source_clause": "JGL-15-025",
     "six_channel": "",
     "core_indicators": [
       "恶风",
@@ -12195,8 +12696,13 @@
     "exclusion_indicators": [],
     "composition": [
       {
-        "herb": "暂无",
-        "dose": "",
+        "herb": "甘草",
+        "dose": "二两",
+        "desc": ""
+      },
+      {
+        "herb": "麻黄",
+        "dose": "四两",
         "desc": ""
       }
     ],
@@ -12222,7 +12728,7 @@
   {
     "id": "F-甘薑ling朮",
     "name": "甘薑苓朮汤",
-    "source_clause": "JKYL-016",
+    "source_clause": "JGL-12-016",
     "six_channel": "",
     "core_indicators": [
       "发热",
@@ -12283,7 +12789,7 @@
   {
     "id": "F-甘遂banxia",
     "name": "甘遂半夏汤",
-    "source_clause": "JKYL-018",
+    "source_clause": "JGL-13-018",
     "six_channel": "",
     "core_indicators": [
       "自利",
@@ -12402,7 +12908,7 @@
   {
     "id": "F-生薑banxia",
     "name": "生薑半夏汤",
-    "source_clause": "JKYL-021",
+    "source_clause": "JGL-18-021",
     "six_channel": "",
     "core_indicators": [
       "呕",
@@ -12450,7 +12956,7 @@
   {
     "id": "F-白tou翁jia甘草阿胶",
     "name": "白头翁加甘草阿胶汤",
-    "source_clause": "JKYL-011",
+    "source_clause": "JGL-22-011",
     "six_channel": "",
     "core_indicators": [
       "恶寒",
@@ -12467,8 +12973,33 @@
     "exclusion_indicators": [],
     "composition": [
       {
-        "herb": "暂无",
-        "dose": "",
+        "herb": "白头翁",
+        "dose": "二两",
+        "desc": ""
+      },
+      {
+        "herb": "甘草",
+        "dose": "二两",
+        "desc": ""
+      },
+      {
+        "herb": "阿胶",
+        "dose": "二两",
+        "desc": ""
+      },
+      {
+        "herb": "秦皮",
+        "dose": "三两",
+        "desc": ""
+      },
+      {
+        "herb": "黄连",
+        "dose": "三两",
+        "desc": ""
+      },
+      {
+        "herb": "柏皮",
+        "dose": "三两",
         "desc": ""
       }
     ],
@@ -12494,7 +13025,7 @@
   {
     "id": "F-白朮",
     "name": "白朮散",
-    "source_clause": "JKYL-010",
+    "source_clause": "JGL-21-010",
     "six_channel": "",
     "core_indicators": [
       "恶寒",
@@ -12551,7 +13082,7 @@
   {
     "id": "F-白朮附zi",
     "name": "白朮附子汤",
-    "source_clause": "JKYL-023",
+    "source_clause": "JGL-03-023",
     "six_channel": "",
     "core_indicators": [
       "恶风",
@@ -12616,7 +13147,7 @@
   {
     "id": "F-白虎jiaguizhi",
     "name": "白虎加桂枝汤",
-    "source_clause": "JKYL-004",
+    "source_clause": "JGL-05-004",
     "six_channel": "",
     "core_indicators": [
       "呕"
@@ -12739,7 +13270,7 @@
   {
     "id": "F-百hexi",
     "name": "百合洗方",
-    "source_clause": "JKYL-006",
+    "source_clause": "JGL-04-006",
     "six_channel": "",
     "core_indicators": [
       "吐",
@@ -12749,8 +13280,8 @@
     "exclusion_indicators": [],
     "composition": [
       {
-        "herb": "暂无",
-        "dose": "",
+        "herb": "百合",
+        "dose": "一升",
         "desc": ""
       }
     ],
@@ -12776,7 +13307,7 @@
   {
     "id": "F-百he滑石",
     "name": "百合滑石散",
-    "source_clause": "JKYL-008",
+    "source_clause": "JGL-04-008",
     "six_channel": "",
     "core_indicators": [
       "发热"
@@ -12818,7 +13349,7 @@
   {
     "id": "F-百he知mu",
     "name": "百合知母汤",
-    "source_clause": "JKYL-002",
+    "source_clause": "JGL-04-002",
     "six_channel": "",
     "core_indicators": [
       "身热",
@@ -12870,7 +13401,7 @@
   {
     "id": "F-百he鸡zi",
     "name": "百合鸡子汤",
-    "source_clause": "JKYL-003",
+    "source_clause": "JGL-04-004",
     "six_channel": "",
     "core_indicators": [
       "头痛",
@@ -12916,7 +13447,7 @@
   {
     "id": "F-皂荚",
     "name": "皂荚丸",
-    "source_clause": "JKYL-006",
+    "source_clause": "JGL-08-007",
     "six_channel": "",
     "core_indicators": [
       "咳",
@@ -13000,7 +13531,7 @@
   {
     "id": "F-矾石",
     "name": "矾石丸",
-    "source_clause": "JKYL-015",
+    "source_clause": "JGL-23-015",
     "six_channel": "",
     "core_indicators": [
       "小便",
@@ -13042,7 +13573,7 @@
   {
     "id": "F-矾石_2",
     "name": "矾石汤",
-    "source_clause": "JKYL-010",
+    "source_clause": "JGL-06-010",
     "six_channel": "",
     "core_indicators": [
       "发热",
@@ -13086,7 +13617,7 @@
   {
     "id": "F-硝石矾石",
     "name": "硝石矾石散",
-    "source_clause": "JKYL-014",
+    "source_clause": "JGL-16-014",
     "six_channel": "",
     "core_indicators": [
       "发热",
@@ -13204,7 +13735,7 @@
   {
     "id": "F-竹ye",
     "name": "竹叶汤",
-    "source_clause": "JKYL-009",
+    "source_clause": "JGL-22-009",
     "six_channel": "",
     "core_indicators": [
       "发热",
@@ -13295,7 +13826,7 @@
   {
     "id": "F-竹皮da",
     "name": "竹皮大丸",
-    "source_clause": "JKYL-010",
+    "source_clause": "JGL-22-010",
     "six_channel": "",
     "core_indicators": [
       "呕逆"
@@ -13352,7 +13883,7 @@
   {
     "id": "F-紫shen",
     "name": "紫参汤",
-    "source_clause": "JKYL-046",
+    "source_clause": "JGL-18-046",
     "six_channel": "",
     "core_indicators": [
       "下利"
@@ -13394,7 +13925,7 @@
   {
     "id": "F-紫石han食",
     "name": "紫石寒食散",
-    "source_clause": "JKYL-004",
+    "source_clause": "JGL-24-004",
     "six_channel": "",
     "core_indicators": [
       "吐",
@@ -13490,7 +14021,7 @@
   {
     "id": "F-红蓝花",
     "name": "红蓝花酒",
-    "source_clause": "JKYL-016",
+    "source_clause": "JGL-23-016",
     "six_channel": "",
     "core_indicators": [
       "小便",
@@ -13527,7 +14058,7 @@
   {
     "id": "F-续ming",
     "name": "续命汤",
-    "source_clause": "JKYL-010",
+    "source_clause": "JGL-06-010",
     "six_channel": "",
     "core_indicators": [
       "中风痱",
@@ -13609,7 +14140,7 @@
   {
     "id": "F-耆shaoguijiu",
     "name": "耆芍桂酒汤",
-    "source_clause": "JKYL-014",
+    "source_clause": "JGL-15-028",
     "six_channel": "",
     "core_indicators": [
       "黄汗",
@@ -13620,8 +14151,18 @@
     "exclusion_indicators": [],
     "composition": [
       {
-        "herb": "暂无",
-        "dose": "",
+        "herb": "黄耆",
+        "dose": "五两",
+        "desc": ""
+      },
+      {
+        "herb": "芍药",
+        "dose": "三两",
+        "desc": ""
+      },
+      {
+        "herb": "桂枝",
+        "dose": "三两",
         "desc": ""
       }
     ],
@@ -13647,7 +14188,7 @@
   {
     "id": "F-胶艾",
     "name": "胶艾汤",
-    "source_clause": "JKYL-004",
+    "source_clause": "JGL-21-004",
     "six_channel": "",
     "core_indicators": [
       "发热",
@@ -13719,7 +14260,7 @@
   {
     "id": "F-胶薑",
     "name": "胶薑汤",
-    "source_clause": "JKYL-012",
+    "source_clause": "JGL-23-012",
     "six_channel": "",
     "core_indicators": [
       "口干",
@@ -13728,7 +14269,32 @@
     "exclusion_indicators": [],
     "composition": [
       {
-        "herb": "暂无",
+        "herb": "阿胶",
+        "dose": "",
+        "desc": "原典方未见，校勘推测即胶艾汤"
+      },
+      {
+        "herb": "艾叶",
+        "dose": "",
+        "desc": ""
+      },
+      {
+        "herb": "甘草",
+        "dose": "",
+        "desc": ""
+      },
+      {
+        "herb": "当归",
+        "dose": "",
+        "desc": ""
+      },
+      {
+        "herb": "芍药",
+        "dose": "",
+        "desc": ""
+      },
+      {
+        "herb": "干地黄",
         "dose": "",
         "desc": ""
       }
@@ -13757,7 +14323,7 @@
   {
     "id": "F-gao髮jian",
     "name": "膏髮煎",
-    "source_clause": "JKYL-017",
+    "source_clause": "JGL-16-017",
     "six_channel": "",
     "core_indicators": [
       "发热",
@@ -13772,8 +14338,13 @@
     "exclusion_indicators": [],
     "composition": [
       {
-        "herb": "暂无",
-        "dose": "",
+        "herb": "猪膏",
+        "dose": "半斤",
+        "desc": ""
+      },
+      {
+        "herb": "乱发",
+        "dose": "如鸡子大三枚",
         "desc": ""
       }
     ],
@@ -13901,7 +14472,7 @@
   {
     "id": "F-linggui朮甘",
     "name": "苓桂朮甘汤",
-    "source_clause": "JKYL-016",
+    "source_clause": "JGL-13-016",
     "six_channel": "",
     "core_indicators": [
       "心下",
@@ -13957,7 +14528,7 @@
   {
     "id": "F-苦jiu",
     "name": "苦酒汤",
-    "source_clause": "SHL-311",
+    "source_clause": "SHL-312",
     "six_channel": "少阴",
     "core_indicators": [
       "吐利",
@@ -14063,7 +14634,7 @@
   {
     "id": "F-茯ling戎盐",
     "name": "茯苓戎盐汤",
-    "source_clause": "JKYL-011",
+    "source_clause": "JGL-14-011",
     "six_channel": "",
     "core_indicators": [
       "微热",
@@ -14078,8 +14649,18 @@
     "exclusion_indicators": [],
     "composition": [
       {
-        "herb": "暂无",
-        "dose": "",
+        "herb": "茯苓",
+        "dose": "半斤",
+        "desc": ""
+      },
+      {
+        "herb": "白术",
+        "dose": "二两",
+        "desc": ""
+      },
+      {
+        "herb": "戎盐",
+        "dose": "弹丸大一枚",
         "desc": ""
       }
     ],
@@ -14105,7 +14686,7 @@
   {
     "id": "F-茯lingxing仁甘草",
     "name": "茯苓杏仁甘草汤",
-    "source_clause": "JKYL-006",
+    "source_clause": "JGL-10-006",
     "six_channel": "",
     "core_indicators": [
       "短气"
@@ -14152,7 +14733,7 @@
   {
     "id": "F-茯lingguizhiwuwei甘草",
     "name": "茯苓桂枝五味甘草汤",
-    "source_clause": "JKYL-036",
+    "source_clause": "JGL-13-036",
     "six_channel": "",
     "core_indicators": [
       "汗出",
@@ -14168,8 +14749,23 @@
     "exclusion_indicators": [],
     "composition": [
       {
-        "herb": "暂无",
-        "dose": "",
+        "herb": "茯苓",
+        "dose": "四两",
+        "desc": ""
+      },
+      {
+        "herb": "桂枝",
+        "dose": "四两",
+        "desc": "去皮"
+      },
+      {
+        "herb": "甘草",
+        "dose": "三两",
+        "desc": "炙"
+      },
+      {
+        "herb": "五味子",
+        "dose": "半升",
         "desc": ""
       }
     ],
@@ -14195,7 +14791,7 @@
   {
     "id": "F-茯lingguizhi白甘草",
     "name": "茯苓桂枝白甘草汤",
-    "source_clause": "JKYL-011",
+    "source_clause": "JGL-13-016",
     "six_channel": "",
     "core_indicators": [
       "汗出",
@@ -14254,7 +14850,7 @@
   {
     "id": "F-茯ling泽泻",
     "name": "茯苓泽泻汤",
-    "source_clause": "JKYL-018",
+    "source_clause": "JGL-18-018",
     "six_channel": "",
     "core_indicators": [
       "吐",
@@ -14320,7 +14916,7 @@
   {
     "id": "F-茱萸",
     "name": "茱萸汤",
-    "source_clause": "JKYL-008",
+    "source_clause": "JGL-18-008",
     "six_channel": "",
     "core_indicators": [
       "呕",
@@ -14374,7 +14970,7 @@
   {
     "id": "F-茵陈wuling",
     "name": "茵陈五苓散",
-    "source_clause": "JKYL-018",
+    "source_clause": "JGL-16-018",
     "six_channel": "",
     "core_indicators": [
       "发热",
@@ -14421,7 +15017,7 @@
   {
     "id": "F-葵zi茯ling",
     "name": "葵子茯苓散",
-    "source_clause": "JKYL-008",
+    "source_clause": "JGL-21-008",
     "six_channel": "",
     "core_indicators": [
       "恶寒",
@@ -14467,7 +15063,7 @@
   {
     "id": "F-葶lidazao泻肺",
     "name": "葶苈大枣泻肺汤",
-    "source_clause": "JKYL-011",
+    "source_clause": "JGL-08-011",
     "six_channel": "",
     "core_indicators": [
       "不得卧",
@@ -14511,7 +15107,7 @@
   {
     "id": "F-蒲灰",
     "name": "蒲灰散",
-    "source_clause": "JKYL-011",
+    "source_clause": "JGL-14-011",
     "six_channel": "",
     "core_indicators": [
       "小便不利"
@@ -14553,7 +15149,7 @@
   {
     "id": "F-yiyi附zi",
     "name": "薏苡附子散",
-    "source_clause": "JKYL-007",
+    "source_clause": "JGL-10-007",
     "six_channel": "",
     "core_indicators": [
       "胸痹",
@@ -14596,7 +15192,7 @@
   {
     "id": "F-yiyi附zi败酱",
     "name": "薏苡附子败酱散",
-    "source_clause": "JKYL-001",
+    "source_clause": "JGL-19-003",
     "six_channel": "",
     "core_indicators": [
       "发热",
@@ -14648,7 +15244,7 @@
   {
     "id": "F-薯yu",
     "name": "薯蓣丸",
-    "source_clause": "JKYL-016",
+    "source_clause": "JGL-07-016",
     "six_channel": "",
     "core_indicators": [
       "头重",
@@ -14791,7 +15387,7 @@
   {
     "id": "F-藜芦甘草",
     "name": "藜芦甘草汤",
-    "source_clause": "JKYL-002",
+    "source_clause": "JGL-20-002",
     "six_channel": "太阳",
     "core_indicators": [
       "转筋"
@@ -14799,7 +15395,12 @@
     "exclusion_indicators": [],
     "composition": [
       {
-        "herb": "暂无",
+        "herb": "藜芦",
+        "dose": "",
+        "desc": "原典方未见"
+      },
+      {
+        "herb": "甘草",
         "dose": "",
         "desc": ""
       }
@@ -14826,7 +15427,7 @@
   {
     "id": "F-蛇chuangzi",
     "name": "蛇床子散",
-    "source_clause": "JKYL-020",
+    "source_clause": "JGL-23-020",
     "six_channel": "",
     "core_indicators": [
       "烦热",
@@ -14837,7 +15438,7 @@
     "exclusion_indicators": [],
     "composition": [
       {
-        "herb": "暂无",
+        "herb": "蛇床子仁",
         "dose": "",
         "desc": ""
       }
@@ -14864,7 +15465,7 @@
   {
     "id": "F-蜀漆",
     "name": "蜀漆散",
-    "source_clause": "JKYL-005",
+    "source_clause": "JGL-05-005",
     "six_channel": "",
     "core_indicators": [
       "汗出",
@@ -14912,7 +15513,7 @@
   {
     "id": "F-蜘蛛",
     "name": "蜘蛛散",
-    "source_clause": "JKYL-004",
+    "source_clause": "JGL-20-004",
     "six_channel": "太阳",
     "core_indicators": [
       "转筋"
@@ -14998,7 +15599,7 @@
   {
     "id": "F-诃lile",
     "name": "诃黎勒丸",
-    "source_clause": "JKYL-023",
+    "source_clause": "JGL-24-002",
     "six_channel": "",
     "core_indicators": [
       "长服",
@@ -15036,7 +15637,7 @@
   {
     "id": "F-诃lile_2",
     "name": "诃黎勒散",
-    "source_clause": "JKYL-047",
+    "source_clause": "JGL-18-047",
     "six_channel": "",
     "core_indicators": [
       "汗出",
@@ -15078,7 +15679,7 @@
   {
     "id": "F-赤",
     "name": "赤丸",
-    "source_clause": "JKYL-016",
+    "source_clause": "JGL-11-016",
     "six_channel": "",
     "core_indicators": [
       "厥"
@@ -15130,7 +15731,7 @@
   {
     "id": "F-赤石脂",
     "name": "赤石脂丸",
-    "source_clause": "JKYL-009",
+    "source_clause": "JGL-10-009",
     "six_channel": "",
     "core_indicators": [
       "胸痹",
@@ -15230,7 +15831,7 @@
   {
     "id": "F-赤豆danggui",
     "name": "赤豆当归散",
-    "source_clause": "JKYL-012",
+    "source_clause": "JGL-04-013",
     "six_channel": "",
     "core_indicators": [
       "无热",
@@ -15275,7 +15876,7 @@
   {
     "id": "F-越婢jiabanxia",
     "name": "越婢加半夏汤",
-    "source_clause": "JKYL-013",
+    "source_clause": "JGL-08-013",
     "six_channel": "",
     "core_indicators": [
       "咳",
@@ -15343,7 +15944,7 @@
   {
     "id": "F-越婢jia朮",
     "name": "越婢加朮汤",
-    "source_clause": "JKYL-025",
+    "source_clause": "JGL-15-005",
     "six_channel": "",
     "core_indicators": [
       "烦热",
@@ -15392,7 +15993,7 @@
   {
     "id": "F-越婢",
     "name": "越婢汤",
-    "source_clause": "JKYL-023",
+    "source_clause": "JGL-15-023",
     "six_channel": "",
     "core_indicators": [
       "恶风",
@@ -15460,7 +16061,7 @@
   {
     "id": "F-还魂",
     "name": "还魂汤",
-    "source_clause": "JKYL-012",
+    "source_clause": "JGL-24-012",
     "six_channel": "",
     "core_indicators": [
       "吐利",
@@ -15570,7 +16171,7 @@
   {
     "id": "F-fangjidihuang",
     "name": "防己地黄汤",
-    "source_clause": "JKYL-1077",
+    "source_clause": "JGL-06-003",
     "six_channel": "",
     "core_indicators": [
       "身痒",
@@ -15626,7 +16227,7 @@
   {
     "id": "F-fangji茯ling",
     "name": "防己茯苓汤",
-    "source_clause": "JKYL-024",
+    "source_clause": "JGL-15-024",
     "six_channel": "",
     "core_indicators": [
       "恶风",
@@ -15695,7 +16296,7 @@
   {
     "id": "F-阳dan",
     "name": "阳旦汤",
-    "source_clause": "JKYL-008",
+    "source_clause": "JGL-22-008",
     "six_channel": "",
     "core_indicators": [
       "发热",
@@ -15712,8 +16313,28 @@
     "exclusion_indicators": [],
     "composition": [
       {
-        "herb": "暂无",
-        "dose": "",
+        "herb": "桂枝",
+        "dose": "三两",
+        "desc": "去皮"
+      },
+      {
+        "herb": "芍药",
+        "dose": "三两",
+        "desc": ""
+      },
+      {
+        "herb": "甘草",
+        "dose": "二两",
+        "desc": "炙"
+      },
+      {
+        "herb": "生姜",
+        "dose": "三两",
+        "desc": ""
+      },
+      {
+        "herb": "大枣",
+        "dose": "十二枚",
         "desc": ""
       }
     ],
@@ -15741,7 +16362,7 @@
   {
     "id": "F-附zi粳米",
     "name": "附子粳米汤",
-    "source_clause": "JKYL-010",
+    "source_clause": "JGL-11-010",
     "six_channel": "",
     "core_indicators": [
       "呕吐",
@@ -15800,7 +16421,7 @@
   {
     "id": "F-风yin",
     "name": "风引汤",
-    "source_clause": "JKYL-003",
+    "source_clause": "JGL-06-003",
     "six_channel": "",
     "core_indicators": [
       "恶寒",
@@ -15897,7 +16518,7 @@
   {
     "id": "F-鳖甲jian",
     "name": "鳖甲煎丸",
-    "source_clause": "JKYL-002",
+    "source_clause": "JGL-05-002",
     "six_channel": "",
     "core_indicators": [
       "身痛",
@@ -16044,7 +16665,7 @@
   {
     "id": "F-鸡屎白",
     "name": "鸡屎白散",
-    "source_clause": "JKYL-003",
+    "source_clause": "JGL-20-003",
     "six_channel": "",
     "core_indicators": [
       "转筋"
@@ -16083,7 +16704,7 @@
   {
     "id": "F-mahuangjia朮",
     "name": "麻黄加朮汤",
-    "source_clause": "JKYL-020",
+    "source_clause": "JGL-03-020",
     "six_channel": "",
     "core_indicators": [
       "发热",
@@ -16147,7 +16768,7 @@
   {
     "id": "F-mahuangshengma",
     "name": "麻黄升麻汤",
-    "source_clause": "SHL-356",
+    "source_clause": "SHL-357",
     "six_channel": "厥阴",
     "core_indicators": [
       "大汗",
@@ -16259,7 +16880,7 @@
   {
     "id": "F-mahuangxing仁甘草石gao",
     "name": "麻黄杏仁甘草石膏汤",
-    "source_clause": "SHL-062",
+    "source_clause": "SHL-063",
     "six_channel": "",
     "core_indicators": [
       "汗出",
@@ -16321,7 +16942,7 @@
   {
     "id": "F-mahuangxing仁yiyi甘草",
     "name": "麻黄杏仁薏苡甘草汤",
-    "source_clause": "JKYL-1087",
+    "source_clause": "JGL-03-021",
     "six_channel": "",
     "core_indicators": [
       "发热",
@@ -16457,7 +17078,7 @@
   {
     "id": "F-mahuang醇jiu",
     "name": "麻黄醇酒汤",
-    "source_clause": "JKYL-020",
+    "source_clause": "JGL-16-022",
     "six_channel": "",
     "core_indicators": [
       "自汗",
@@ -16500,7 +17121,7 @@
   {
     "id": "F-mahuang附zi",
     "name": "麻黄附子汤",
-    "source_clause": "JKYL-025",
+    "source_clause": "JGL-15-026",
     "six_channel": "",
     "core_indicators": [
       "恶风",
@@ -16511,9 +17132,19 @@
     "exclusion_indicators": [],
     "composition": [
       {
-        "herb": "暂无",
-        "dose": "",
+        "herb": "麻黄",
+        "dose": "三两",
         "desc": ""
+      },
+      {
+        "herb": "甘草",
+        "dose": "二两",
+        "desc": ""
+      },
+      {
+        "herb": "附子",
+        "dose": "一枚",
+        "desc": "炮"
       }
     ],
     "original_dose": "暂无",
@@ -16605,8 +17236,38 @@
     "exclusion_indicators": [],
     "composition": [
       {
-        "herb": "暂无",
-        "dose": "",
+        "herb": "桂枝",
+        "dose": "三两",
+        "desc": "去皮"
+      },
+      {
+        "herb": "甘草",
+        "dose": "三两",
+        "desc": "炙"
+      },
+      {
+        "herb": "大枣",
+        "dose": "十二枚",
+        "desc": ""
+      },
+      {
+        "herb": "芍药",
+        "dose": "六两",
+        "desc": ""
+      },
+      {
+        "herb": "生姜",
+        "dose": "三两",
+        "desc": ""
+      },
+      {
+        "herb": "胶饴",
+        "dose": "一升",
+        "desc": ""
+      },
+      {
+        "herb": "黄耆",
+        "dose": "一两半",
         "desc": ""
       }
     ],
@@ -16743,7 +17404,7 @@
   {
     "id": "F-huanglian粉",
     "name": "黄连粉",
-    "source_clause": "JKYL-008",
+    "source_clause": "JGL-19-008",
     "six_channel": "",
     "core_indicators": [
       "浸淫疮"
@@ -16751,9 +17412,9 @@
     "exclusion_indicators": [],
     "composition": [
       {
-        "herb": "暂无",
+        "herb": "黄连",
         "dose": "",
-        "desc": ""
+        "desc": "原典方未见"
       }
     ],
     "original_dose": "暂无",
@@ -16831,5 +17492,144 @@
     "contraindications": [],
     "formula_category": "黄连汤类",
     "differentiators": ""
+  },
+  {
+    "id": "F-didangwan",
+    "name": "抵当丸",
+    "source_clause": "SHL-126",
+    "six_channel": "太阳",
+    "core_indicators": [
+      "少腹满",
+      "小便自利"
+    ],
+    "exclusion_indicators": [
+      "小便不利"
+    ],
+    "composition": [
+      {
+        "herb": "水蛭",
+        "dose": "二十个",
+        "desc": "熬"
+      },
+      {
+        "herb": "虻虫",
+        "dose": "二十五个",
+        "desc": "熬，去翅足"
+      },
+      {
+        "herb": "桃仁",
+        "dose": "二十个",
+        "desc": "去皮尖"
+      },
+      {
+        "herb": "大黄",
+        "dose": "三两",
+        "desc": ""
+      }
+    ]
+  },
+  {
+    "id": "F-daxianxiongwan",
+    "name": "大陷胸丸",
+    "source_clause": "SHL-131",
+    "six_channel": "太阳",
+    "core_indicators": [
+      "结胸",
+      "项强如柔痉状"
+    ],
+    "exclusion_indicators": [
+      "心下痞按之濡"
+    ],
+    "composition": [
+      {
+        "herb": "大黄",
+        "dose": "半斤",
+        "desc": ""
+      },
+      {
+        "herb": "芒硝",
+        "dose": "半升",
+        "desc": ""
+      },
+      {
+        "herb": "葶苈",
+        "dose": "半升",
+        "desc": "熬"
+      },
+      {
+        "herb": "杏仁",
+        "dose": "半升",
+        "desc": "去皮尖，熬黑"
+      },
+      {
+        "herb": "甘遂",
+        "dose": "一钱匕",
+        "desc": ""
+      }
+    ]
+  },
+  {
+    "id": "F-quguijiabaizhutang",
+    "name": "去桂加白术汤",
+    "source_clause": "SHL-174",
+    "six_channel": "太阳",
+    "core_indicators": [
+      "大便硬",
+      "小便自利"
+    ],
+    "exclusion_indicators": [
+      "小便不利"
+    ],
+    "composition": [
+      {
+        "herb": "附子",
+        "dose": "一枚半",
+        "desc": "炮，去皮"
+      },
+      {
+        "herb": "白术",
+        "dose": "四两",
+        "desc": ""
+      },
+      {
+        "herb": "生姜",
+        "dose": "一两半",
+        "desc": "切"
+      },
+      {
+        "herb": "甘草",
+        "dose": "一两",
+        "desc": "炙"
+      },
+      {
+        "herb": "大枣",
+        "dose": "六枚",
+        "desc": "擘"
+      }
+    ]
+  },
+  {
+    "id": "F-zhulingsan",
+    "name": "猪苓散",
+    "source_clause": "JGL-18-013",
+    "six_channel": "",
+    "core_indicators": [
+      "思水"
+    ],
+    "exclusion_indicators": [],
+    "composition": [
+      {
+        "herb": "猪苓",
+        "dose:,desc": ""
+      },
+      {
+        "herb": "茯苓",
+        "dose:,desc": ""
+      },
+      {
+        "herb": "白术",
+        "dose:,desc": ""
+      }
+    ]
   }
 ]
