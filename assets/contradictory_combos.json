@@ -1,0 +1,88 @@
+{
+  "_meta": {
+    "version": "2.1.0",
+    "description": "矛盾组合辨证：当两个看似矛盾的症状同时出现时，不共享加分，而是排他性指向特定经"
+  },
+  "combos": [
+    {
+      "symptom_a": "消谷引食",
+      "symptom_b": "食不化",
+      "channel": "太阴",
+      "bonus": 3.0,
+      "reason": "消谷是客热之标，食不化是脾虚之本，合见则寒热错杂属太阴",
+      "source": "SHL-122"
+    },
+    {
+      "symptom_a": "消谷引食",
+      "symptom_b": "谷不化",
+      "channel": "太阴",
+      "bonus": 3.0,
+      "reason": "消谷是客热之标，谷不化是脾虚之本，合见则寒热错杂属太阴",
+      "source": "SHL-158"
+    },
+    {
+      "symptom_a": "消谷引食",
+      "symptom_b": "腹满",
+      "channel": "太阴",
+      "bonus": 2.5,
+      "reason": "胃热消谷+脾虚气滞，寒热错杂属太阴",
+      "source": "JGL-16-002"
+    },
+    {
+      "symptom_a": "发热",
+      "symptom_b": "下利清谷",
+      "channel": "少阴",
+      "bonus": 3.5,
+      "reason": "表热+里寒，真寒假热属少阴",
+      "source": "SHL-317"
+    },
+    {
+      "symptom_a": "口渴",
+      "symptom_b": "不欲饮",
+      "channel": "太阴",
+      "bonus": 2.5,
+      "reason": "渴而不欲饮，水饮内停津液不布属太阴",
+      "source": "SHL-073"
+    },
+    {
+      "symptom_a": "不恶寒",
+      "symptom_b": "脉微",
+      "channel": "少阴",
+      "bonus": 3.5,
+      "reason": "阳证表象+阴证本质，阴盛格阳属少阴",
+      "source": "SHL-317"
+    },
+    {
+      "symptom_a": "四肢厥冷",
+      "symptom_b": "脉滑",
+      "channel": "阳明",
+      "bonus": 3.0,
+      "reason": "厥深热深，真热假寒属阳明",
+      "source": "SHL-350"
+    },
+    {
+      "symptom_a": "腹满",
+      "symptom_b": "喜按",
+      "channel": "太阴",
+      "bonus": 2.5,
+      "reason": "腹满+喜按=虚证属太阴，排除阳明实满",
+      "source": "SHL-273"
+    },
+    {
+      "symptom_a": "呕",
+      "symptom_b": "肠鸣",
+      "channel": "太阴",
+      "bonus": 2.5,
+      "reason": "呕而肠鸣，寒热错杂痞证属太阴",
+      "source": "SHL-157"
+    },
+    {
+      "symptom_a": "干噫食臭",
+      "symptom_b": "肠鸣",
+      "channel": "太阴",
+      "bonus": 3.0,
+      "reason": "干噫食臭+肠鸣，生姜泻心汤证核心组合",
+      "source": "SHL-157"
+    }
+  ]
+}

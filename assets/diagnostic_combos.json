@@ -1,0 +1,37 @@
+{
+  "_meta": {
+    "version": "2.1.0",
+    "description": "脉证组合协同加分（Layer 5）：仲景脉证合参经典组合，脉+症状同时出现时协同加分"
+  },
+  "combos": [
+    {"pulse": "脉浮", "symptom": "恶寒", "channel": "太阳", "bonus": 3.0, "source": "SHL-001 太阳病提纲"},
+    {"pulse": "脉浮", "symptom": "头项强痛", "channel": "太阳", "bonus": 3.0, "source": "SHL-001 太阳病提纲"},
+    {"pulse": "脉浮紧", "symptom": "恶寒", "channel": "太阳", "bonus": 3.0, "source": "SHL-035 麻黄汤证"},
+    {"pulse": "脉浮缓", "symptom": "汗出", "channel": "太阳", "bonus": 3.0, "source": "SHL-012 桂枝汤证"},
+    {"pulse": "脉洪大", "symptom": "大热", "channel": "阳明", "bonus": 3.0, "source": "SHL-176 白虎汤证"},
+    {"pulse": "脉沉实", "symptom": "腹满", "channel": "阳明", "bonus": 3.0, "source": "SHL-208 承气汤证"},
+    {"pulse": "脉弦", "symptom": "往来寒热", "channel": "少阳", "bonus": 3.0, "source": "SHL-096 小柴胡汤证"},
+    {"pulse": "脉弦细", "symptom": "默默", "channel": "少阳", "bonus": 2.5, "source": "SHL-096 小柴胡汤证"},
+    {"pulse": "脉缓弱", "symptom": "腹满", "channel": "太阴", "bonus": 2.5, "source": "SHL-273/278 太阴脾虚"},
+    {"pulse": "脉缓弱", "symptom": "食不下", "channel": "太阴", "bonus": 2.5, "source": "SHL-273 太阴提纲"},
+    {"pulse": "脉微细", "symptom": "但欲寐", "channel": "少阴", "bonus": 3.0, "source": "SHL-281 少阴病提纲"},
+    {"pulse": "脉沉", "symptom": "但欲寐", "channel": "少阴", "bonus": 2.5, "source": "SHL-281/301 少阴阳虚"},
+    {"pulse": "脉微", "symptom": "恶寒", "channel": "少阴", "bonus": 2.5, "source": "SHL-281/288 少阴阳虚寒"},
+    {"pulse": "脉细欲绝", "symptom": "手足厥冷", "channel": "厥阴", "bonus": 3.0, "source": "SHL-351 当归四逆汤证"},
+    {"pulse": "脉滑", "symptom": "心下痞", "channel": "太阴", "bonus": 2.0, "source": "泻心汤方证 寒热错杂痞"},
+    {"pulse": "脉细", "symptom": "腹满", "channel": "太阴", "bonus": 2.0, "source": "太阴脾虚夹湿"},
+    {"pulse": "脉滑细", "symptom": "肠鸣", "channel": "太阴", "bonus": 2.0, "source": "生姜泻心汤方证 水饮夹虚"},
+    {"pulse": "脉滑细", "symptom": "心下痞", "channel": "太阴", "bonus": 2.0, "source": "泻心汤方证 寒热错杂痞"},
+    {"pulse": "脉滑", "symptom": "肠鸣", "channel": "太阴", "bonus": 2.0, "source": "泻心汤方证 痰饮肠鸣"},
+    {"pulse": "脉细", "symptom": "食不下", "channel": "太阴", "bonus": 2.0, "source": "太阴脾虚不运"},
+    {"pulse": "脉沉", "symptom": "腹满", "channel": "太阴", "bonus": 2.0, "source": "太阴里寒腹满"},
+    {"pulse": "脉沉", "symptom": "下利", "channel": "少阴", "bonus": 2.5, "source": "少阴里寒下利"},
+    {"pulse": "脉弦", "symptom": "腹满", "channel": "少阳", "bonus": 2.0, "source": "少阳枢机不利气滞"},
+    {"pulse": "脉迟", "symptom": "腹满", "channel": "太阴", "bonus": 2.5, "source": "太阴中寒腹满"},
+    {"pulse": "脉数", "symptom": "烦", "channel": "阳明", "bonus": 2.0, "source": "阳明热扰心神"},
+    {"pulse": "脉紧", "symptom": "恶寒", "channel": "太阳", "bonus": 3.0, "source": "SHL-003 太阳伤寒"},
+    {"pulse": "脉沉弦", "symptom": "腹满", "channel": "少阳", "bonus": 2.0, "source": "少阳枢机不利夹饮"},
+    {"pulse": "脉弦滑", "symptom": "呕", "channel": "少阳", "bonus": 2.0, "source": "少阳痰热"},
+    {"pulse": "脉沉滑", "symptom": "小便不利", "channel": "太阴", "bonus": 2.0, "source": "痰饮伏里"}
+  ]
+}
