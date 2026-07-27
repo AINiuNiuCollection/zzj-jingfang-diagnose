@@ -316,6 +316,118 @@ python scripts/retrieve_kb.py \
 用户触发 → 信息收集 → 知识库检索 → 八步辨证分析 → 报告生成 → 落盘输出
 ```
 
+### 完整时序图
+
+```mermaid
+sequenceDiagram
+    participant User as 用户
+    participant Collect as 信息收集<br>(AI)
+    participant KB as 检索脚本<br>(kb_modules)
+    participant Diag as 八步辨证<br>(AI)
+    participant Report as 报告落盘
+
+    rect rgb(230,245,255)
+    Note over User,Collect: 阶段1：信息收集
+    User->>Collect: 提交四诊信息
+    Collect->>Collect: 检查6项必填<br>(主诉/症状/脉象/寒热/汗出/二便)
+
+    alt 必填项缺失
+        Collect-->>User: ⚠️阻断点1：逐项追问缺失信息
+        User->>Collect: 补充缺失信息
+    end
+
+    alt 脉象缺失且追问后仍无法提供
+        Collect->>Collect: 生成脉象缺失兜底方案<br>(按六经脉象纲领列出方剂方向)
+    end
+    end
+
+    rect rgb(255,245,230)
+    Note over Collect,KB: 阶段2：知识库检索（脚本1次调用，无交互）
+    Collect->>KB: retrieve_kb.py<br>(传入结构化患者信息)
+
+    Note over KB: 检索脚本10步流水线
+    KB->>KB: 0.必填项预检
+    KB->>KB: 1.术语映射 + 否定提取
+    KB->>KB: 2.规则引擎检查<br>(急重症/寒热/禁忌/人群)
+    KB->>KB: 3.六经检测(5层机制)
+    KB->>KB: 4.BM25条文检索
+    KB->>KB: 3.5六经候选兜底<br>(BM25 Top条文统计推断)
+    KB->>KB: 5.层级加权方剂排序<br>+否定排除+橙级降权
+    KB->>KB: 6.验证性追问检测
+    KB->>KB: 7.信息完整性检查
+    KB->>KB: 8.体质适配分析
+    KB->>KB: 9.脉象缺失兜底方案生成
+    KB->>KB: 10.状态判定<br>(ready/emergency/need_inquiry)
+
+    KB-->>Collect: 返回结构化JSON<br>(六经/方剂/条文/禁忌/追问/体质)
+    end
+
+    rect rgb(255,230,255)
+    Note over Collect,Diag: 阶段3：八步辨证分析（强制顺序，5个阻断点）
+    Collect->>Diag: 传入检索结果 + 患者信息
+
+    Note over Diag: ①治则优先 + 急重症预判 + 真假寒热鉴别
+    alt 寒热未明(need_inquiry=true)
+        Diag-->>User: ⚠️阻断点2：追问寒热鉴别点<br>(欲近衣/渴饮/脉象)
+        User->>Diag: 补充寒热鉴别信息
+    end
+
+    Note over Diag: ②信息标准化（白话→文言术语映射）
+    Note over Diag: ③抓主症，定六经病位
+    alt Top1置信度 < 0.65
+        Diag-->>User: ⚠️阻断点3：追问1-2个鉴别点
+        User->>Diag: 补充鉴别信息
+    end
+    alt 合病主次不明
+        Diag-->>User: 追问合病鉴别（禁止自动合方）
+        User->>Diag: 补充合病鉴别信息
+    end
+
+    Note over Diag: ④误治史适配校验
+    Note over Diag: ⑤方证精准匹配 → Top3候选方
+    alt need_verification=true
+        Diag-->>User: ⚠️阻断点4：追问1个核心鉴别点
+        User->>Diag: 补充验证信息
+    end
+
+    Note over Diag: ⑥禁忌二次复核<br>🔴红色一票否决 / 🟠橙色降权 / 🟡黄色警示
+    Note over Diag: ⑦经方合理微调<br>(体质调量+原典加减+合方推演)
+    Note over Diag: ⑦.5多阶段治疗路径推演<br>(🔴强制5项+🔵建议3项+7.5自审13条)
+
+    Note over Diag: ⑧张仲景审计(8维度100分)
+    loop 审计<90分 → 回退⑦步重推(最多3轮)
+        Diag->>Diag: 回退至⑦重新推演
+        Diag->>Diag: 重新审计评分
+    end
+    Diag->>Diag: ✅审计≥90分通过
+
+    alt has_gaps=true 且存在importance=high的缺口
+        Diag-->>User: ⚠️阻断点5：追问high级缺口信息
+        User->>Diag: 补充缺口信息
+    end
+    end
+
+    rect rgb(230,255,230)
+    Note over Diag,Report: 阶段4：报告生成与落盘
+    Diag->>Report: 按8+1模块模板生成论证式报告
+    Report->>Report: 保存到 reports/ 目录<br>验证文件存在且大小>0
+    Report-->>User: 返回报告绝对路径
+    end
+```
+
+**时序说明**：
+
+| 阶段 | 执行者 | 可能的交互回合 | 关键产出 |
+|:---|:---|:---|:---|
+| 信息收集 | AI | 0~N轮（⚠️阻断点1） | 6项必填齐全的四诊信息 |
+| 知识库检索 | 脚本（1次调用） | 0轮（纯计算） | 结构化JSON（六经/方剂/条文/禁忌/追问） |
+| ①~② | AI | 0~1轮（⚠️阻断点2寒热追问） | 治则+寒热结论 |
+| ③~④ | AI | 0~1轮（⚠️阻断点3六经追问） | 六经归属+合病判定 |
+| ⑤~⑥ | AI | 0~1轮（⚠️阻断点4验证性追问） | Top3候选方+禁忌复核结果 |
+| ⑦~⑧ | AI | 0~3轮（审计不通过回退） | 微调处方+审计评分 |
+| 报告前 | AI | 0~1轮（⚠️阻断点5完整性） | 补齐high级缺口 |
+| 报告生成 | AI | 0轮 | 8+1模块报告落盘 |
+
 ### 一、触发方式
 
 | 触发场景 | 示例 |
