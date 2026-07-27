@@ -109,13 +109,17 @@ class JingFangKB:
                     clause_channel_scores[ch] = clause_channel_scores.get(ch, 0) + 1
             if clause_channel_scores:
                 six_channel_candidates = sorted(
-                    clause_channel_scores.items(),
-                    key=lambda x: x[1], reverse=True
+                    [{"channel": ch, "score": sc, "exclusive_score": sc, "shared_score": 0, "layers_hit": {"bm25_fallback"}}
+                     for ch, sc in clause_channel_scores.items()],
+                    key=lambda x: x["score"], reverse=True
                 )
 
-        total_score = sum(s for _, s in six_channel_candidates)
+        # 统一处理：detect_six_channel 返回 [{channel, score, ...}]，兜底也已统一为同格式
+        total_score = sum(item.get("score", 0) for item in six_channel_candidates)
         hypotheses = []
-        for channel, score in six_channel_candidates[:3]:
+        for item in six_channel_candidates[:3]:
+            channel = item["channel"] if isinstance(item, dict) else item[0]
+            score = item.get("score", 0) if isinstance(item, dict) else item[1]
             conf = score / total_score if total_score > 0 else 0
             hypotheses.append({"channel": channel, "confidence": round(conf, 3)})
 
