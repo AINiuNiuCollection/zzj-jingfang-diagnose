@@ -2,20 +2,23 @@
 inquiry - 追问逻辑模块
 
 包含：验证性追问、信息完整性检查、必填项预检、脉象缺失兜底方案。
-关键改进：验证性追问关键词映射从 Config 读取。
+关键改进：验证性追问关键词映射从 dictionary.json 读取，方剂分类从 dictionary.json → formula_categories 读取。
 """
-
-from .config import Config
 
 
 class InquiryEngine:
     """追问引擎：验证性追问 + 信息完整性 + 必填项预检 + 脉象兜底"""
 
-    def check_verification_inquiry(self, filtered_formulas: list, args, all_text: str) -> dict:
+    def check_verification_inquiry(self, filtered_formulas: list, args, all_text: str, data: dict) -> dict:
         """验证性追问（v3通用版）
 
-        关键改进：关键词映射从 Config.VERIFICATION_KEYWORD_MAP 读取。
+        关键改进：关键词映射从 dictionary.json → verification_keyword_map 读取。
+        方剂分类从 dictionary.json → formula_categories 读取。
         """
+        dictionary = data.get("dictionary", {})
+        cfg_map = dictionary.get("verification_keyword_map", {})
+        formula_cats = dictionary.get("formula_categories", {})
+
         if not filtered_formulas:
             return {"need_verification": False, "inquiry_point": "", "target_formula": ""}
 
@@ -23,14 +26,13 @@ class InquiryEngine:
         top1_name = top1.get("name", "")
         top1_core = top1.get("core_indicators", [])
         top1_exclusion = top1.get("exclusion_indicators", [])
-        cfg = Config
 
-        # ---- 通用机制：基于 Config.VERIFICATION_KEYWORD_MAP 自动检测 ----
+        # ---- 通用机制：基于 verification_keyword_map 自动检测 ----
         all_indicators = list(top1_core) + list(top1_exclusion)
         for indicator in all_indicators:
-            if indicator in cfg.VERIFICATION_KEYWORD_MAP:
-                mapping = cfg.VERIFICATION_KEYWORD_MAP[indicator]
-                field = mapping["field"]
+            if indicator in cfg_map:
+                mapping = cfg_map[indicator]
+                field = mapping.get("field")
                 if field is not None:
                     field_value = getattr(args, field, "") or ""
                     if not field_value.strip():
@@ -48,21 +50,24 @@ class InquiryEngine:
 
         # ---- 兜底场景 ----
         # 兜底1：泻心汤类
-        if top1_name in cfg.XIE_XIN_FORMULAS:
+        xie_xin = formula_cats.get("xie_xin", [])
+        if top1_name in xie_xin:
             if "按之" not in all_text and "压痛" not in all_text and "硬痛" not in all_text and "喜按" not in all_text and "拒按" not in all_text and "痞" not in all_text:
                 return {"need_verification": True,
                         "inquiry_point": f"Top1候选方为{top1_name}（泻心汤类/痞证方），需确认心下痞性质。请确认：患者心下（胃脘部）是 □但满不痛（痞） □硬痛拒按（须排除结胸）",
                         "target_formula": top1_name}
 
         # 兜底2：攻下方需确认表证已解
-        if top1_name in cfg.GONG_XIA_FORMULAS:
+        gong_xia = formula_cats.get("gong_xia", [])
+        if top1_name in gong_xia:
             if not getattr(args, 'chill_fever', ''):
                 return {"need_verification": True,
                         "inquiry_point": f"Top1候选方为{top1_name}（攻下方），需确认表证是否已解。请补充：当前是否仍有恶寒/发热等表证？",
                         "target_formula": top1_name}
 
         # 兜底3：温阳方需排除真热假寒
-        if top1_name in cfg.WEN_YANG_FORMULAS:
+        wen_yang = formula_cats.get("wen_yang", [])
+        if top1_name in wen_yang:
             if not getattr(args, 'want_clothing', '') and ("四肢厥冷" in all_text or "大寒" in all_text):
                 return {"need_verification": True,
                         "inquiry_point": f"Top1候选方为{top1_name}（温阳方），患者有寒象但欲近衣情况未知，需排除真热假寒。请确认：患者虽怕冷，是否反而不想多穿衣服？",
@@ -70,10 +75,12 @@ class InquiryEngine:
 
         return {"need_verification": False, "inquiry_point": "", "target_formula": ""}
 
-    def check_info_completeness(self, args, filtered_formulas: list) -> dict:
+    def check_info_completeness(self, args, filtered_formulas: list, data: dict = None) -> dict:
         """信息完整性检查（v3增强版）"""
         gaps = []
-        cfg = Config
+        data = data or {}
+        dictionary = data.get("dictionary", {})
+        formula_cats = dictionary.get("formula_categories", {})
 
         # === 1. 必填项系统性校验 ===
         required_fields = [
@@ -117,7 +124,8 @@ class InquiryEngine:
                     })
 
             # 2b. 欲近衣
-            if top1_name in cfg.COLD_HEAT_FORMULAS:
+            cold_heat_formulas = formula_cats.get("cold_heat", [])
+            if top1_name in cold_heat_formulas:
                 want_clothing_value = getattr(args, 'want_clothing', '') or ""
                 if not want_clothing_value.strip():
                     gaps.append({
@@ -127,7 +135,8 @@ class InquiryEngine:
                     })
 
             # 2c. 腹诊
-            if top1_name in cfg.ABDOMINAL_FORMULAS:
+            abdominal_formulas = formula_cats.get("abdominal", [])
+            if top1_name in abdominal_formulas:
                 extra_value = getattr(args, 'extra', '') or ""
                 if not extra_value.strip() or not any(kw in extra_value for kw in ["按", "压痛", "硬痛", "喜按", "拒按", "痞", "腹"]):
                     gaps.append({
@@ -203,9 +212,12 @@ class InquiryEngine:
                 })
         return {"has_missing": len(missing) > 0, "missing": missing}
 
-    def generate_pulse_fallback(self, args, six_channel_hypotheses: list) -> dict:
+    def generate_pulse_fallback(self, args, six_channel_hypotheses: list, data: dict = None) -> dict:
         """脉象缺失兜底方案"""
-        cfg = Config
+        data = data or {}
+        pulse_channel_map_data = data.get("pulse_channel_map", {})
+        fallback_map = pulse_channel_map_data.get("fallback", {})
+        keyword_to_channel = pulse_channel_map_data.get("keyword_to_channel", {})
 
         # 从已有症状推断最可能的六经方向
         from .terminology import collect_patient_text
@@ -217,7 +229,7 @@ class InquiryEngine:
             if ch:
                 likely_channels.add(ch)
 
-        for keyword, channels in cfg.PULSE_KEYWORD_TO_CHANNEL.items():
+        for keyword, channels in keyword_to_channel.items():
             if keyword in symptom_text:
                 for ch in channels:
                     likely_channels.add(ch)
@@ -225,10 +237,10 @@ class InquiryEngine:
         priority_channels = [ch for ch in ["太阳", "阳明", "少阳", "太阴", "少阴", "厥阴"] if ch in likely_channels]
 
         full_map = {}
-        for channel, data in cfg.PULSE_FALLBACK_MAP.items():
+        for channel, data_item in fallback_map.items():
             full_map[channel] = {
-                "纲领": data["纲领"],
-                "脉象方向": data["脉象方向"],
+                "纲领": data_item["纲领"],
+                "脉象方向": data_item["脉象方向"],
                 "is_priority": channel in priority_channels,
             }
 
@@ -236,14 +248,14 @@ class InquiryEngine:
         if priority_channels:
             summary_parts.append(f"\n▶ 最可能方向（基于已有症状推断）：")
             for ch in priority_channels:
-                ch_data = cfg.PULSE_FALLBACK_MAP.get(ch, {})
+                ch_data = fallback_map.get(ch, {})
                 summary_parts.append(f"  {ch}（{ch_data.get('纲领', '')}）：")
                 for item in ch_data.get("脉象方向", []):
                     summary_parts.append(f"    {item['脉象']} → {item['方剂']}（{item['条文']}，{item['提示']}）")
 
         summary_parts.append(f"\n▶ 全部六经脉象参考：")
         for ch in ["太阳", "阳明", "少阳", "太阴", "少阴", "厥阴"]:
-            ch_data = cfg.PULSE_FALLBACK_MAP.get(ch, {})
+            ch_data = fallback_map.get(ch, {})
             summary_parts.append(f"  {ch}（{ch_data.get('纲领', '')}）：")
             for item in ch_data.get("脉象方向", []):
                 marker = "★" if ch in priority_channels else " "
