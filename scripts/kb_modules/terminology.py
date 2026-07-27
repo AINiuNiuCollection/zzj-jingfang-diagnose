@@ -3,12 +3,13 @@ terminology - 术语映射模块
 
 纯函数模块，无状态。提供白话→文言映射、关键词提取、否定提取、六经检测、患者文本收集。
 
-六经检测 detect_six_channel() 五层机制：
+六经检测 detect_six_channel() 六层机制：
 1. six_channel_keywords 精确匹配（含权重体系支持）
-2. 脉象→六经映射（从 Config.PULSE_CHANNEL_MAP）
-3. 语义关联→六经映射（从 Config.SEMANTIC_CHANNEL_MAP）
+2. 脉象→六经映射（从 pulse_channel_map.json）
+3. 语义关联→六经映射（从 dictionary.json → semantic_channel_map）
+3.5. 矛盾组合辨证（从 contradictory_combos.json）
 4. 否定确认层（从 dictionary.six_channel_negative_indicators）
-5. 脉证组合协同（从 Config.DIAGNOSTIC_COMBOS）
+5. 脉证组合协同（从 diagnostic_combos.json）
 
 返回格式：[{"channel", "score", "exclusive_score", "shared_score", "layers_hit"}, ...]
 """
@@ -75,29 +76,38 @@ def _build_keyword_channel_map(dictionary: dict, pulse_map: dict, semantic_map: 
     return kw_ch_map
 
 
-def detect_six_channel(text: str, dictionary: dict) -> list:
-    """六经候选检测（增强版：五层检测 + 排他/共享分离）
+def detect_six_channel(text: str, data: dict) -> list:
+    """六经候选检测（增强版：六层检测 + 排他/共享分离）
 
-    五层检测机制：
+    参数 data 为完整知识库数据（含 dictionary、pulse_channel_map、diagnostic_combos、contradictory_combos）。
+
+    六层检测机制：
     1. six_channel_keywords 精确匹配（含权重体系支持）
-    2. 脉象→六经映射（从 Config.PULSE_CHANNEL_MAP）
-    3. 语义关联→六经映射（从 Config.SEMANTIC_CHANNEL_MAP）
+    2. 脉象→六经映射（从 data["pulse_channel_map"]["mappings"]）
+    3. 语义关联→六经映射（从 data["dictionary"]["semantic_channel_map"]）
+    3.5. 矛盾组合辨证（从 data["contradictory_combos"]["combos"]）
     4. 否定确认层（从 dictionary.six_channel_negative_indicators）
-    5. 脉证组合协同（从 Config.DIAGNOSTIC_COMBOS）
+    5. 脉证组合协同（从 data["diagnostic_combos"]["combos"]）
 
     返回 [{"channel", "score", "exclusive_score", "shared_score", "layers_hit"}, ...]
     按score降序排列。
     - exclusive_score: 仅属于1个经的关键词/映射的得分
     - shared_score: 属于2+个经的关键词/映射的得分
-    - layers_hit: 哪些层贡献了得分 (keyword/pulse/semantic/negation/combo)
+    - layers_hit: 哪些层贡献了得分 (keyword/pulse/semantic/contradictory/negation/combo)
     """
-    from .config import Config
+    dictionary = data.get("dictionary", {})
 
     normalized = normalize(text, dictionary)
 
+    # 从 data 读取配置（替代原 Config 硬编码）
+    pulse_channel_mappings = data.get("pulse_channel_map", {}).get("mappings", {})
+    semantic_channel_map = dictionary.get("semantic_channel_map", {})
+    diagnostic_combos = data.get("diagnostic_combos", {}).get("combos", [])
+    contradictory_combos = data.get("contradictory_combos", {}).get("combos", [])
+
     # 预构建关键词→经映射
     kw_ch_map = _build_keyword_channel_map(
-        dictionary, Config.PULSE_CHANNEL_MAP, Config.SEMANTIC_CHANNEL_MAP
+        dictionary, pulse_channel_mappings, semantic_channel_map
     )
 
     # 初始化每经的计分结构
@@ -134,16 +144,33 @@ def detect_six_channel(text: str, dictionary: dict) -> list:
                 _add_score(channel, weight, kw, "keyword")
 
     # ---- 第2层：脉象→六经映射 ----
-    for pulse_term, channels in Config.PULSE_CHANNEL_MAP.items():
+    for pulse_term, channels in pulse_channel_mappings.items():
         if pulse_term in normalized:
             for ch in channels:
                 _add_score(ch, 1.5, pulse_term, "pulse")
 
     # ---- 第3层：语义关联→六经映射 ----
-    for symptom, channels in Config.SEMANTIC_CHANNEL_MAP.items():
+    for symptom, channels in semantic_channel_map.items():
         if symptom in normalized:
             for ch in channels:
                 _add_score(ch, 1.0, symptom, "semantic")
+
+    # ---- 第3.5层：矛盾组合辨证 ----
+    for combo in contradictory_combos:
+        sym_a = combo.get("symptom_a", "")
+        sym_b = combo.get("symptom_b", "")
+        if sym_a in normalized and sym_b in normalized:
+            channel = combo.get("channel", "")
+            bonus = combo.get("bonus", 3.0)
+            # 矛盾组合天然排他，加到exclusive
+            if channel not in channels_data:
+                channels_data[channel] = {
+                    "score": 0.0, "exclusive_score": 0.0,
+                    "shared_score": 0.0, "layers_hit": set()
+                }
+            channels_data[channel]["score"] += bonus
+            channels_data[channel]["exclusive_score"] += bonus
+            channels_data[channel]["layers_hit"].add("contradictory")
 
     # ---- 第4层：否定确认层 ----
     neg_indicators = dictionary.get("six_channel_negative_indicators", {})
@@ -163,10 +190,10 @@ def detect_six_channel(text: str, dictionary: dict) -> list:
                 channels_data[channel]["layers_hit"].add("negation")
 
     # ---- 第5层：脉证组合协同 ----
-    for combo in Config.DIAGNOSTIC_COMBOS:
-        pulse_term = combo["pulse"]
-        symptom = combo["symptom"]
-        channel = combo["channel"]
+    for combo in diagnostic_combos:
+        pulse_term = combo.get("pulse", "")
+        symptom = combo.get("symptom", "")
+        channel = combo.get("channel", "")
         bonus = combo.get("bonus", 3.0)
         # 检查脉象和症状同时存在
         if pulse_term in normalized and symptom in normalized:
@@ -185,13 +212,13 @@ def detect_six_channel(text: str, dictionary: dict) -> list:
 
     # 组装结果
     results = []
-    for channel, data in channels_data.items():
+    for channel, data_item in channels_data.items():
         results.append({
             "channel": channel,
-            "score": data["score"],
-            "exclusive_score": data["exclusive_score"],
-            "shared_score": data["shared_score"],
-            "layers_hit": data["layers_hit"],
+            "score": data_item["score"],
+            "exclusive_score": data_item["exclusive_score"],
+            "shared_score": data_item["shared_score"],
+            "layers_hit": data_item["layers_hit"],
         })
 
     return sorted(results, key=lambda x: x["score"], reverse=True)
