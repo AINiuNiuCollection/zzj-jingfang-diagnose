@@ -28,6 +28,9 @@ class DataLoader:
             "emergency": self._load_json("emergency.json") or [],
             "hebian": self._load_json("hebian.json") or [],
             "mistreatment": self._load_json("mistreatment.json") or {},
+            "pulse_channel_map": self._load_json("pulse_channel_map.json") or {},
+            "diagnostic_combos": self._load_json("diagnostic_combos.json") or {},
+            "contradictory_combos": self._load_json("contradictory_combos.json") or {},
         }
         return self._data
 
