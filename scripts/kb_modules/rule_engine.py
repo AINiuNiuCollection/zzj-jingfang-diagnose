@@ -32,12 +32,19 @@ class RuleEngine:
                 }
         return None
 
-    def check_cold_heat(self, args, all_text: str) -> dict:
+    def check_cold_heat(self, args, all_text: str, data: dict = None) -> dict:
         """真假寒热鉴别
 
-        关键改进：关键词从 Config.COLD_HEAT_KEYWORDS 读取，不再硬编码。
+        关键改进：关键词从 dictionary.json → cold_heat_keywords 读取。
         """
-        kw = Config.COLD_HEAT_KEYWORDS
+        data = data or {}
+        dictionary = data.get("dictionary", {})
+        kw = dictionary.get("cold_heat_keywords", {
+            "extreme_heat": ["大热", "高热", "高烧", "身大热"],
+            "extreme_cold": ["大寒", "身大寒", "四肢厥冷", "手足冰凉"],
+            "true_heat_pulse": ["洪", "数", "滑", "大"],
+            "true_cold_pulse": ["微", "细", "沉", "迟"],
+        })
         has_extreme_heat = any(k in all_text for k in kw["extreme_heat"])
         has_extreme_cold = any(k in all_text for k in kw["extreme_cold"])
         want_clothing = getattr(args, 'want_clothing', '') or ""
