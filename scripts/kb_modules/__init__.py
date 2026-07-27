@@ -43,7 +43,11 @@ class JingFangKB:
             treatment_history, history, extra
         """
         from argparse import Namespace
-        args = Namespace(**{k: v or "" for k, v in patient_input.items()})
+        # 确保所有字段都有默认值
+        defaults = {"tongue": "", "want_clothing": "", "thirst": "", "population": "普通成人",
+                     "treatment_history": "未经治疗", "history": "", "extra": ""}
+        merged = {**defaults, **{k: v or "" for k, v in patient_input.items()}}
+        args = Namespace(**merged)
         if not getattr(args, 'population', '').strip():
             setattr(args, 'population', '普通成人')
         if not getattr(args, 'treatment_history', '').strip():
@@ -63,7 +67,7 @@ class JingFangKB:
         # 0. 必填项预检
         required_check = self._inquiry_engine.check_required_fields(args)
         if required_check["has_missing"]:
-            pulse_fallback = self._inquiry_engine.generate_pulse_fallback(args, []) if not getattr(args, 'pulse', '').strip() else None
+            pulse_fallback = self._inquiry_engine.generate_pulse_fallback(args, [], data) if not getattr(args, 'pulse', '').strip() else None
             return assemble_output(
                 status="need_inquiry",
                 rule_version=Config.RULE_VERSION,
@@ -88,13 +92,13 @@ class JingFangKB:
 
         # 2. 规则引擎
         emergency = self._rule_engine.check_emergency(all_text, data["emergency"])
-        cold_heat = self._rule_engine.check_cold_heat(args, all_text)
+        cold_heat = self._rule_engine.check_cold_heat(args, all_text, data)
         contra = self._rule_engine.check_contraindications(all_text, data["formulas"], data["rules"], args.population)
         warnings = self._rule_engine.check_relative_warnings(all_text, data["rules"])
         pop_adjusts = self._rule_engine.check_population(data["rules"], args.population)
 
         # 3. 六经候选
-        six_channel_candidates = detect_six_channel(all_text, data["dictionary"])
+        six_channel_candidates = detect_six_channel(all_text, data)
 
         # 4. BM25 条文检索（提前到六经候选之后，以便兜底逻辑使用）
         retrieved_clauses = self._retriever.search_clauses(keywords, top_k=Config.BM25_TOP_K)
@@ -138,10 +142,10 @@ class JingFangKB:
                 filtered_formulas.append(item)
 
         # 6. 验证性追问
-        verification = self._inquiry_engine.check_verification_inquiry(filtered_formulas, args, all_text)
+        verification = self._inquiry_engine.check_verification_inquiry(filtered_formulas, args, all_text, data)
 
         # 7. 信息完整性检查
-        completeness = self._inquiry_engine.check_info_completeness(args, filtered_formulas)
+        completeness = self._inquiry_engine.check_info_completeness(args, filtered_formulas, data)
 
         # 8. 体质适配分析
         profile = self._profile_analyzer.check_patient_profile(all_text, args, filtered_formulas)
@@ -150,7 +154,7 @@ class JingFangKB:
         pulse_value = getattr(args, 'pulse', '') or ''
         pulse_fallback = None
         if not pulse_value.strip() or pulse_value.strip() in ("无法提供", "无法提供脉象", "不清楚", "不知道", "无"):
-            pulse_fallback = self._inquiry_engine.generate_pulse_fallback(args, hypotheses)
+            pulse_fallback = self._inquiry_engine.generate_pulse_fallback(args, hypotheses, data)
 
         # 10. 判定状态
         if emergency:
