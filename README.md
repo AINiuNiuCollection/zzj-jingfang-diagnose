@@ -170,7 +170,9 @@ zzj-jingfang-diagnose/
 │   ├── emergency-checklist.md        # 急重症判定清单
 │   ├── contraindication-rules.md     # 治则禁忌规则详解（含红/橙/黄三级体系）
 │   ├── formula-differentiation.md    # 方证鉴别指南（7大类方）
-│   └── zzj-audit-guide.md           # 张仲景审计评分标准（含药简力专增量评判+5项否决场景）
+│   ├── zzj-audit-guide.md           # 张仲景审计评分标准（含药简力专增量评判+5项否决场景）
+│   ├── sequence-diagram.mmd         # 交互时序图mermaid源文件
+│   └── sequence-diagram.png         # 交互时序图高清PNG
 ├── assets/                           # 知识库数据 + 古籍原文
 │   ├── book/                         # 7部中医经典古籍原文
 │   ├── clauses.json                  # 918条原文
@@ -317,6 +319,8 @@ python scripts/retrieve_kb.py \
 ```
 
 ### 完整时序图
+
+> **高清图片**：[references/sequence-diagram.png](references/sequence-diagram.png)（mermaid源文件：[references/sequence-diagram.mmd](references/sequence-diagram.mmd)）
 
 ```mermaid
 sequenceDiagram
