@@ -36,3 +36,15 @@ class Config:
 
     # ===== 矛盾组合基础加分 =====
     CONTRADICTORY_COMBO_BONUS = 3.0
+
+    # ===== 特异性加权系数（v2） =====
+    SPEC_WEIGHT_1CHAR = 0.3       # 单字指示词（"痞""渴""呕"）
+    SPEC_WEIGHT_2CHAR_GENERIC = 0.6   # 2字通用词（"汗出""发热""下利"）
+    SPEC_WEIGHT_2CHAR_SPECIFIC = 0.8  # 2字特异性词（"恶寒""往来"）
+    SPEC_WEIGHT_3CHAR = 1.0       # 3字指示词（"心下痞""不得眠"）
+    SPEC_WEIGHT_4CHAR_PLUS = 1.2  # 4字+指示词（"往来寒热""干噫食臭"）
+
+    # ===== 复合指示词拆分匹配系数 =====
+    COMPOUND_FULL_RATIO = 1.0     # 整体连续命中
+    COMPOUND_SPLIT_ALL_RATIO = 0.8  # 拆分后全部命中（非连续）
+    COMPOUND_SPLIT_PARTIAL_FACTOR = 0.5  # 拆分后部分命中（按命中比例×此系数）
