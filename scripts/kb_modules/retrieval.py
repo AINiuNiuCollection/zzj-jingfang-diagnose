@@ -302,3 +302,61 @@ class Retriever:
                 })
 
         return sorted(results, key=lambda x: x["score"], reverse=True)[:cfg.FORMULA_TOP_K]
+
+    def build_chapter_context(self, retrieved_clauses: list, data: dict) -> list:
+        """根据检索命中的条文，提取其所属病篇的完整条文列表
+
+        当某个病篇命中≥1条条文时，将该病篇的全部条文id+摘要附加到输出，
+        使AI能看到病篇全貌，不再受BM25 Top-K排名视野限制。
+
+        Returns:
+            list of {"chapter", "hit_count", "total_clauses", "all_clause_ids", "summary"}
+        """
+        # 1. 统计命中条文的 chapter 分布
+        chapter_hits = {}  # chapter → {"count": int, "clauses": list}
+        for item in retrieved_clauses:
+            clause = item.get("clause", {})
+            chapter = clause.get("chapter", "")
+            if not chapter:
+                continue
+            if chapter not in chapter_hits:
+                chapter_hits[chapter] = {"count": 0, "clauses": []}
+            chapter_hits[chapter]["count"] += 1
+            chapter_hits[chapter]["clauses"].append(clause)
+
+        if not chapter_hits:
+            return []
+
+        # 2. 对每个命中病篇，收集全部条文
+        all_clauses = data.get("clauses", [])
+        chapter_all = {}  # chapter → list of clause ids
+        for clause in all_clauses:
+            ch = clause.get("chapter", "")
+            if ch in chapter_hits:
+                if ch not in chapter_all:
+                    chapter_all[ch] = []
+                chapter_all[ch].append(clause.get("id", ""))
+
+        # 3. 构建输出（只保留命中≥1条的病篇）
+        results = []
+        for chapter, hit_info in chapter_hits.items():
+            all_ids = chapter_all.get(chapter, [])
+            # 构建摘要：列出该病篇中涉及的关键方剂名
+            formula_names = set()
+            for clause in hit_info["clauses"]:
+                for fn in clause.get("formulas", []):
+                    formula_names.add(fn)
+            summary_parts = [f"{chapter}共{len(all_ids)}条"]
+            if formula_names:
+                summary_parts.append(f"涉及方剂：{'、'.join(sorted(formula_names))}")
+
+            results.append({
+                "chapter": chapter,
+                "hit_count": hit_info["count"],
+                "total_clauses": len(all_ids),
+                "all_clause_ids": all_ids,
+                "summary": "，".join(summary_parts),
+            })
+
+        # 按命中数降序排列
+        return sorted(results, key=lambda x: x["hit_count"], reverse=True)
