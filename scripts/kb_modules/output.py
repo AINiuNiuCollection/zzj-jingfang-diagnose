@@ -28,6 +28,7 @@ def assemble_output(
     data: dict,
     args=None,
     required_fields_check=None,
+    chapter_context: list = None,
 ) -> dict:
     """组装最终 JSON 输出
 
@@ -57,6 +58,7 @@ def assemble_output(
             "formulas_count": len(data.get("formulas", [])),
             "rules_count": len(data.get("rules", [])),
         },
+        "chapter_context": chapter_context or [],
     }
 
     # 必填项缺失时的额外字段
