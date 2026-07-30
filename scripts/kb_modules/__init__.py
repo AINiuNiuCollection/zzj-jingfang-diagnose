@@ -83,6 +83,7 @@ class JingFangKB:
                 profile=None, pulse_fallback=pulse_fallback,
                 keywords=[], negations=[], normalized_query="",
                 data=data, args=args,
+                chapter_context=[],
             )
 
         # 1. 术语映射 + 否定提取
@@ -102,6 +103,9 @@ class JingFangKB:
 
         # 4. BM25 条文检索（提前到六经候选之后，以便兜底逻辑使用）
         retrieved_clauses = self._retriever.search_clauses(keywords, top_k=Config.BM25_TOP_K)
+
+        # 4.5 病篇章节上下文：根据命中条文提取病篇全貌
+        chapter_context = self._retriever.build_chapter_context(retrieved_clauses, data)
 
         # 3.5 六经候选兜底：当 detect_six_channel 返回空时，从 BM25 Top 条文的 six_channel 统计推断
         if not six_channel_candidates and retrieved_clauses:
@@ -175,4 +179,5 @@ class JingFangKB:
             pulse_fallback=pulse_fallback, profile=profile,
             keywords=keywords, negations=negations, normalized_query=normalized,
             data=data, args=args,
+            chapter_context=chapter_context,
         )
