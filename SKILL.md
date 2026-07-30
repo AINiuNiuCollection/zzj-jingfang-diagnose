@@ -127,6 +127,7 @@ python scripts/retrieve_kb.py \
 - `info_completeness`：**信息完整性检查**（含必填项校验+强烈推荐项按需校验+体质关键项校验）
 - `pulse_fallback`：**脉象缺失兜底参考**（脉象为空或用户表示无法提供时生成，按六经脉象纲领列出不同脉象对应的方剂方向+原典条文依据）
 - `patient_profile`：**患者体质适配分析**（含体型评估/用药史/微调建议）
+- `chapter_context`：**病篇章节上下文**（根据命中条文提取病篇全貌，含章节名/命中数/全部条文id/摘要。AI可据此查阅同病篇其他方证，不再受BM25 Top-K排名视野限制）
 - `keywords` / `negations`：检索关键词与否定排除项
 
 **依赖**：脚本需要 `rank_bm25` 和 `jieba`，执行前确认已安装（`pip install rank_bm25 jieba`）。

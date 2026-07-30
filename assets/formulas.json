@@ -329,8 +329,8 @@
   {
     "id": "F-xiaojianzhongtang",
     "name": "小建中汤",
-    "source_clause": "SHL-100",
-    "six_channel": "太阳",
+    "source_clause": "SHL-100,JGL-07-013",
+    "six_channel": "太阴",
     "core_indicators": [
       "腹中痛",
       "心悸",
@@ -396,7 +396,7 @@
       "实热证禁用",
       "呕家禁用（含胶饴甘甜）"
     ],
-    "formula_category": "桂枝汤类",
+    "formula_category": "建中汤类",
     "differentiators": "重建脾胃，补阳；与炙甘草汤补阴相对"
   },
   {
@@ -7691,11 +7691,12 @@
   {
     "id": "F-dajianzhong",
     "name": "大建中汤",
-    "source_clause": "JGL-07-014",
-    "six_channel": "",
+    "source_clause": "JGL-14-014",
+    "six_channel": "太阴",
     "core_indicators": [
-      "呕",
-      "饮食"
+      "心胸大寒痛",
+      "呕不能食",
+      "腹中寒"
     ],
     "exclusion_indicators": [],
     "composition": [
@@ -7723,18 +7724,27 @@
     },
     "toxic_herbs": [],
     "main_indications": [
-      "呕",
-      "饮食"
+      "心胸中大寒痛",
+      "呕不能饮食",
+      "腹中寒",
+      "上冲皮起",
+      "痛不可触近"
     ],
-    "typical_pulse": [],
-    "core_pathogenesis": "水饮内停；寒邪内盛",
+    "typical_pulse": [
+      "脉沉迟",
+      "脉微"
+    ],
+    "core_pathogenesis": "中阳衰败，寒凝气逆",
     "decoction_method": "暂无",
     "dosage_form": "",
     "aftercare": "",
     "stop_criteria": "",
     "standard_modifications": [],
-    "contraindications": [],
-    "formula_category": "其他类",
+    "contraindications": [
+      "实热腹痛禁用",
+      "阴虚内热慎用"
+    ],
+    "formula_category": "建中汤类",
     "differentiators": ""
   },
   {
@@ -10788,18 +10798,12 @@
     "id": "F-guizhijialong骨牡蛎",
     "name": "桂枝加龙骨牡蛎汤",
     "source_clause": "JGL-07-008",
-    "six_channel": "",
+    "six_channel": "太阴",
     "core_indicators": [
-      "小便不利",
-      "少腹满",
-      "喘",
-      "短气",
-      "悸",
-      "渴",
-      "目瞑",
+      "失精",
+      "少腹弦急",
       "目眩",
-      "精自出",
-      "少腹弦急"
+      "发落"
     ],
     "exclusion_indicators": [],
     "composition": [
@@ -10846,19 +10850,29 @@
       "severe": "待补"
     },
     "toxic_herbs": [],
-    "main_indications": [],
+    "main_indications": [
+      "失精",
+      "少腹弦急",
+      "目眩",
+      "发落",
+      "阴头寒",
+      "脉极虚芤迟"
+    ],
     "typical_pulse": [
       "脉虚沉弦",
       "脉浮大",
       "脉浮弱而涩"
     ],
-    "core_pathogenesis": "水饮内停；正气亏虚；热利下重",
+    "core_pathogenesis": "阴阳两虚，心肾不交",
     "decoction_method": "暂无",
     "dosage_form": "",
     "aftercare": "",
     "stop_criteria": "",
     "standard_modifications": [],
-    "contraindications": [],
+    "contraindications": [
+      "实热遗精禁用",
+      "湿热下注禁用"
+    ],
     "formula_category": "桂枝汤类",
     "differentiators": ""
   },
@@ -14472,12 +14486,12 @@
   {
     "id": "F-linggui朮甘",
     "name": "苓桂朮甘汤",
-    "source_clause": "JGL-13-016",
-    "six_channel": "",
+    "source_clause": "JGL-13-016,JGL-13-017,SHL-067",
+    "six_channel": "太阴",
     "core_indicators": [
-      "心下",
+      "胸胁支满",
       "目眩",
-      "胸胁"
+      "短气微饮"
     ],
     "exclusion_indicators": [],
     "composition": [
@@ -14510,19 +14524,26 @@
     },
     "toxic_herbs": [],
     "main_indications": [
-      "心下",
+      "心下有痰饮",
+      "胸胁支满",
       "目眩",
-      "胸胁"
+      "短气有微饮"
     ],
-    "typical_pulse": [],
-    "core_pathogenesis": "水饮内停；痰浊内蕴",
+    "typical_pulse": [
+      "脉沉",
+      "脉滑"
+    ],
+    "core_pathogenesis": "脾阳虚，饮停心下",
     "decoction_method": "暂无",
     "dosage_form": "",
     "aftercare": "",
     "stop_criteria": "",
     "standard_modifications": [],
-    "contraindications": [],
-    "formula_category": "苓桂剂类",
+    "contraindications": [
+      "阴虚内热禁用",
+      "饮热互结慎用"
+    ],
+    "formula_category": "苓桂术甘汤类",
     "differentiators": ""
   },
   {
@@ -15244,17 +15265,10 @@
     "id": "F-薯yu",
     "name": "薯蓣丸",
     "source_clause": "JGL-07-016",
-    "six_channel": "",
+    "six_channel": "太阴",
     "core_indicators": [
-      "头重",
-      "小便不利",
-      "胸满",
-      "腹胀",
-      "腹满",
-      "喘",
-      "饮食",
-      "悸",
-      "拘急"
+      "虚劳诸不足",
+      "风气百疾"
     ],
     "exclusion_indicators": [],
     "composition": [
@@ -15371,9 +15385,16 @@
       "severe": "待补"
     },
     "toxic_herbs": [],
-    "main_indications": [],
-    "typical_pulse": [],
-    "core_pathogenesis": "水饮内停；正气亏虚",
+    "main_indications": [
+      "虚劳诸不足",
+      "风气百疾",
+      "羸瘦",
+      "食不消化"
+    ],
+    "typical_pulse": [
+      "脉虚大"
+    ],
+    "core_pathogenesis": "虚劳风气百疾，脾胃气血诸不足",
     "decoction_method": "暂无",
     "dosage_form": "",
     "aftercare": "",
@@ -17218,8 +17239,8 @@
   {
     "id": "F-huang耆jianzhong",
     "name": "黄耆建中汤",
-    "source_clause": "SHL-1092",
-    "six_channel": "",
+    "source_clause": "JGL-07-014",
+    "six_channel": "太阴",
     "core_indicators": [
       "虚劳里急",
       "诸不足"
@@ -17264,21 +17285,50 @@
     ],
     "original_dose": "暂无",
     "dose_conversion": {
-      "regular": "待补",
-      "therapeutic": "待补",
-      "severe": "待补"
+      "regular": "桂枝9g 芍药18g 甘草9g 生姜9g 大枣4枚 胶饴30g 黄芪5g",
+      "therapeutic": "桂枝15g 芍药30g 甘草15g 生姜15g 大枣6枚 胶饴50g 黄芪8g",
+      "severe": "桂枝30g 芍药60g 甘草30g 生姜30g 大枣12枚 胶饴100g 黄芪15g"
     },
     "toxic_herbs": [],
-    "main_indications": [],
-    "typical_pulse": [],
-    "core_pathogenesis": "",
-    "decoction_method": "暂无",
+    "main_indications": [
+      "虚劳里急",
+      "诸不足",
+      "极度消瘦",
+      "短气",
+      "胸满"
+    ],
+    "typical_pulse": [
+      "脉虚",
+      "脉细",
+      "脉弦"
+    ],
+    "core_pathogenesis": "中焦虚寒，气血诸不足",
+    "decoction_method": "于小建中汤内加黄芪一两半，水煎去滓，纳胶饴，更上微火消解，温服一升，日三服",
     "dosage_form": "",
     "aftercare": "",
     "stop_criteria": "",
-    "standard_modifications": [],
-    "contraindications": [],
-    "formula_category": "其他类",
+    "standard_modifications": [
+      {
+        "condition": "气短胸满",
+        "modification": "加生姜",
+        "source": "JGL-07-014"
+      },
+      {
+        "condition": "腹满",
+        "modification": "去枣加茯苓一两半",
+        "source": "JGL-07-014"
+      },
+      {
+        "condition": "肺虚损不足补气",
+        "modification": "加半夏三两",
+        "source": "JGL-07-014"
+      }
+    ],
+    "contraindications": [
+      "实热证禁用",
+      "呕家禁用（含胶饴甘甜，SHL-100）"
+    ],
+    "formula_category": "建中汤类",
     "differentiators": ""
   },
   {
