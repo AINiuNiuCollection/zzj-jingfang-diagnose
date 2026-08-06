@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>中医分娩与产后护理知识手册</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;600;700;900&display=swap');
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    width: 210mm;
+    min-height: 297mm;
+    margin: 0 auto;
+    background: #F5F0E8;
+    font-family: 'Noto Serif SC', 'SimSun', '宋体', serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  .cover {
+    width: 210mm;
+    height: 297mm;
+    position: relative;
+    background: linear-gradient(180deg, #F7F2E8 0%, #EDE5D5 40%, #E8DFCF 100%);
+    overflow: hidden;
+    border: 1px solid #C9B99A;
+  }
+
+  .outer-border {
+    position: absolute;
+    top: 12mm;
+    left: 12mm;
+    right: 12mm;
+    bottom: 12mm;
+    border: 3px solid #8B6914;
+    pointer-events: none;
+  }
+
+  .inner-border {
+    position: absolute;
+    top: 16mm;
+    left: 16mm;
+    right: 16mm;
+    bottom: 16mm;
+    border: 1px solid #B8973E;
+    pointer-events: none;
+  }
+
+  .corner {
+    position: absolute;
+    width: 28mm;
+    height: 28mm;
+    pointer-events: none;
+  }
+  .corner svg { width: 100%; height: 100%; }
+  .corner-tl { top: 16mm; left: 16mm; }
+  .corner-tr { top: 16mm; right: 16mm; transform: rotate(90deg); }
+  .corner-bl { bottom: 16mm; left: 16mm; transform: rotate(-90deg); }
+  .corner-br { bottom: 16mm; right: 16mm; transform: rotate(180deg); }
+
+  .cloud-band {
+    position: absolute;
+    top: 22mm;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 120mm;
+    text-align: center;
+    opacity: 0.35;
+  }
+  .cloud-band svg { width: 100%; height: auto; }
+
+  .title-area {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -58%);
+    text-align: center;
+    width: 150mm;
+  }
+
+  .title-sub-top {
+    font-size: 14pt;
+    color: #8B6914;
+    letter-spacing: 12pt;
+    margin-bottom: 8mm;
+    font-weight: 400;
+  }
+
+  .title-main {
+    font-size: 32pt;
+    font-weight: 900;
+    color: #2C1810;
+    letter-spacing: 5pt;
+    line-height: 1.5;
+    margin-bottom: 6mm;
+    text-shadow: 1px 1px 0 rgba(139,105,20,0.1);
+  }
+
+  .title-sub {
+    font-size: 18pt;
+    color: #8B6914;
+    letter-spacing: 3pt;
+    margin-bottom: 10mm;
+    font-weight: 600;
+  }
+
+  .divider {
+    width: 80mm;
+    margin: 0 auto;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, #8B6914, #C9A84C, #8B6914, transparent);
+    margin-bottom: 8mm;
+  }
+
+  .divider-thin {
+    width: 60mm;
+    margin: 0 auto;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, #B8973E, transparent);
+    margin-bottom: 6mm;
+  }
+
+  .title-desc {
+    font-size: 11pt;
+    color: #6B5B3E;
+    letter-spacing: 3pt;
+    line-height: 2.2;
+    font-weight: 400;
+  }
+
+  .seal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 60mm);
+    width: 22mm;
+    height: 22mm;
+    border: 2px solid #C0392B;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #C0392B;
+    font-size: 13pt;
+    font-weight: 700;
+    letter-spacing: 2pt;
+    writing-mode: vertical-rl;
+    opacity: 0.85;
+    transform: translate(-50%, 60mm) rotate(3deg);
+    line-height: 1.4;
+  }
+
+  .bottom-area {
+    position: absolute;
+    bottom: 28mm;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    width: 140mm;
+  }
+
+  .bottom-motto {
+    font-size: 10pt;
+    color: #8B6914;
+    letter-spacing: 3pt;
+    margin-bottom: 4mm;
+    font-weight: 400;
+  }
+
+  .bottom-line {
+    width: 40mm;
+    margin: 0 auto 4mm;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, #B8973E, transparent);
+  }
+
+  .bottom-info {
+    font-size: 9pt;
+    color: #9B8B6E;
+    letter-spacing: 2pt;
+    line-height: 2;
+  }
+
+  .side-text-left {
+    position: absolute;
+    top: 50%;
+    left: 22mm;
+    transform: translateY(-50%);
+    writing-mode: vertical-rl;
+    font-size: 9pt;
+    color: #B8973E;
+    letter-spacing: 4pt;
+    opacity: 0.5;
+  }
+
+  .side-text-right {
+    position: absolute;
+    top: 50%;
+    right: 22mm;
+    transform: translateY(-50%);
+    writing-mode: vertical-rl;
+    font-size: 9pt;
+    color: #B8973E;
+    letter-spacing: 4pt;
+    opacity: 0.5;
+  }
+
+  .watermark {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 140mm;
+    height: 140mm;
+    opacity: 0.04;
+    pointer-events: none;
+  }
+
+  /* 分娩手册特有：双喜/生命之花意象 */
+  .flower-watermark {
+    position: absolute;
+    top: 38%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 120mm;
+    height: 120mm;
+    opacity: 0.03;
+    pointer-events: none;
+  }
+
+  @media print {
+    body { background: white; }
+    .cover { border: none; }
+  }
+</style>
+</head>
+<body>
+
+<div class="cover">
+  <!-- 边框 -->
+  <div class="outer-border"></div>
+  <div class="inner-border"></div>
+
+  <!-- 角饰 -->
+  <div class="corner corner-tl">
+    <svg viewBox="0 0 80 80" fill="none" stroke="#8B6914" stroke-width="1.5">
+      <path d="M0,0 L30,0 L30,5 L5,5 L5,30 L0,30 Z"/>
+      <path d="M8,0 L8,8 L30,8 L30,3 L13,3 L13,0"/>
+      <path d="M0,8 L8,8 L8,30 L3,30 L3,13 L0,13"/>
+      <rect x="14" y="14" width="10" height="10" rx="1" fill="none" stroke="#B8973E" stroke-width="0.8"/>
+    </svg>
+  </div>
+  <div class="corner corner-tr">
+    <svg viewBox="0 0 80 80" fill="none" stroke="#8B6914" stroke-width="1.5">
+      <path d="M0,0 L30,0 L30,5 L5,5 L5,30 L0,30 Z"/>
+      <path d="M8,0 L8,8 L30,8 L30,3 L13,3 L13,0"/>
+      <path d="M0,8 L8,8 L8,30 L3,30 L3,13 L0,13"/>
+      <rect x="14" y="14" width="10" height="10" rx="1" fill="none" stroke="#B8973E" stroke-width="0.8"/>
+    </svg>
+  </div>
+  <div class="corner corner-bl">
+    <svg viewBox="0 0 80 80" fill="none" stroke="#8B6914" stroke-width="1.5">
+      <path d="M0,0 L30,0 L30,5 L5,5 L5,30 L0,30 Z"/>
+      <path d="M8,0 L8,8 L30,8 L30,3 L13,3 L13,0"/>
+      <path d="M0,8 L8,8 L8,30 L3,30 L3,13 L0,13"/>
+      <rect x="14" y="14" width="10" height="10" rx="1" fill="none" stroke="#B8973E" stroke-width="0.8"/>
+    </svg>
+  </div>
+  <div class="corner corner-br">
+    <svg viewBox="0 0 80 80" fill="none" stroke="#8B6914" stroke-width="1.5">
+      <path d="M0,0 L30,0 L30,5 L5,5 L5,30 L0,30 Z"/>
+      <path d="M8,0 L8,8 L30,8 L30,3 L13,3 L13,0"/>
+      <path d="M0,8 L8,8 L8,30 L3,30 L3,13 L0,13"/>
+      <rect x="14" y="14" width="10" height="10" rx="1" fill="none" stroke="#B8973E" stroke-width="0.8"/>
+    </svg>
+  </div>
+
+  <!-- 祥云纹 -->
+  <div class="cloud-band">
+    <svg viewBox="0 0 400 40" fill="#8B6914">
+      <path d="M20,30 Q30,10 50,20 Q60,5 80,18 Q90,2 110,15 Q120,0 140,14 Q150,2 170,16 Q180,5 200,12 Q210,5 230,16 Q240,2 260,14 Q270,0 290,15 Q300,5 320,18 Q330,8 350,20 Q360,10 380,30 Z"/>
+      <path d="M30,35 Q40,18 60,26 Q70,12 90,24 Q100,8 120,20 Q130,5 150,18 Q160,8 180,22 Q190,10 210,18 Q220,8 240,20 Q250,10 270,22 Q280,8 300,20 Q310,12 330,26 Q340,18 370,35 Z" opacity="0.5"/>
+    </svg>
+  </div>
+
+  <!-- 水印：莲花/生命之花意象 -->
+  <div class="flower-watermark">
+    <svg viewBox="0 0 200 200" fill="none" stroke="#8B6914" stroke-width="1.5">
+      <!-- 中心圆 -->
+      <circle cx="100" cy="100" r="30"/>
+      <!-- 六瓣莲花 -->
+      <circle cx="100" cy="70" r="30"/>
+      <circle cx="126" cy="85" r="30"/>
+      <circle cx="126" cy="115" r="30"/>
+      <circle cx="100" cy="130" r="30"/>
+      <circle cx="74" cy="115" r="30"/>
+      <circle cx="74" cy="85" r="30"/>
+      <!-- 外围大圆 -->
+      <circle cx="100" cy="100" r="85" stroke-width="1"/>
+      <!-- 最外圆 -->
+      <circle cx="100" cy="100" r="95" stroke-width="0.5"/>
+    </svg>
+  </div>
+
+  <!-- 侧边装饰文字 -->
+  <div class="side-text-left">冲为血海任主胞胎母子同调气血为先</div>
+  <div class="side-text-right">产后三慎慎寒慎风慎劳以守正气</div>
+
+  <!-- 书名 -->
+  <div class="title-area">
+    <div class="title-sub-top">传 统 中 医</div>
+    <div class="title-main">中医分娩与<br>产后护理手册</div>
+    <div class="title-sub">冲任辨证 · 经方正治 · 食疗外治</div>
+    <div class="divider"></div>
+    <div class="title-desc">
+      孕期调养&nbsp;&nbsp;临产征兆&nbsp;&nbsp;分娩过程<br>
+      产后三阶段&nbsp;&nbsp;恶露辨证&nbsp;&nbsp;心理调护<br>
+      经方化瘀&nbsp;&nbsp;外治通络&nbsp;&nbsp;食疗温养
+    </div>
+  </div>
+
+  <!-- 印章 -->
+  <div class="seal">
+    护产<br>安母
+  </div>
+
+  <!-- 底部 -->
+  <div class="bottom-area">
+    <div class="divider-thin"></div>
+    <div class="bottom-motto">上以疗君亲之疾&nbsp;&nbsp;下以救贫贱之厄</div>
+    <div class="bottom-line"></div>
+    <div class="bottom-info">
+      基于《金匮要略·妇人妊娠/产后病》篇<br>
+      参考WHO/ACOG现代指南&nbsp;&nbsp;中西互参<br>
+      二〇二六年七月整理
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
